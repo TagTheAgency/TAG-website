@@ -4,7 +4,12 @@
 		<i class="fab fa-twitter"></i>
 		<i class="fab fa-instagram"></i>
 	</div>
-	<div class="child">
-
+	<div class="scroll-buttons">
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
 	</div>
 </div>
