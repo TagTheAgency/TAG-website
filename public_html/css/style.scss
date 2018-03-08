@@ -1,7 +1,63 @@
 *{
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body{
-	background: blue;
 }
+
+// Text Styles
+h2{
+	font-size: 11em;
+	margin-bottom: 20px;
+}
+
+h3{
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+.shadow{
+	text-shadow: 1px 1px 2px rgba(#000000, 0.29);
+}
+
+.subheader{
+	font-size: 2em;
+}
+
+
+// Layout
+
+// Homepage
+.homepage-block{
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.landing{
+	background-color: #050505;
+	color: white;
+}
+
+.strategy{
+	background-color: #f5ed2d;
+}
+
+.how{
+	background-color: #ff34ae;
+}
+
+.who{
+	background-color: #69ddf1;
+}
+
+.get-in-touch{
+	background-color: #dbdbdb;
+}
+
+// Footer
