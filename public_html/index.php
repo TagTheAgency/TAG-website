@@ -6,7 +6,13 @@
 ?>
 
 <div class="homepage-block landing">
-	<div>
+	<img class="logo" src="img/layout/TAG_white_1920x1080.png" alt="TAG Logo">
+	<div class="child">
+		<div class="icons">
+			<img src="img/layout/cmyk-blue.png" alt="blue x icon">
+			<img src="img/layout/cmyk-pink.png" alt="pink x icon">
+			<img src="img/layout/cmyk-yellow.png" alt="yellow x icon">
+		</div>
 		<h3>Digital storyllers for brands</h3>
 	</div>
 </div>
