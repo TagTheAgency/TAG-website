@@ -70,6 +70,10 @@ h3{
 	pointer-events: all;
 	cursor: pointer;
 
+	&.light-contrast {
+		color: black;
+	}
+
 	i{
 		margin-right: 20px;
 	}
@@ -93,6 +97,86 @@ h3{
 	}
 }
 
+.pagination {
+	position:fixed;
+	top:0;
+	bottom:0;
+	right:20px;
+	height:150px;
+	margin:auto;
+	font-size:1.2em;
+	z-index: 10;
+	a{
+		display:block;
+		width:100px;
+		height:22px;
+		border-radius:50%;
+	
+		color:#fff;
+		&.light-contrast {
+			color:#000
+		}
+		
+		position:relative;
+		padding:4px;
+		
+		&.active:after {
+			background:#000;
+			width:10px;
+			height:10px;
+			right:4px;
+			
+		}
+		&.active.dark-contrast:after {
+			border: 1px white solid;
+			width: 9px;
+			height: 9px;
+		}
+		
+		.hover-text {
+			position:absolute;
+			right:20px;
+			font-size: 0.8em;
+			opacity:0;
+			-webkit-transition: opacity 0.5s ease;
+			transition: opacity 0.5s ease;
+		}
+		
+		&:hover .hover-text {
+			opacity: 1;
+		}
+		
+		&:after {
+			width:10px;
+			height:10px;
+		
+			display: block;
+			background:#fff;
+			border-radius:50%;
+			content:'';
+			position: absolute;
+			margin:auto;
+			top:0;
+			bottom:0;
+			right: 4px;
+		}
+		
+		&.light-contrast:after {
+			border: 1px black solid;
+			width: 9px;
+			height: 9px;
+		}
+	}
+}
+
+.content {
+    z-index: 1;
+    mix-blend-mode: multiply;
+    padding-right: 100px;
+    padding-left: 40%;
+    margin-left: 10%;
+    text-align: left;
+}
 
 // ==========================================
 // HOMEPAGE
@@ -105,6 +189,8 @@ h3{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	position: relative;
+	overflow: hidden;
 }
 
 .landing{
@@ -152,6 +238,56 @@ h3{
 
 .get-in-touch{
 	background-color: #f7f7f7;
+}
+
+// ==========================================
+// HOW
+// ==========================================
+
+#how-video {
+	background-color: #f3f0ec;
+}
+
+#how-copywriting {
+    background-color: #89BEC6;
+    
+    &:before {
+    		width: 50%;
+        min-width: 400px;
+        height: 100%;
+        background-color: #E1DACE;
+        transform: skewX(-25deg) translate(300px, 0px);
+        content: '';
+        position: absolute;
+    }
+    
+    .content {
+    		background-image: url('../img/layout/Typewrite-before-hovering.png');
+    		background-size: contain;
+    		background-repeat: no-repeat;
+    		height: 50vh;
+    		padding-top: 10vh;
+    		padding-bottom: 10vh;
+		
+		&:hover {
+			background-image: url('../img/layout/Typewrite-after-hovering.png');
+		}    		
+    }
+}
+    
+#how-imagery {
+    background-color: #E1DACE;
+    
+    &:before {
+    		width: 20%;
+        min-width: 200px;
+        max-width: 400px;
+        height: 100%;
+        background-color: #89BEC6;
+        transform: skewX(-25deg) translate(30px, 0px);
+        content: '';
+        position: absolute;
+    }
 }
 
 // ==========================================
