@@ -10,18 +10,12 @@
 
 </style>
 
-<div class="homepage-block how shadow" data-section-name="how">
-	<div>
-		<h2>How</h2>
-		<p class="subheader">How the story is told</p>
-	</div>
-</div>
-<div class="homepage-block creative" data-section-name="creative">
+<div class="homepage-block creative" data-section-name="creative" id="how-creative">
 	<div id="how-creative-bg">
 	</div>
 	<div>
 		<h2>Creative</h2>
-		<p>The fun and exciting part of telling a story is the idea behind the story. From
+		<p class="bodyText">The fun and exciting part of telling a story is the idea behind the story. From
 the key creative concept through to developing campaign initiatives the
 creative need to connect and link a brand to its key messages and ultimately
 the client or customer.</p>
@@ -59,9 +53,8 @@ ensure your brand message shines in every image you share.</p>
 	</div>
 </div>
 
-<ul class="pagination">
-	<li><a href="#how" class="active"><span class="hover-text">How</span></a></li>
-	<li><a href="#creative"><span class="hover-text">Creative</span></a></li>
+<ul class="pagination bodyText" >
+	<li><a href="#creative"  class="active"><span class="hover-text">Creative</span></a></li>
 	<li><a href="#video"><span class="hover-text">Video</span></a></li>
 	<li><a href="#copywriting"><span class="hover-text">Copywriting</span></a></li>
 	<li><a href="#images"><span class="hover-text">Images</span></a></li>

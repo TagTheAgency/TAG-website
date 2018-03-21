@@ -24,6 +24,7 @@
 </div>
 <div class="homepage-block how shadow" data-section-name="how">
 	<div>
+		<a href="how.php"><span class="link"></span></a>
 		<h2>How</h2>
 		<p class="subheader">How the story is told</p>
 	</div>
