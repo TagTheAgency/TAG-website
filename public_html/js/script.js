@@ -1,6 +1,6 @@
 $(function() {
 	$.scrollify({
-		section:".homepage-block",
+		section:".homepage-block, .content-block",
 		scrollbars:false,
 		scrollSpeed: 500,
 		before: function(i,panels) {
@@ -9,7 +9,7 @@ $(function() {
 			$(".pagination a.active").removeClass("active");
 
 			$(".pagination a[href=\\#" + ref + "]").addClass("active");
-			
+
 			fixContrast();
 		},
 		after: fixContrast
@@ -21,7 +21,7 @@ $(function() {
 
 	function fixContrast() {
 		var current = $.scrollify.current();
-		
+
 	    if(current.hasClass("dark")) {
 	    		$('.pagination a, .social-icons').addClass("dark-contrast").removeClass("light-contrast");
 	    } else if (current.hasClass("light")){
@@ -31,6 +31,8 @@ $(function() {
 	    }
 
 	}
-	
+
 	fixContrast();
+
+
 });

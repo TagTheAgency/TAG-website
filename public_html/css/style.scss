@@ -1,40 +1,30 @@
-@font-face {
-    font-family: 'Harriet Display';
-    src: url('../fonts/HarrietDisplay-Black.woff2') format('woff2'),
-        url('../fonts/HarrietDisplay-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Futura Std';
-    src: url('../fonts/FuturaStd-Medium.woff2') format('woff2'),
-        url('../fonts/FuturaStd-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+// SASS Variables
+
+$retroColour: #E1DACD;
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-*{
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-body{
-	font-family: 'Harriet Display', Times;
-    font-weight: 900;
-    font-style: normal;
+body {
+  font-family: 'Harriet Display', Times;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .bodyText {
-	font-family: 'Futura Std', Futura, "Trebuchet MS", Arial, sans-serif;
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
+  font-family: 'Futura Std', Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
 
-ul{
+ul {
 	list-style-type: none;
 }
 
@@ -42,57 +32,50 @@ ul{
 // TEXT STYLES
 // ==========================================
 
-h2{
+h2 {
 	font-size: 11em;
 	margin-bottom: 20px;
 }
 
-h3{
+h3 {
 	font-size: 3em;
 	margin-bottom: 20px;
 	font-weight: 400;
 }
 
-.shadow{
+.shadow {
 	text-shadow: 6px 6px 25px rgba(#000000, 0.12);
 }
 
-.subheader{
+.subheader {
 	font-size: 2em;
 	font-weight: 600;
 }
 
-.fab:hover{
-	opacity: 0.5;
+.fab {
+    color: #ffffff;
 }
 
-
-// ==========================================
-// LAYOUT
-// ==========================================
-
-.fixed{
-	position: fixed;
+.fab:hover {
+	opacity: 0.5;
 }
 
 // ==========================================
 // NAVIGATION
 // ==========================================
 
-.navigation{
+.navigation {
 	height: 100vh;
 	width: 100%;
 	position: fixed;
-	display: flex;
-	justify-content: space-between;
 	z-index: 1;
 	pointer-events: none;
 }
 
-.social-icons{
-	align-self: flex-end;
+.social-icons {
+    position: absolute;
+    bottom: 0;
 	padding: 0 0 50px 50px;
-	color: white;
 	font-size: 1.2em;
 	pointer-events: all;
 	cursor: pointer;
@@ -106,7 +89,22 @@ h3{
 	}
 }
 
-.scroll-buttons{
+.logo{
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 50px 0 0 50px;
+    max-width: 180px;
+    cursor: pointer;
+    pointer-events: all;
+    z-index: 3;
+
+    &:hover{
+        opacity: 0.5;
+    }
+}
+
+.scroll-buttons {
 	align-self: center;
 	padding-right: 50px;
 	pointer-events: all;
@@ -118,7 +116,7 @@ h3{
 		background-color: white;
 		cursor: pointer;
 
-		&:hover{
+		&:hover {
 			opacity: 0.5;
 		}
 	}
@@ -138,28 +136,28 @@ h3{
 		width:100px;
 		height:22px;
 		border-radius:50%;
-	
+
 		color:#fff;
 		&.light-contrast {
 			color:#000
 		}
-		
+
 		position:relative;
 		padding:4px;
-		
+
 		&.active:after {
 			background:#000;
 			width:10px;
 			height:10px;
 			right:4px;
-			
+
 		}
 		&.active.dark-contrast:after {
 			border: 1px white solid;
 			width: 9px;
 			height: 9px;
 		}
-		
+
 		.hover-text {
 			position:absolute;
 			right:20px;
@@ -168,15 +166,15 @@ h3{
 			-webkit-transition: opacity 0.5s ease;
 			transition: opacity 0.5s ease;
 		}
-		
+
 		&:hover .hover-text {
 			opacity: 1;
 		}
-		
+
 		&:after {
 			width:10px;
 			height:10px;
-		
+
 			display: block;
 			background:#fff;
 			border-radius:50%;
@@ -187,7 +185,7 @@ h3{
 			bottom:0;
 			right: 4px;
 		}
-		
+
 		&.light-contrast:after {
 			border: 1px black solid;
 			width: 9px;
@@ -213,6 +211,15 @@ span.link {
 	left: 0;
 }
 
+
+// ==========================================
+// LAYOUT
+// ==========================================
+
+.fixed {
+	position: fixed;
+}
+
 // ==========================================
 // HOMEPAGE
 // ==========================================
@@ -226,7 +233,7 @@ span.link {
 	justify-content: center;
 	position: relative;
 	overflow: hidden;
-	
+
 	div {
 		position: relative;
 	}
@@ -236,19 +243,6 @@ span.link {
 	background-color: #121212;
 	color: white;
 	position: relative;
-
-	.logo{
-		position: absolute;
-		left: 0;
-		top: 0;
-		padding: 50px 0 0 50px;
-		max-width: 180px;
-		cursor: pointer;
-
-		&:hover{
-			opacity: 0.5;
-		}
-	}
 
 	.icons{
 		margin-bottom: 40px;
@@ -262,17 +256,17 @@ span.link {
 
 .strategy{
 	background-color: #f5ed2d;
-	color: #fff830;
+	color: #080808;
 }
 
 .how{
 	background-color: #ff34ae;
-	color: #ff60ef;
+	color: #ffffff;
 }
 
 .who{
 	background-color: #24a9da;
-	color: #5df5ff;
+	color: #ffffff;
 }
 
 .get-in-touch{
@@ -280,20 +274,113 @@ span.link {
 }
 
 // ==========================================
+// CONTENT PAGE STYLES
+// ==========================================
+
+.content-block{
+    background-color: $retroColour;
+    position: relative;
+}
+
+.page-block{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.page-block-content{
+    width: 100%;
+    height: auto;
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+
+    p{
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 90px;
+        font-weight: 800;
+        margin-bottom: -2px;
+    }
+
+    h3{
+        padding: 18px 30px;
+        font-size: 28px;
+        color: #ffffff;
+        font-weight: 600;
+        letter-spacing: .5px;
+        z-index: 2;
+        opacity: 0.85;
+    }
+}
+
+.hero-container{
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    position: relative;
+
+    h3{
+        display: inline-block;
+    }
+}
+
+.hero-img-wrapper{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    right: 0;
+
+    img{
+        width: 100%;
+    }
+}
+
+
+
+
+
+// ==========================================
 // HOW
 // ==========================================
 
-#how-video {
-	background-color: #f3f0ec;
+#how-creative-bg-img{
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
+
+    img{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+    }
 }
 
 #how-creative {
-	background: #E1DACE url('../img/backgrounds/creative.png') no-repeat bottom;
+	.hero-img{
+        margin-left: -40px;
+    }
+
+    h3{
+        background-color: #E1D028;
+    }
 }
 
 #how-copywriting {
     background-color: #89BEC6;
-    
+
     &:before {
     		width: 50%;
         min-width: 400px;
@@ -303,7 +390,7 @@ span.link {
         content: '';
         position: absolute;
     }
-    
+
     .content {
     		background-image: url('../img/layout/Typewrite-before-hovering.png');
     		background-size: contain;
@@ -311,16 +398,16 @@ span.link {
     		height: 50vh;
     		padding-top: 10vh;
     		padding-bottom: 10vh;
-		
+
 		&:hover {
 			background-image: url('../img/layout/Typewrite-after-hovering.png');
-		}    		
+		}
     }
 }
-    
+
 #how-imagery {
     background-color: #E1DACE;
-    
+
     &:before {
     		width: 20%;
         min-width: 200px;
@@ -332,6 +419,23 @@ span.link {
         position: absolute;
     }
 }
+
+// ==========================================
+// VIDEO
+// ==========================================
+
+#how-video{
+    h3{
+        margin-top: -50px;
+        background-color: #EB008B;
+        padding: 13px 60px;
+    }
+
+    .hero-img-wrapper{
+        width: 450px;
+    }
+}
+
 
 // ==========================================
 // FOOTER

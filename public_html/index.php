@@ -6,7 +6,6 @@
 ?>
 
 <div class="homepage-block landing dark" data-section-name="home">
-	<img class="logo" src="img/layout/TAG_white_1920x1080.png" alt="TAG Logo">
 	<div class="child">
 		<div class="icons">
 			<img src="img/layout/cmyk-blue.png" alt="blue x icon">
@@ -36,7 +35,7 @@
 		<p class="subheader">Who tell stories <i class="fas fa-chevron-right"></i></p>
 	</div>
 </div>
-<div class="homepage-block get-in-touch shadow light" data-section-name="getintouch"> 
+<div class="homepage-block get-in-touch shadow light" data-section-name="getintouch">
 	<div>
 		<h3>Get In Touch</h3>
 		<p class="subheader">Stories start with a plan.</p>

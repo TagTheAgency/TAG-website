@@ -10,46 +10,38 @@
 
 </style>
 
-<div class="homepage-block creative" data-section-name="creative" id="how-creative">
-	<div id="how-creative-bg">
+<!-- CREATIVE -->
+<div class="content-block page-block first-page creative" data-section-name="creative"  id="how-creative" >
+	<div id="how-creative-bg-img">
+		<img src="img/backgrounds/creative.png" alt="creative background image">
 	</div>
-	<div>
-		<h2>Creative</h2>
-		<p class="bodyText">The fun and exciting part of telling a story is the idea behind the story. From
-		the key creative concept through to developing campaign initiatives the
-		creative need to connect and link a brand to its key messages and ultimately
-		the client or customer.</p>
-		<p>
-		Then once we’ve run a creative campaign for you we provide full reporting,
-		analyse and learn how we can improve for the next campaign, learning and
-		always getting better.
-		</p>
-	</div>
-</div>
-<div class="homepage-block video" data-section-name="video" id="how-video">
-	<div class="content">
-		<h3>Video</h3>
-		<p>From stunning motion graphics to virtual reality and all video production in
-		between the team at TAG has the skills and talent to bring your story to life
-		through the powerful medium that is video.</p>
+	<div class="page-block-content">
+		<div class="hero-container">
+			<h3>How the story is told</h3>
+			<div class="hero-img-wrapper">
+				<img src="img/layout/CreativeHero.png" alt="page block image">
+			</div>
+		</div>
+		<div>
+			<h2>Creative</h2>
+			<p>Thinking, Idea, Strategy</p>
+		</div>
 	</div>
 </div>
-<div class="homepage-block copywriting" data-section-name="copywriting" id="how-copywriting">
-	<div class="content">
-		<h3>Copywriting</h3>
-		<p>Stunning superlatives to sweet as scripts TAG The Agency can help you build
-		your brand through the words you write, from a post on Facebook to the copy
-		on your website, we collaborate with you to craft and create words and
-		messaging that impact your consumers.</p>
-	</div>
-</div>
-<div class="homepage-block images" data-section-name="images" id="how-imagery">
-	<div class="content">
-		<h3>Images</h3>
-		<p>Insert the cliché “a picture says a 1000 words” if so then think how much a
-		crafted image can tell. More importantly imagery that tells the story of your
-		brand from illustrations to photography, we will work with you to extract and
-		ensure your brand message shines in every image you share.</p>
+
+<!-- VIDEO -->
+<div class="content-block page-block first-page video" data-section-name="video" id="how-video" >
+	<div class="page-block-content">
+		<div class="hero-container">
+			<h3>How the story is told</h3>
+			<div class="hero-img-wrapper">
+				<img src="img/layout/how-video.png" alt="page block image">
+			</div>
+		</div>
+		<div>
+			<h2>Video</h2>
+			<p>Animation, VR, Motion Graphics, Video</p>
+		</div>
 	</div>
 </div>
 
