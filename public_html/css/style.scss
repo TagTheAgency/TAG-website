@@ -1,6 +1,7 @@
 // SASS Variables
 
 $retroColour: #E1DACD;
+$yellow: #f5ed2d;
 
 
 * {
@@ -131,6 +132,7 @@ h3 {
 	margin:auto;
 	font-size:1.2em;
 	z-index: 10;
+    text-align: right;
 	a{
 		display:block;
 		width:100px;
@@ -192,6 +194,11 @@ h3 {
 			height: 9px;
 		}
 	}
+}
+
+.mouse-icon{
+    width: 20px;
+    margin-top: 15px;
 }
 
 .content {
@@ -444,3 +451,164 @@ span.link {
 // ==========================================
 // RESPONSIVE STYLES
 // ==========================================
+
+#mobile-navigation{
+    display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1023px)  {
+
+    .landing .icons{
+        margin-bottom: 10px;
+    }
+
+    h3{
+        font-size: 1.6em;
+    }
+
+    h2{
+        font-size: 4em;
+    }
+
+    .scroll-icon{
+        height: 80px;
+        width: 100%;
+        position: absolute !important;
+        bottom: 0;
+        padding: 10px 10px 30px 10px;
+
+        img{
+
+            height: 100%
+        }
+    }
+
+    .navigation, .mobile-menu-wrapper{
+        display: none;
+    }
+
+    .mobile-navigation{
+        height: 100px;
+        width: 100%;
+        padding: 10px 20px;
+        overflow: hidden;
+        position: fixed;
+        z-index: 10;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .fas{
+            font-size: 38px;
+        }
+
+        .logo-wrapper{
+            position: relative;
+            width: 90px;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .mobile-menu-wrapper {
+        display: none;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(#000000, 0.9);
+        text-align: right;
+        z-index: 100;
+
+        .mobile-menu{
+            margin-top: 90px;
+            color: white;
+            font-size: 28px;
+        }
+
+        li{
+            margin-bottom:15px;
+            padding-right: 30px;
+        }
+
+        #close-menu{
+            color: $yellow;
+            position: absolute;
+            right: 0;
+            top: 0;
+            font-size: 35px;
+            padding: 30px 30px 0 0;
+
+        }
+    }
+
+    .pagination{
+        display: none;
+    }
+
+    .page-block{
+        display: block;
+        padding-top: 70px;
+    }
+
+    .page-block-content{
+        width: 90%;
+        margin: auto;
+        padding: 0 20px;
+        height: auto;
+        display: flex;
+        align-items: none;
+        flex-direction: column;
+        text-align: center;
+
+        p{
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        h2{
+            font-size: 40px;
+        }
+
+        h3{
+            font-size: 20px;
+        }
+    }
+
+    .hero-container{
+        width: 100%;
+        margin-right: 0;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+
+        h3{
+            display: inline-block;
+        }
+    }
+
+    .hero-img-wrapper{
+        width: 350px;
+        height: auto;
+        right: 0;
+        position: relative;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    // HOW CREATIVE
+    .hero-img-wrapper {
+        width: 220px;
+    }
+
+    // HOW, VIDEO
+    #how-video .hero-img-wrapper{
+        width: 300px;
+    }
+}

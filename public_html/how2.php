@@ -50,6 +50,7 @@
 	<li><a href="#video"><span class="hover-text">Video</span></a></li>
 	<li><a href="#copywriting"><span class="hover-text">Copywriting</span></a></li>
 	<li><a href="#images"><span class="hover-text">Images</span></a></li>
+	<li><img class="mouse-icon" src="img/layout/mouse-icon.png" alt="mouse scroll icon"></li>	
 </ul>
 
 <?php require_once(TEMPLATES_PATH . "/footer.php"); ?>

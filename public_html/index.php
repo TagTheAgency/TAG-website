@@ -14,6 +14,9 @@
 		</div>
 		<h3>Digital storytellers for brands</h3>
 	</div>
+	<div class="scroll-icon">
+		<img src="img/layout/mouse-icon.png" alt="scroll icon">
+	</div>
 </div>
 <div class="homepage-block strategy shadow" data-section-name="strategy">
 	<div>
@@ -23,7 +26,7 @@
 </div>
 <div class="homepage-block how shadow" data-section-name="how">
 	<div>
-		<a href="how.php"><span class="link"></span></a>
+		<a href="how2.php"><span class="link"></span></a>
 		<h2>How</h2>
 		<p class="subheader">How the story is told</p>
 	</div>
@@ -48,6 +51,7 @@
 	<li><a href="#how"><span class="hover-text">How</span></a></li>
 	<li><a href="#who"><span class="hover-text">Who</span></a></li>
 	<li><a href="#getintouch"><span class="hover-text">Get in touch</span></a></li>
+	<li><img class="mouse-icon" src="img/layout/mouse-icon.png" alt="mouse scroll icon"></li>
 </ul>
 
 <?php require_once(TEMPLATES_PATH . "/footer.php"); ?>

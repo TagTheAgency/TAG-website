@@ -32,6 +32,15 @@ $(function() {
 
 	}
 
+	$("#mobile-menu-icon").click(function(){
+			$(".mobile-menu-wrapper").fadeIn();
+			$("body").css('','')
+	});
+
+	$("#close-menu").click(function(){
+			$(".mobile-menu-wrapper").fadeOut();
+	});
+
 	fixContrast();
 
 
