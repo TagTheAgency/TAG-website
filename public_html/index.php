@@ -15,7 +15,7 @@
 		<h3>Digital storytellers for brands</h3>
 	</div>
 	<div class="scroll-icon">
-		<img src="img/layout/mouse-icon.png" alt="scroll icon">
+		<img src="img/layout/arrow-down-white-01.png" alt="scroll icon">
 	</div>
 </div>
 <div class="homepage-block strategy shadow" data-section-name="strategy">

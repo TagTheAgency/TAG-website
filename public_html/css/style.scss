@@ -452,7 +452,7 @@ span.link {
 // RESPONSIVE STYLES
 // ==========================================
 
-#mobile-navigation{
+#mobile-navigation, .scroll-icon{
     display: none;
 }
 
@@ -476,6 +476,7 @@ span.link {
         position: absolute !important;
         bottom: 0;
         padding: 10px 10px 30px 10px;
+        display: block;
 
         img{
 
