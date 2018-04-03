@@ -10,7 +10,7 @@
 </div>
 <div class="mobile-navigation fixed">
 	<div class="logo-wrapper">
-		<a href="./index.php"><img src="img/layout/TAG_logo_black-01.png" alt="TAG Logo"></a>
+		<a href="./index.php"><img src="img/layout/TAG_white_1920x1080.png" alt="TAG Logo"></a>
 	</div>
 	<div id="mobile-menu-icon">
 		<i class="fas fa-bars"></i>

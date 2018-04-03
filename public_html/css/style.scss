@@ -303,6 +303,7 @@ span.link {
     padding: 0 150px;
     display: flex;
     align-items: center;
+    justify-content: center;
     z-index: 2;
 
     p{
@@ -328,11 +329,9 @@ span.link {
 }
 
 .hero-container{
-    width: 60%;
     height: auto;
     display: flex;
     align-items: center;
-    margin-right: 20px;
     position: relative;
 
     h3{
@@ -341,10 +340,8 @@ span.link {
 }
 
 .hero-img-wrapper{
-    width: 400px;
+    width: 450px;
     height: auto;
-    position: absolute;
-    right: 0;
 
     img{
         width: 100%;
@@ -439,10 +436,29 @@ span.link {
     }
 
     .hero-img-wrapper{
-        width: 450px;
+        width: 500px;
     }
 }
 
+// ==========================================
+// COPYWRITING
+// ==========================================
+#how-copywriting{
+    h3{
+        margin-top: -50px;
+        background-color: #78cad6;
+        padding: 13px 60px;
+        display: inline-block;
+    }
+
+    h2{
+        margin-bottom: 20px;
+    }
+
+    .hero-img-wrapper{
+        width: 500px;
+    }
+}
 
 // ==========================================
 // FOOTER
@@ -451,10 +467,6 @@ span.link {
 // ==========================================
 // RESPONSIVE STYLES
 // ==========================================
-
-#mobile-navigation, .scroll-icon{
-    display: none;
-}
 
 @media only screen and (min-width: 320px) and (max-width: 1023px)  {
 
@@ -501,6 +513,7 @@ span.link {
 
         .fas{
             font-size: 38px;
+            color: #ffffff;
         }
 
         .logo-wrapper{
@@ -612,4 +625,67 @@ span.link {
     #how-video .hero-img-wrapper{
         width: 300px;
     }
+
+    // HOW, COPYWRITING
+    #how-copywriting .hero-img-wrapper{
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    #mobile-navigation, .mobile-menu-wrapper, .mobile-menu, .scroll-icon, #close-menu{
+        display: none;
+    }
+
+    .hero-container{
+        padding-right: 40px;
+    }
+
+    #how-copywriting h2{
+        font-size: 80px;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+
+    .page-block-content h2{
+        font-size: 105px;
+    }
+
+    .hero-img-wrapper{
+        width: 550px;
+    }
+
+    #how-creative h3{
+        font-size: 40px;
+    }
+
+    #how-copywriting h2{
+        font-size: 90px;
+    }
+
+}
+
+// Very Large Screens
+@media only screen and (min-width: 2559px){
+    .page-block-content h2{
+        font-size: 120px;
+    }
+
+    .hero-img-wrapper{
+        width: 800px;
+    }
+
+    #how-creative h3{
+        font-size: 70px;
+    }
+
+    #how-video h3{
+        font-size: 70px;
+    }
+
+    #how-video .hero-img-wrapper{
+        width: 800px;
+    }
+
 }

@@ -33,14 +33,29 @@
 <div class="content-block page-block first-page video" data-section-name="video" id="how-video" >
 	<div class="page-block-content">
 		<div class="hero-container">
-			<h3>How the story is told</h3>
 			<div class="hero-img-wrapper">
 				<img src="img/layout/how-video.png" alt="page block image">
 			</div>
 		</div>
 		<div>
+			<h3>How the story is told</h3>
 			<h2>Video</h2>
 			<p>Animation, VR, Motion Graphics, Video</p>
+		</div>
+	</div>
+</div>
+<!-- COPYWRITING -->
+<div class="content-block page-block first-page copywriting" data-section-name="copywriting" id="how-copywriting" >
+	<div class="page-block-content">
+		<div class="hero-container">
+			<div class="hero-img-wrapper">
+				<img src="img/layout/how-video.png" alt="page block image">
+			</div>
+		</div>
+		<div>
+			<h3>How the story is told</h3>
+			<h2>Copywriting</h2>
+			<p>Lorem, Ipsum, Elsup, Nergin</p>
 		</div>
 	</div>
 </div>
@@ -50,7 +65,7 @@
 	<li><a href="#video"><span class="hover-text">Video</span></a></li>
 	<li><a href="#copywriting"><span class="hover-text">Copywriting</span></a></li>
 	<li><a href="#images"><span class="hover-text">Images</span></a></li>
-	<li><img class="mouse-icon" src="img/layout/mouse-icon.png" alt="mouse scroll icon"></li>	
+	<li><img class="mouse-icon" src="img/layout/mouse-icon.png" alt="mouse scroll icon"></li>
 </ul>
 
 <?php require_once(TEMPLATES_PATH . "/footer.php"); ?>
