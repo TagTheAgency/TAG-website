@@ -1,7 +1,11 @@
 // SASS Variables
 
 $retroColour: #E1DACD;
+$retroYellow: #E1D028;
 $yellow: #f5ed2d;
+$blue: #78cad6;
+$pink: #EB008B;
+
 
 
 * {
@@ -32,6 +36,11 @@ ul {
 // ==========================================
 // TEXT STYLES
 // ==========================================
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
 
 h2 {
 	font-size: 11em;
@@ -333,9 +342,25 @@ span.link {
     display: flex;
     align-items: center;
     position: relative;
+    transition-duration: 400ms;
 
     h3{
         display: inline-block;
+    }
+
+    &:hover{
+        opacity: 0.5;
+        transition-duration: 400ms;
+        cursor: pointer;
+    }
+}
+
+.page-block-info{
+    transition-duration: 400ms;
+
+     &:hover{
+         cursor: pointer;
+        opacity: 0.5;
     }
 }
 
@@ -348,6 +373,60 @@ span.link {
     }
 }
 
+.popup-overlay{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-color: rgba(#000000, 0.83);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .fa-times{
+        font-size: 20px;
+        padding: 20px 0 0 20px;
+        cursor: pointer;
+    }
+}
+
+.popup-content-wrapper{
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    background-color: $retroYellow;
+    z-index: 12;
+    position: relative;
+    overflow: auto;
+}
+
+.popup-content{
+    margin-top: 30px;
+
+    h2{
+        font-size: 40px;
+    }
+
+    p{
+        font-family: proxima-nova, sans-serif;
+    }
+}
+
+.close-overlay{
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+    position: absolute;
+    cursor: pointer;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: #000000;
+    margin: 20px 0;
+}
 
 
 
@@ -383,45 +462,6 @@ span.link {
 }
 
 #how-copywriting {
-    background-color: #89BEC6;
-
-    &:before {
-    		width: 50%;
-        min-width: 400px;
-        height: 100%;
-        background-color: #E1DACE;
-        transform: skewX(-25deg) translate(300px, 0px);
-        content: '';
-        position: absolute;
-    }
-
-    .content {
-    		background-image: url('../img/layout/Typewrite-before-hovering.png');
-    		background-size: contain;
-    		background-repeat: no-repeat;
-    		height: 50vh;
-    		padding-top: 10vh;
-    		padding-bottom: 10vh;
-
-		&:hover {
-			background-image: url('../img/layout/Typewrite-after-hovering.png');
-		}
-    }
-}
-
-#how-imagery {
-    background-color: #E1DACE;
-
-    &:before {
-    		width: 20%;
-        min-width: 200px;
-        max-width: 400px;
-        height: 100%;
-        background-color: #89BEC6;
-        transform: skewX(-25deg) translate(30px, 0px);
-        content: '';
-        position: absolute;
-    }
 }
 
 // ==========================================
@@ -430,8 +470,7 @@ span.link {
 
 #how-video{
     h3{
-        margin-top: -50px;
-        background-color: #EB008B;
+        background-color: $pink;
         padding: 13px 60px;
     }
 
@@ -445,8 +484,7 @@ span.link {
 // ==========================================
 #how-copywriting{
     h3{
-        margin-top: -50px;
-        background-color: #78cad6;
+        background-color: $blue;
         padding: 13px 60px;
         display: inline-block;
     }
@@ -457,6 +495,54 @@ span.link {
 
     .hero-img-wrapper{
         width: 500px;
+    }
+}
+
+// ==========================================
+// IMAGERY
+// ==========================================
+#how-imagery{
+    h3{
+        background-color: $pink;
+        padding: 13px 60px;
+        display: inline-block;
+    }
+
+    h2{
+        margin-bottom: 20px;
+    }
+}
+
+// ==========================================
+// DESIGN
+// ==========================================
+#how-design{
+    h3{
+        background-color: $retroYellow;
+        padding: 13px 60px;
+        display: inline-block;
+    }
+}
+
+// ==========================================
+// ADVERTISING
+// ==========================================
+#how-advertising{
+    h3{
+        background-color: $blue;
+        padding: 13px 60px;
+        display: inline-block;
+    }
+}
+
+// ==========================================
+// DEVELOPMENT
+// ==========================================
+#how-development{
+    h3{
+        background-color: $retroYellow;
+        padding: 13px 60px;
+        display: inline-block;
     }
 }
 
@@ -644,6 +730,37 @@ span.link {
     #how-copywriting h2{
         font-size: 80px;
     }
+
+    .popup-overlay{
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        background-color: rgba(#000000, 0.83);
+        z-index: 11;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .fa-times{
+            font-size: 20px;
+            padding: 20px 0 0 20px;
+        }
+    }
+
+    .popup-content-wrapper{
+        width: 80%;
+        height: 80%;
+        padding: 40px;
+    }
+
+    .popup-content{
+        margin-top: 30px;
+
+        h2{
+            font-size: 80px;
+        }
+    }
 }
 
 @media only screen and (min-width: 1920px){
@@ -663,7 +780,6 @@ span.link {
     #how-copywriting h2{
         font-size: 90px;
     }
-
 }
 
 // Very Large Screens
@@ -673,19 +789,15 @@ span.link {
     }
 
     .hero-img-wrapper{
-        width: 800px;
+        width: 800px !important;
     }
 
-    #how-creative h3{
-        font-size: 70px;
+    .page-block-content h3{
+        font-size: 40px;
     }
 
-    #how-video h3{
-        font-size: 70px;
-    }
-
-    #how-video .hero-img-wrapper{
-        width: 800px;
+    #how-copywriting h2{
+        font-size: 150px;
     }
 
 }

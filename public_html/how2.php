@@ -10,6 +10,22 @@
 
 </style>
 
+<!-- OVERLAY -->
+<div class="popup-overlay">
+	<div class="close-overlay"></div>
+	<div class="popup-content-wrapper">
+		<i id="close-popup-btn" class="fas fa-times"></i>
+		<div class="popup-content">
+			<h2>Creative</h2>
+			<p>Thinking, Idea, Strategy</p>
+			<hr>
+
+			<iframe width="660" height="415" src="https://www.youtube.com/embed/mjT1IHxBRjg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+	</div>
+
+</div>
+
 <!-- CREATIVE -->
 <div class="content-block page-block first-page creative" data-section-name="creative"  id="how-creative" >
 	<div id="how-creative-bg-img">
@@ -19,10 +35,10 @@
 		<div class="hero-container">
 			<h3>How the story is told</h3>
 			<div class="hero-img-wrapper">
-				<img src="img/layout/CreativeHero.png" alt="page block image">
+				<img src="img/backgrounds/how-creative.png" alt="page block image">
 			</div>
 		</div>
-		<div>
+		<div class="page-block-info">
 			<h2>Creative</h2>
 			<p>Thinking, Idea, Strategy</p>
 		</div>
@@ -34,10 +50,10 @@
 	<div class="page-block-content">
 		<div class="hero-container">
 			<div class="hero-img-wrapper">
-				<img src="img/layout/how-video.png" alt="page block image">
+				<img src="img/backgrounds/how-video.png" alt="page block image">
 			</div>
 		</div>
-		<div>
+		<div class="page-block-info">
 			<h3>How the story is told</h3>
 			<h2>Video</h2>
 			<p>Animation, VR, Motion Graphics, Video</p>
@@ -49,12 +65,72 @@
 	<div class="page-block-content">
 		<div class="hero-container">
 			<div class="hero-img-wrapper">
-				<img src="img/layout/how-video.png" alt="page block image">
+				<img src="img/backgrounds/how-copywriting.png" alt="page block image">
 			</div>
 		</div>
-		<div>
+		<div class="page-block-info">
 			<h3>How the story is told</h3>
 			<h2>Copywriting</h2>
+			<p>Lorem, Ipsum, Elsup, Nergin</p>
+		</div>
+	</div>
+</div>
+<!-- IMAGERY -->
+<div class="content-block page-block first-page imagery" data-section-name="imagery" id="how-imagery" >
+	<div class="page-block-content">
+		<div class="hero-container">
+			<div class="hero-img-wrapper">
+				<img src="img/backgrounds/how-imagery.png" alt="page block image">
+			</div>
+		</div>
+		<div class="page-block-info">
+			<h3>How the story is told</h3>
+			<h2>Imagery</h2>
+			<p>Lorem, Ipsum, Elsup, Nergin</p>
+		</div>
+	</div>
+</div>
+<!-- DESIGN -->
+<div class="content-block page-block first-page design" data-section-name="design" id="how-design" >
+	<div class="page-block-content">
+		<div class="hero-container">
+			<div class="hero-img-wrapper">
+				<img src="img/backgrounds/how-design.png" alt="page block image">
+			</div>
+		</div>
+		<div class="page-block-info">
+			<h3>How the story is told</h3>
+			<h2>Design</h2>
+			<p>Lorem, Ipsum, Elsup, Nergin</p>
+		</div>
+	</div>
+</div>
+<!-- ADVERTISING -->
+<div class="content-block page-block first-page advertising" data-section-name="advertising" id="how-advertising" >
+	<div class="page-block-content">
+		<div class="hero-container">
+			<div class="hero-img-wrapper">
+				<img src="img/backgrounds/how-advertising.png" alt="page block image">
+			</div>
+		</div>
+		<div class="page-block-info">
+			<h3>How the story is told</h3>
+			<h2>Advertising</h2>
+			<p>Lorem, Ipsum, Elsup, Nergin</p>
+		</div>
+	</div>
+</div>
+<!-- DEVELOPMENT -->
+<div class="content-block page-block first-page development" data-section-name="development" id="how-development" >
+	<div class="page-block-content">
+		<div class="hero-container">
+			<div class="hero-img-wrapper">
+				<img src="img/backgrounds/how-development.png" alt="page block image">
+			</div>
+		</div>
+		<div class="page-block-info">
+			<h3>How the story is told</h3>
+			<h2>Development</h2>
 			<p>Lorem, Ipsum, Elsup, Nergin</p>
 		</div>
 	</div>
@@ -64,7 +140,9 @@
 	<li><a href="#creative"  class="active"><span class="hover-text">Creative</span></a></li>
 	<li><a href="#video"><span class="hover-text">Video</span></a></li>
 	<li><a href="#copywriting"><span class="hover-text">Copywriting</span></a></li>
-	<li><a href="#images"><span class="hover-text">Images</span></a></li>
+	<li><a href="#design"><span class="hover-text">Design</span></a></li>
+	<li><a href="#advertising"><span class="hover-text">Advertising</span></a></li>
+	<li><a href="#development"><span class="hover-text">Development</span></a></li>
 	<li><img class="mouse-icon" src="img/layout/mouse-icon.png" alt="mouse scroll icon"></li>
 </ul>
 

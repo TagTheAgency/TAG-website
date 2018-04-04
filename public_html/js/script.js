@@ -41,6 +41,19 @@ $(function() {
 			$(".mobile-menu-wrapper").fadeOut();
 	});
 
+
+	$(".page-block-content").click(function(){
+		$(".popup-overlay").fadeIn();
+	});
+
+	$("#close-popup-btn").click(function(){
+		$(".popup-overlay").fadeOut();
+	});
+
+	$(".close-overlay").click(function(){
+		$(".popup-overlay").fadeOut();
+	});
+
 	fixContrast();
 
 

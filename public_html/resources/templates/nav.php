@@ -21,9 +21,9 @@
 		<i class="fas fa-times"></i>
 	</div>
 	<ul class="mobile-menu">
-		<li>Home</li>
+		<li><a href="./index.php">Home</a></li>
 		<li>Stategy</li>
-		<li>How</li>
+		<li><a href="./how2.php">How</a></li>
 		<li>Who</li>
 		<li>Get In Touch</li>
 	</ul>
