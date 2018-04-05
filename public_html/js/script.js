@@ -1,4 +1,8 @@
 $(function() {
+
+	// Global Variables
+	var popupContent;
+
 	$.scrollify({
 		section:".homepage-block, .content-block",
 		scrollbars:false,
@@ -41,18 +45,35 @@ $(function() {
 			$(".mobile-menu-wrapper").fadeOut();
 	});
 
+	// Content Page popups
 
-	$(".page-block-content").click(function(){
-		$(".popup-overlay").fadeIn();
-	});
+	function openPopUp(target){
+		$(target).click(function(){
 
-	$("#close-popup-btn").click(function(){
+			popupContent = target+"-popup";
+			$('.popup-overlay').css('display','flex').fadeIn();
+			$(popupContent).fadeIn();
+			$.scrollify.disable();
+		})
+	}
+
+	openPopUp('#how-creative');
+	openPopUp('#how-video');
+
+	// $(".page-block-content").click(function(){
+	// 	$(".popup-overlay").fadeIn();
+	// 	$.scrollify.disable()
+	// });
+
+	$("#close-popup-btn, .close-overlay").click(function(){
 		$(".popup-overlay").fadeOut();
+		$(popupContent).fadeOut();
+		$.scrollify.enable()
 	});
 
-	$(".close-overlay").click(function(){
-		$(".popup-overlay").fadeOut();
-	});
+	if($('.popup-overlay').is(':visible')){
+		$.scrollify.disable()
+	}
 
 	fixContrast();
 

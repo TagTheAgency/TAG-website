@@ -23,7 +23,7 @@
 	<ul class="mobile-menu">
 		<li><a href="./index.php">Home</a></li>
 		<li>Stategy</li>
-		<li><a href="./how2.php">How</a></li>
+		<li><a href="./how.php">How</a></li>
 		<li>Who</li>
 		<li>Get In Touch</li>
 	</ul>

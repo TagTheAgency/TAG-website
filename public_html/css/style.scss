@@ -29,8 +29,34 @@ body {
   line-height: 20px;
 }
 
+p{
+    font-family: 'Futura Std', Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 400;
+}
+
 ul {
 	list-style-type: none;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: #000000;
+    margin: 20px 0;
+}
+
+::-webkit-scrollbar {
+    // background-color: transparent;
+    display: none;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(#ffffff, 0.20);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(#ffffff, 0.51);
+    border-radius: 10px;
 }
 
 // ==========================================
@@ -232,6 +258,10 @@ span.link {
 // LAYOUT
 // ==========================================
 
+.master-container{
+    position: relative;
+}
+
 .fixed {
 	position: fixed;
 }
@@ -376,40 +406,51 @@ span.link {
 .popup-overlay{
     width: 100%;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     background-color: rgba(#000000, 0.83);
     z-index: 10;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 
     .fa-times{
-        font-size: 20px;
-        padding: 20px 0 0 20px;
+        font-size: 25px;
         cursor: pointer;
+        width: 100%;
+        text-align: right;
+        padding: 30px 30px 0 0;
+        position: fixed;
+
+        &:hover{
+            opacity: 0.4
+        }
     }
 }
 
 .popup-content-wrapper{
     width: 100%;
     height: 100%;
-    padding: 40px;
-    background-color: $retroYellow;
+    background-color: $retroColour;
     z-index: 12;
     position: relative;
     overflow: auto;
 }
 
 .popup-content{
-    margin-top: 30px;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 80%;
+    overflow: hidden;
 
     h2{
-        font-size: 40px;
+        font-size: 60px;
     }
 
     p{
-        font-family: proxima-nova, sans-serif;
+        font-weight: 400;
+        line-height: 30px;
+        font-size: 20px;
     }
 }
 
@@ -418,18 +459,19 @@ span.link {
     height: 100%;
     z-index: 11;
     position: absolute;
-    cursor: pointer;
 }
 
-hr{
-    border: none;
-    height: 2px;
-    background-color: #000000;
-    margin: 20px 0;
+.video-wrapper{
+    margin-top: 20px;
 }
 
+#how-creative-popup, #how-video-popup{
+    display: none;
+}
 
-
+#how-video-popup{
+    background-color: $retroColour;
+}
 
 // ==========================================
 // HOW
@@ -553,6 +595,25 @@ hr{
 // ==========================================
 // RESPONSIVE STYLES
 // ==========================================
+
+@media only screen and (max-width: 1000px) {
+    .video-wrapper{
+
+        position: relative;
+    	padding-bottom: 56.25%; /* 16:9 */
+    	padding-top: 25px;
+    	height: 0;
+        width: 100%;
+
+        iframe{
+            position: absolute;
+        	top: 0;
+        	left: 0;
+        	width: 100%;
+        	height: 100%;
+        }
+    }
+}
 
 @media only screen and (min-width: 320px) and (max-width: 1023px)  {
 
@@ -734,28 +795,30 @@ hr{
     .popup-overlay{
         width: 100%;
         height: 100vh;
-        position: absolute;
+        position: fixed;
         top: 0;
         background-color: rgba(#000000, 0.83);
         z-index: 11;
-        display: flex;
         align-items: center;
         justify-content: center;
 
         .fa-times{
+            width: 80%;
             font-size: 20px;
-            padding: 20px 0 0 20px;
+            padding: 30px 30px 0 0;
         }
     }
 
     .popup-content-wrapper{
         width: 80%;
         height: 80%;
-        padding: 40px;
+        border-radius: 20px;
     }
 
     .popup-content{
-        margin-top: 30px;
+        margin: 0 auto;
+        margin-top: 60px;
+        width: 80%;
 
         h2{
             font-size: 80px;
@@ -783,7 +846,7 @@ hr{
 }
 
 // Very Large Screens
-@media only screen and (min-width: 2559px){
+@media only screen and (min-width: 1750px){
     .page-block-content h2{
         font-size: 120px;
     }

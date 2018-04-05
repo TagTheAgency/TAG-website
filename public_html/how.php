@@ -10,57 +10,132 @@
 
 </style>
 
-<div class="homepage-block creative" data-section-name="creative" id="how-creative">
-	<div id="how-creative-bg">
+<div class="master-container">
+	<!-- OVERLAY -->
+	<?php require('resources/popups/howpopups.php') ?>
+	<!-- CREATIVE -->
+	<div class="content-block page-block first-page creative" data-section-name="creative"  id="how-creative" >
+		<div id="how-creative-bg-img">
+			<img src="img/backgrounds/creative.png" alt="creative background image">
+		</div>
+		<div class="page-block-content">
+			<div class="hero-container">
+				<h3>How the story is told</h3>
+				<div class="hero-img-wrapper">
+					<img src="img/backgrounds/how-creative.png" alt="page block image">
+				</div>
+			</div>
+			<div class="page-block-info">
+				<h2>Creative</h2>
+				<p>Thinking, Idea, Strategy</p>
+			</div>
+		</div>
 	</div>
-	<div>
-		<h2>Creative</h2>
-		<p class="bodyText">The fun and exciting part of telling a story is the idea behind the story. From
-		the key creative concept through to developing campaign initiatives the
-		creative need to connect and link a brand to its key messages and ultimately
-		the client or customer.</p>
-		<p>
-		Then once we’ve run a creative campaign for you we provide full reporting,
-		analyse and learn how we can improve for the next campaign, learning and
-		always getting better.
-		</p>
-	</div>
-</div>
-<div class="homepage-block video" data-section-name="video" id="how-video">
-	<div class="content">
-		<h3>Video</h3>
-		<p>From stunning motion graphics to virtual reality and all video production in
-		between the team at TAG has the skills and talent to bring your story to life
-		through the powerful medium that is video.</p>
-	</div>
-</div>
-<div class="homepage-block copywriting" data-section-name="copywriting" id="how-copywriting">
-	<div class="content">
-		<h3>Copywriting</h3>
-		<p>Stunning superlatives to sweet as scripts TAG The Agency can help you build
-		your brand through the words you write, from a post on Facebook to the copy
-		on your website, we collaborate with you to craft and create words and
-		messaging that impact your consumers.</p>
-	</div>
-</div>
-<div class="homepage-block images" data-section-name="images" id="how-imagery">
-	<div class="content">
-		<h3>Images</h3>
-		<p>Insert the cliché “a picture says a 1000 words” if so then think how much a
-		crafted image can tell. More importantly imagery that tells the story of your
-		brand from illustrations to photography, we will work with you to extract and
-		ensure your brand message shines in every image you share.</p>
-	</div>
-</div>
 
-<ul class="pagination bodyText" >
-	<li><a href="#creative"  class="active"><span class="hover-text">Creative</span></a></li>
-	<li><a href="#video"><span class="hover-text">Video</span></a></li>
-	<li><a href="#copywriting"><span class="hover-text">Copywriting</span></a></li>
-	<li><a href="#images"><span class="hover-text">Images</span></a></li>
-</ul>
+	<!-- VIDEO -->
+	<div class="content-block page-block first-page video" data-section-name="video" id="how-video" >
+		<div class="page-block-content">
+			<div class="hero-container">
+				<div class="hero-img-wrapper">
+					<img src="img/backgrounds/how-video.png" alt="page block image">
+				</div>
+			</div>
+			<div class="page-block-info">
+				<h3>How the story is told</h3>
+				<h2>Video</h2>
+				<p>Animation, VR, Motion Graphics, Video</p>
+			</div>
+		</div>
+	</div>
+	<!-- COPYWRITING -->
+	<div class="content-block page-block first-page copywriting" data-section-name="copywriting" id="how-copywriting" >
+		<div class="page-block-content">
+			<div class="hero-container">
+				<div class="hero-img-wrapper">
+					<img src="img/backgrounds/how-copywriting.png" alt="page block image">
+				</div>
+			</div>
+			<div class="page-block-info">
+				<h3>How the story is told</h3>
+				<h2>Copywriting</h2>
+				<p>Lorem, Ipsum, Elsup, Nergin</p>
+			</div>
+		</div>
+	</div>
+	<!-- IMAGERY -->
+	<div class="content-block page-block first-page imagery" data-section-name="imagery" id="how-imagery" >
+		<div class="page-block-content">
+			<div class="hero-container">
+				<div class="hero-img-wrapper">
+					<img src="img/backgrounds/how-imagery.png" alt="page block image">
+				</div>
+			</div>
+			<div class="page-block-info">
+				<h3>How the story is told</h3>
+				<h2>Imagery</h2>
+				<p>Lorem, Ipsum, Elsup, Nergin</p>
+			</div>
+		</div>
+	</div>
+	<!-- DESIGN -->
+	<div class="content-block page-block first-page design" data-section-name="design" id="how-design" >
+		<div class="page-block-content">
+			<div class="hero-container">
+				<div class="hero-img-wrapper">
+					<img src="img/backgrounds/how-design.png" alt="page block image">
+				</div>
+			</div>
+			<div class="page-block-info">
+				<h3>How the story is told</h3>
+				<h2>Design</h2>
+				<p>Lorem, Ipsum, Elsup, Nergin</p>
+			</div>
+		</div>
+	</div>
+	<!-- ADVERTISING -->
+	<div class="content-block page-block first-page advertising" data-section-name="advertising" id="how-advertising" >
+		<div class="page-block-content">
+			<div class="hero-container">
+				<div class="hero-img-wrapper">
+					<img src="img/backgrounds/how-advertising.png" alt="page block image">
+				</div>
+			</div>
+			<div class="page-block-info">
+				<h3>How the story is told</h3>
+				<h2>Advertising</h2>
+				<p>Lorem, Ipsum, Elsup, Nergin</p>
+			</div>
+		</div>
+	</div>
+	<!-- DEVELOPMENT -->
+	<div class="content-block page-block first-page development" data-section-name="development" id="how-development" >
+		<div class="page-block-content">
+			<div class="hero-container">
+				<div class="hero-img-wrapper">
+					<img src="img/backgrounds/how-development.png" alt="page block image">
+				</div>
+			</div>
+			<div class="page-block-info">
+				<h3>How the story is told</h3>
+				<h2>Development</h2>
+				<p>Lorem, Ipsum, Elsup, Nergin</p>
+			</div>
+		</div>
+	</div>
 
-<?php require_once(TEMPLATES_PATH . "/footer.php"); ?>
+	<ul class="pagination bodyText" >
+		<li><a href="#creative"  class="active"><span class="hover-text">Creative</span></a></li>
+		<li><a href="#video"><span class="hover-text">Video</span></a></li>
+		<li><a href="#copywriting"><span class="hover-text">Copywriting</span></a></li>
+		<li><a href="#imagery"><span class="hover-text">Imagery</span></a></li>
+		<li><a href="#design"><span class="hover-text">Design</span></a></li>
+		<li><a href="#advertising"><span class="hover-text">Advertising</span></a></li>
+		<li><a href="#development"><span class="hover-text">Development</span></a></li>
+		<li><img class="mouse-icon" src="img/layout/mouse-icon.png" alt="mouse scroll icon"></li>
+	</ul>
+
+	<?php require_once(TEMPLATES_PATH . "/footer.php"); ?>
+</div>
 <!--
 Video
 From stunning motion graphics to virtual reality and all video production in
