@@ -18,7 +18,7 @@
 		<img src="img/layout/arrow-down-white-01.png" alt="scroll icon">
 	</div>
 </div>
-<div class="homepage-block strategy shadow" data-section-name="strategy">
+<div class="homepage-block strategy shadow light" data-section-name="strategy">
 	<div class="homepage-block-child">
 		<h2>Strategy</h2>
 		<p class="subheader">Stories start with a plan.</p>

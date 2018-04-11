@@ -1,6 +1,6 @@
 <div class="fixed navigation">
 	<div class="logo-wrapper">
-		<a href="./index.php"><img class="logo" src="img/layout/TAG_white_1920x1080.png" alt="TAG Logo"></a>
+		<a href="./index.php"><img id="tag-logo" class="logo" src="img/content/logo-white.png" alt="TAG Logo"></a>
 	</div>
 	<div class="social-icons">
 		<a href="https://google.com"><i class="fab fa-facebook"></i></a>
@@ -10,7 +10,7 @@
 </div>
 <div class="mobile-navigation fixed">
 	<div class="logo-wrapper">
-		<a href="./index.php"><img src="img/layout/TAG_white_1920x1080.png" alt="TAG Logo"></a>
+		<a href="./index.php"><img id="tag-logo-mobile" src="img/content/logo-white.png" alt="TAG Logo"></a>
 	</div>
 	<div id="mobile-menu-icon">
 		<i class="fas fa-bars"></i>

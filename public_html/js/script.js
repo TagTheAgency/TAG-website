@@ -27,11 +27,14 @@ $(function() {
 		var current = $.scrollify.current();
 
 	    if(current.hasClass("dark")) {
-	    		$('.pagination a, .social-icons').addClass("dark-contrast").removeClass("light-contrast");
+	    		$('.pagination a, .social-icons, .mobile-navigation .fas').addClass("dark-contrast").removeClass("light-contrast");
+				$("#tag-logo, #tag-logo-mobile").attr("src","img/content/logo-white.png");
 	    } else if (current.hasClass("light")){
-	    		$('.pagination a, .social-icons').addClass("light-contrast").removeClass("dark-contrast");
+	    		$('.pagination a, .social-icons, .mobile-navigation .fas').addClass("light-contrast").removeClass("dark-contrast");
+				$("#tag-logo, #tag-logo-mobile").attr("src","img/content/logo-black.png");
 	    } else {
-	    		$('.pagination a, .social-icons').removeClass("dark-contrast light-contrast");
+	    		$('.pagination a, .social-icons, .mobile-navigation .fas').removeClass("dark-contrast light-contrast");
+				$("#tag-logo, #tag-logo-mobile").attr("src","img/content/logo-white.png");
 	    }
 
 	}
