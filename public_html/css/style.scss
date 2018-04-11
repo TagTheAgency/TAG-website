@@ -1,3 +1,11 @@
+// Harriet Font. Futura font is being used via typekit
+@font-face {
+  font-family: 'Harriet Display';
+  src: url("../fonts/HarrietDisplay-Black.woff2") format("woff2"), url("../fonts/HarrietDisplay-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
 // SASS Variables
 
 $retroColour: #E1DACD;
@@ -5,6 +13,8 @@ $retroYellow: #E1D028;
 $yellow: #f5ed2d;
 $blue: #78cad6;
 $pink: #EB008B;
+$futura: "futura-pt", "Trebuchet MS", Arial, sans-serif;
+$harriet: 'Harriet Display', Times;
 
 
 
@@ -15,7 +25,7 @@ $pink: #EB008B;
 }
 
 body {
-  font-family: 'Harriet Display', Times;
+  font-family: $harriet;
   font-weight: 900;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -23,7 +33,7 @@ body {
 }
 
 .bodyText {
-  font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: $futura;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -32,7 +42,7 @@ body {
 }
 
 p{
-    font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
+    font-family: $futura;
     font-weight: 400;
 }
 
@@ -80,13 +90,21 @@ h3 {
 	font-weight: 400;
 }
 
+.homepage-block div h3{
+    font-size: 2em;
+    font-weight: 800;
+}
+
 .shadow {
 	// text-shadow: 6px 6px 25px rgba(#000000, 0.12);
 }
 
 .subheader {
-	font-size: 1.2em;
+	font-size: 0.8em;
+    margin-top: 10px;
 	font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.3px;
 }
 
 .fab:hover {
@@ -96,6 +114,10 @@ h3 {
 // ==========================================
 // NAVIGATION
 // ==========================================
+
+.btn:hover{
+    cursor: pointer;
+}
 
 .mobile-navigation{
     height: 100px;
@@ -250,6 +272,16 @@ span.link {
 	left: 0;
 }
 
+.fas{
+    transition-duration: 200ms;
+}
+
+.link-hover-arrow{
+    opacity: 0;
+    margin-left: -10px;
+    transition-duration: 200ms;
+}
+
 
 // ==========================================
 // LAYOUT
@@ -283,7 +315,7 @@ span.link {
 }
 
 .homepage-block-child{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -319,6 +351,124 @@ span.link {
 
 .get-in-touch{
 	background-color: #f7f7f7;
+}
+
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.contact-title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+
+    h3{
+        font-size: 2em;
+        color: #fff;
+        font-weight: 600;
+        border-bottom: 1px solid $yellow;
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+}
+
+.form-section{
+    width: 100%;
+    font-family: $futura;
+    font-weight: 300;
+}
+
+.contact-form{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.form-section{
+    width: 100%;
+    margin-bottom: 30px;
+
+    p{
+        color: white;
+        font-size: 0.9em;
+        text-align: left;
+    }
+
+    input[type=text],input[type=email]{
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(#ffffff, 0.4);
+        padding-bottom: 10px;
+        color: #fff;
+
+        &::placeholder{
+            letter-spacing: 2px;
+            font-size: 12px;
+            color: #fff;
+            opacity: 0.8;
+            transition-duration: 300ms;
+        }
+
+        &:focus{
+            transition-duration: 50ms;
+            outline: none;
+            border-color: #fff;
+
+            &:focus{
+                border-color: $yellow;
+            }
+
+            &::placeholder{
+                opacity: 0.3;
+            }
+        }
+    }
+}
+
+.submit{
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 0.9em;
+    border: none;
+    width: 100%;
+}
+
+.popup{
+    width:100%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    display: none;
+    z-index: 20;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.97);
+}
+
+.popup-close{
+    color: #000;
+    font-size: 1em;
+    margin: 20px 20px 0 0;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: $yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    transition: ease 300ms;
+    cursor: pointer;
 }
 
 // ==========================================
@@ -578,7 +728,7 @@ span.link {
 // ==========================================
 // HIDDEN TABLET/DESKTOP ELEMENTS
 // ==========================================
-.navigation, .pagination{
+.navigation, .pagination, .desktop-form{
     display: none;
 }
 
@@ -619,7 +769,8 @@ span.link {
     }
 
     .subheader{
-        font-size: 1.8em;
+        letter-spacing: 1.9px;
+        font-size: 1.3em;
     }
 
     .landing{
@@ -714,6 +865,15 @@ span.link {
     .hero-img-wrapper{
         width: 400px;
     }
+
+    .submit{
+        letter-spacing: 4px;
+        font-size: 1em;
+        border: none;
+        width: 100%;
+        margin: auto;
+        max-width: 600px;
+    }
 }
 
 @media only screen and (max-height: 500px) and (min-width: 300px){
@@ -804,6 +964,10 @@ span.link {
 
 @media only screen and (min-width: 1024px){
 
+    .desktop-form{
+        display: block;
+    }
+
     h2{
         font-size: 8em;
     }
@@ -839,12 +1003,97 @@ span.link {
             font-size: 80px;
         }
     }
+
+    .form-container{
+        max-width: 1800px;
+        align-items: center;
+    }
+
+    .contact-title{
+        width: 50%;
+        text-align: center;
+        padding-bottom: 40px;
+
+        h3{
+            font-size: 4em;
+            border-bottom: 2px solid $yellow;
+            display: inline-block;
+            padding-bottom: 20px;
+        }
+    }
+
+    .contact-form{
+        width: 50%;
+        padding: 0 80px;
+    }
+
+    .form-section{
+        margin-bottom: 40px;
+
+        p{
+            font-size: 0.9em;
+        }
+
+        input[type=text],input[type=email]{
+
+            font-size: 1.3em;
+
+            &::placeholder{
+                letter-spacing: 4px;
+                font-size: 17px;
+            }
+        }
+    }
+
+    .submit-btn{
+        background-color: #fff;
+        position: relative;
+
+        span{
+            position: absolute;
+            transition: ease 500ms;
+            width: 0%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background-color: $yellow;
+        }
+    }
+
+    .submit{
+        position: relative;
+        letter-spacing: 8px;
+        font-size: 1.2em;
+        font-weight: 600;
+        background-color: transparent;
+
+        &:hover{
+            cursor: pointer;
+        }
+
+    }
+
+    .popup-close{
+        margin: 40px 40px 0 0;
+        width: 35px;
+        height: 35px;
+        font-size: 1.2em;
+        background-color: transparent;
+        color: $yellow;
+        border: 2px solid $yellow;
+
+        &:hover{
+            background-color: $yellow;
+            color: #000;
+            transform: rotate(90deg);
+        }
+    }
 }
 
 @media only screen and (min-width: 1400px){
 
     .logo{
-        width: 200px;
+        width: 190px;
     }
 
     h2{
@@ -852,7 +1101,8 @@ span.link {
     }
 
     .subheader{
-        font-size: 3em;
+        font-size: 1.5em;
+        letter-spacing: 5px;
     }
 
     .landing{
@@ -886,10 +1136,10 @@ span.link {
     }
 
     .social-icons{
-        font-size: 2em;
+        font-size: 1.7em;
     }
 
-
+    // YT Video styles
     // .video-wrapper{
     //
     //     position: relative;
@@ -906,6 +1156,7 @@ span.link {
     //     	height: 100%;
     //     }
     // }
+
 }
 
 
@@ -965,6 +1216,19 @@ span.link {
 }
 
 @media only screen and (min-width: 2000px){
+
+    .logo{
+        width: 210px;
+    }
+
+    h2{
+        font-size: 15em;
+    }
+
+    .subheader{
+        font-size: 2.7em;
+        letter-spacing: 7px;
+    }
 
     .page-block-content h2{
         font-size: 10em;
