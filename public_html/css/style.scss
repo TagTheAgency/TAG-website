@@ -716,6 +716,14 @@ span.link {
 
 @media only screen and (max-height: 500px) and (min-width: 300px){
 
+    .navigation, .pagination{
+        display: none;
+    }
+
+    .mobile-navigation{
+        display: flex;
+    }
+
     h2{
         font-size: 3em;
     }
@@ -741,10 +749,6 @@ span.link {
     .page-block-content h3{
         font-size: 1em;
         padding: 10px 30px;
-    }
-
-    .pagination{
-        display: none;
     }
 }
 
