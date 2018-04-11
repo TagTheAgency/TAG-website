@@ -1050,8 +1050,15 @@ span.link {
     }
 
     .submit-btn{
-        background-color: #fff;
+        background-color: none;
+        border: 2px solid #fff;
+        color: #fff;
         position: relative;
+        transition-duration: 500ms;
+
+        &:hover{
+            border-color: $yellow;
+        }
 
         span{
             position: absolute;
@@ -1070,9 +1077,11 @@ span.link {
         font-size: 1.2em;
         font-weight: 600;
         background-color: transparent;
+        color: #fff;
 
         &:hover{
             cursor: pointer;
+            color: #000;
         }
 
     }
