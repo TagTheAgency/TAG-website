@@ -14,20 +14,17 @@
 	<!-- OVERLAY -->
 	<?php require('resources/popups/howpopups.php') ?>
 	<!-- CREATIVE -->
-	<div class="content-block page-block first-page creative" data-section-name="creative"  id="how-creative" >
-		<div id="how-creative-bg-img">
-			<img src="img/backgrounds/creative.png" alt="creative background image">
-		</div>
+	<div class="content-block page-block first-page creative" data-section-name="creative" id="how-creative" >
 		<div class="page-block-content">
 			<div class="hero-container">
-				<h3>How the story is told</h3>
 				<div class="hero-img-wrapper">
 					<img src="img/backgrounds/how-creative.png" alt="page block image">
 				</div>
 			</div>
 			<div class="page-block-info">
+				<h3>How the story is told</h3>
 				<h2>Creative</h2>
-				<p>Thinking, Idea, Strategy</p>
+				<h4>Lorem, Ipsum, Elsup, Nergin</h4>
 			</div>
 		</div>
 	</div>
@@ -43,7 +40,7 @@
 			<div class="page-block-info">
 				<h3>How the story is told</h3>
 				<h2>Video</h2>
-				<p>Animation, VR, Motion Graphics, Video</p>
+				<h4>Animation, VR, Motion Graphics, Video</h4>
 			</div>
 		</div>
 	</div>
@@ -58,7 +55,7 @@
 			<div class="page-block-info">
 				<h3>How the story is told</h3>
 				<h2>Copywriting</h2>
-				<p>Lorem, Ipsum, Elsup, Nergin</p>
+				<h4>Lorem, Ipsum, Elsup, Nergin</h4>
 			</div>
 		</div>
 	</div>
@@ -73,7 +70,7 @@
 			<div class="page-block-info">
 				<h3>How the story is told</h3>
 				<h2>Imagery</h2>
-				<p>Lorem, Ipsum, Elsup, Nergin</p>
+				<h4>Lorem, Ipsum, Elsup, Nergin</h4>
 			</div>
 		</div>
 	</div>
@@ -88,7 +85,7 @@
 			<div class="page-block-info">
 				<h3>How the story is told</h3>
 				<h2>Design</h2>
-				<p>Lorem, Ipsum, Elsup, Nergin</p>
+				<h4>Lorem, Ipsum, Elsup, Nergin</h4>
 			</div>
 		</div>
 	</div>
@@ -103,7 +100,7 @@
 			<div class="page-block-info">
 				<h3>How the story is told</h3>
 				<h2>Advertising</h2>
-				<p>Lorem, Ipsum, Elsup, Nergin</p>
+				<h4>Lorem, Ipsum, Elsup, Nergin</h4>
 			</div>
 		</div>
 	</div>
@@ -118,7 +115,7 @@
 			<div class="page-block-info">
 				<h3>How the story is told</h3>
 				<h2>Development</h2>
-				<p>Lorem, Ipsum, Elsup, Nergin</p>
+				<h4>Lorem, Ipsum, Elsup, Nergin</h4>
 			</div>
 		</div>
 	</div>

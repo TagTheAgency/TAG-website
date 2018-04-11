@@ -6,7 +6,7 @@
 ?>
 
 <div class="homepage-block landing dark" data-section-name="home">
-	<div class="child">
+	<div class="homepage-block-child">
 		<div class="icons">
 			<img src="img/layout/cmyk-blue.png" alt="blue x icon">
 			<img src="img/layout/cmyk-pink.png" alt="pink x icon">
@@ -19,27 +19,27 @@
 	</div>
 </div>
 <div class="homepage-block strategy shadow" data-section-name="strategy">
-	<div>
+	<div class="homepage-block-child">
 		<h2>Strategy</h2>
 		<p class="subheader">Stories start with a plan.</p>
 	</div>
 </div>
 <div class="homepage-block how shadow" data-section-name="how">
-	<div>
+	<div class="homepage-block-child">
 		<a href="how.php"><span class="link"></span></a>
 		<h2>How</h2>
 		<p class="subheader">How the story is told</p>
 	</div>
 </div>
 <div class="homepage-block who shadow" data-section-name="who">
-	<div>
+	<div class="homepage-block-child">
 		<h2>Who</h2>
 		<p class="subheader">Who we tell stories for <i class="fas fa-chevron-right"></i></p>
 		<p class="subheader">Who tell stories <i class="fas fa-chevron-right"></i></p>
 	</div>
 </div>
 <div class="homepage-block get-in-touch shadow light" data-section-name="getintouch">
-	<div>
+	<div class="homepage-block-child">
 		<h3>Get In Touch</h3>
 		<p class="subheader">Stories start with a plan.</p>
 	</div>

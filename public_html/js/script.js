@@ -49,7 +49,6 @@ $(function() {
 
 	function openPopUp(target){
 		$(target).click(function(){
-
 			popupContent = target+"-popup";
 			$('.popup-overlay').css('display','flex').fadeIn();
 			$(popupContent).fadeIn();
@@ -59,11 +58,6 @@ $(function() {
 
 	openPopUp('#how-creative');
 	openPopUp('#how-video');
-
-	// $(".page-block-content").click(function(){
-	// 	$(".popup-overlay").fadeIn();
-	// 	$.scrollify.disable()
-	// });
 
 	$("#close-popup-btn, .close-overlay").click(function(){
 		$(".popup-overlay").fadeOut();
