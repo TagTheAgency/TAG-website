@@ -1004,6 +1004,10 @@ span.link {
         }
     }
 
+    .homepage-block div h3{
+        font-size: 5em;
+    }
+
     .form-container{
         max-width: 1800px;
         align-items: center;
@@ -1185,6 +1189,10 @@ span.link {
             font-size: 8em;
         }
     }
+
+    .homepage-block div h3{
+        font-size: 6em;
+    }
 }
 
 @media only screen and (min-width: 1800px){
@@ -1212,6 +1220,10 @@ span.link {
         h2{
             font-size: 8.3em;
         }
+    }
+
+    .popup-close{
+        margin: 80px 80px 0 0;
     }
 }
 
