@@ -15,13 +15,13 @@
 			<p class="subheader">Digital storytellers for brands</p>
 		</div>
 		<div class="scroll-icon">
-			<a href="#strategy"><img src="img/layout/arrow-down-white-01.png" alt="scroll icon"></a>
+			<a href="#what"><img src="img/layout/arrow-down-white-01.png" alt="scroll icon"></a>
 		</div>
 	</div>
-	<div class="homepage-block strategy shadow light" data-section-name="strategy">
+	<div class="homepage-block what shadow light" data-section-name="what">
 		<div class="homepage-block-child">
-			<h2>Strategy</h2>
-			<p class="subheader">Stories start with a plan</p>
+			<h2>What</h2>
+			<p class="subheader">What stories we tell</p>
 		</div>
 	</div>
 	<div class="homepage-block how shadow" data-section-name="how">
@@ -35,8 +35,7 @@
 	<div class="homepage-block who shadow" data-section-name="who">
 		<div class="homepage-block-child">
 			<h2>Who</h2>
-			<p class="subheader link-hover">Who we tell stories for <i class="fas fa-chevron-right link-hover-arrow"></i></p>
-			<p class="subheader link-hover">Who tell stories <i class="fas fa-chevron-right link-hover-arrow"></i></p>
+			<p class="subheader link-hover">Who tell the stories <i class="fas fa-chevron-right link-hover-arrow"></i></p>
 		</div>
 	</div>
 	<div class="homepage-block get-in-touch shadow light" data-section-name="getintouch">
@@ -76,7 +75,7 @@
 	</div>
 	<ul class="pagination">
 		<li><a href="#home" class="active"><span class="hover-text">Home</span></a></li>
-		<li><a href="#strategy"><span class="hover-text">Strategy</span></a></li>
+		<li><a href="#what"><span class="hover-text">What</span></a></li>
 		<li><a href="#how"><span class="hover-text">How</span></a></li>
 		<li><a href="#who"><span class="hover-text">Who</span></a></li>
 		<li><a href="#getintouch"><span class="hover-text">Get in touch</span></a></li>
