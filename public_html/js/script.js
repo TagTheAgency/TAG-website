@@ -6,7 +6,7 @@ $(function() {
 	$.scrollify({
 		section:".homepage-block, .content-block",
 		scrollbars:false,
-		scrollSpeed: 500,
+		scrollSpeed: 800,
 		before: function(i,panels) {
 			var ref = panels[i].attr("data-section-name");
 
@@ -97,6 +97,7 @@ $(function() {
 	}, function(){
 		$('.submit-btn span').css('width','0%');
 	});
+
 
 	fixContrast();
 
