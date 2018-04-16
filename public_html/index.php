@@ -2,7 +2,7 @@
 	// Load up the config file
 	require_once("resources/config.php");
 	require_once(TEMPLATES_PATH . "/header.php");
-	require_once(TEMPLATES_PATH . "/nav.php");
+	require_once(TEMPLATES_PATH . "/homepage-nav.php");
 ?>
 <div class="master-container">
 	<div class="homepage-block landing dark" data-section-name="home">

@@ -11,7 +11,7 @@
 $retroColour: #E1DACD;
 $retroYellow: #E1D028;
 $yellow: #f5ed2d;
-$blue: #78cad6;
+$blue: #24A9DA;
 $pink: #EB008B;
 $futura: "futura-pt", "Trebuchet MS", Arial, sans-serif;
 $harriet: 'Harriet Display', Times;
@@ -72,6 +72,44 @@ hr{
 }
 
 // ==========================================
+// FLEX GRID
+// ==========================================
+.flex-row{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    padding: 2em 0;
+}
+
+.flex-col{
+    flex: 1;
+    padding: .5em;
+    margin-bottom: .5em;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+
+    h2{
+        font-family: $harriet;
+        font-size: 3em;
+        margin-bottom: 0.3em;
+    }
+
+    h3{
+        display: none;
+    }
+
+    img{
+        width: 220px;
+    }
+}
+
+.flex-btm{
+    margin-bottom: 0;
+}
+
+// ==========================================
 // TEXT STYLES
 // ==========================================
 
@@ -115,12 +153,24 @@ h3 {
 // NAVIGATION
 // ==========================================
 
+.btn{
+    padding: .6em 2em;
+    border-radius: 6px;
+    margin-top: 1em;
+    display: inline-block;
+    font-family: $futura;
+}
+
+.content-btn{
+    border: 1px solid #000000;
+}
+
 .btn:hover{
     cursor: pointer;
 }
 
 .mobile-navigation{
-    height: 100px;
+    height: 80px;
     width: 100%;
     padding: 10px 20px;
     overflow: hidden;
@@ -130,9 +180,10 @@ h3 {
     justify-content: space-between;
     align-items: center;
 
+
     .fas{
-        font-size: 38px;
-        color: #ffffff;
+        font-size: 20px;
+        color: #fff;
     }
 
     .logo-wrapper{
@@ -152,7 +203,7 @@ h3 {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #e0d9cc;
+    background-color: $yellow;
     text-align: right;
     z-index: 100;
 
@@ -189,25 +240,6 @@ h3 {
 	pointer-events: none;
 }
 
-.social-icons {
-    position: absolute;
-    bottom: 0;
-	padding: 0 0 50px 50px;
-	font-size: 1.2em;
-	pointer-events: all;
-	cursor: pointer;
-    color: #fff;
-    transition-duration: 300ms;
-
-	&.light-contrast {
-		color: #000;
-	}
-
-	i{
-		margin-right: 20px;
-	}
-}
-
 .logo{
     position: fixed;
     left: 0;
@@ -220,6 +252,25 @@ h3 {
 
     &:hover{
         opacity: 0.5;
+    }
+}
+
+#second-nav{
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px rgba(#000000, 0.10);
+
+    .fas{
+        font-size: 20px;
+        color: #000000;
+    }
+
+    .logo-wrapper{
+        position: relative;
+        width: 70px;
+
+        img{
+            width: 100%;
+        }
     }
 }
 
@@ -254,16 +305,6 @@ h3 {
     }
 }
 
-
-.content {
-    z-index: 1;
-    mix-blend-mode: multiply;
-    padding-right: 100px;
-    padding-left: 40%;
-    margin-left: 10%;
-    text-align: left;
-}
-
 span.link {
 	position: absolute;
 	width: 100%;
@@ -282,12 +323,16 @@ span.link {
     transition-duration: 200ms;
 }
 
+#tag-logo-mobile{
+    width: 60px;
+}
 
 // ==========================================
 // LAYOUT
 // ==========================================
 
 .master-container{
+    padding-top: 5em;
     position: relative;
 }
 
@@ -472,8 +517,76 @@ span.link {
 }
 
 // ==========================================
+// CONTENT PAGES
+// ==========================================
+
+.light-section{
+    color: white;
+
+    .btn{
+        border-color: #ffffff;
+    }
+}
+
+#how-creative{
+    h2{
+        font-size: 2.3em;
+    }
+    background-color: $blue;
+}
+
+#how-video{
+    background-color: $pink;
+}
+
+// ==========================================
 // FOOTER
 // ==========================================
+
+
+footer{
+
+    background-color: #ececec;
+
+    .contact-block{
+        background-color: #fff;
+        padding-bottom: 2.8em;
+
+        h4{
+            font-size: 1.8em;
+            margin-bottom: 0.3em;
+        }
+
+        p{
+            font-size: 0.7em;
+            letter-spacing: 0.2em;
+            font-weight: 600;
+        }
+    }
+
+    ul{
+        max-width: 300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li{
+        font-family: $futura;
+        font-weight: 600;
+        font-size: 0.9em;
+    }
+
+    .social-icons {
+        width: 160px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    	font-size: 1.2em;
+        transition-duration: 300ms;
+        margin-top: 1em;
+    }
+}
 
 // ==========================================
 // HIDDEN TABLET/DESKTOP ELEMENTS
@@ -649,6 +762,11 @@ span.link {
 
 }
 
+@media only screen and (min-width: 767px){
+    .flex-row{
+        flex-direction: row-reverse;
+    }
+}
 
 @media only screen and (min-width: 1024px){
 
