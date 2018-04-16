@@ -1,4 +1,4 @@
-<div class="fixed navigation">
+<div class="fixed navigation homepage">
 	<div class="logo-wrapper">
 		<a href="./index.php"><img id="tag-logo" class="logo" src="img/content/logo-white.png" alt="TAG Logo"></a>
 	</div>

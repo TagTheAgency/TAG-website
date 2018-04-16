@@ -2,11 +2,11 @@
 			<div class="flex-row contact-block">
 				<div class="flex-col">
 					<h4>Get In Touch</h4>
-					<p>SUP@TAGTHEAGENCY.COM</p>
+					<p>UNICORN@TAGTHEAGENCY.COM</p>
 				</div>
 			</div>
-			<div class="flex-row flex-btm">
-				<div class="flex-col">
+			<div class="flex-row flex-btm footer-container">
+				<div class="flex-col footer-nav">
 					<ul>
 						<li>Homepage</li>
 						<li>Contact</li>
@@ -15,9 +15,9 @@
 				</div>
 				<div class="flex-col">
 					<div class="social-icons">
-						<a href="https://google.com"><i class="fab fa-facebook"></i></a>
-						<a href="https://google.com"><i class="fab fa-twitter"></i></a>
-						<a href="https://google.com"><i class="fab fa-instagram"></i></a>
+						<a href="https://www.facebook.com/TAGTheAgency/"><i class="fab fa-facebook"></i></a>
+						<a href="https://twitter.com/tagtheagency"><i class="fab fa-twitter"></i></a>
+						<a href="https://www.instagram.com/tagtheagency/"><i class="fab fa-instagram"></i></a>
 					</div>
 				</div>
 			</div>

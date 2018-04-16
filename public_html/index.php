@@ -18,13 +18,13 @@
 			<a href="#what"><img src="img/layout/arrow-down-white-01.png" alt="scroll icon"></a>
 		</div>
 	</div>
-	<div class="homepage-block what shadow light" data-section-name="what">
+	<div class="homepage-block yellow shadow light" data-section-name="what">
 		<div class="homepage-block-child">
 			<h2>What</h2>
 			<p class="subheader">What stories we tell</p>
 		</div>
 	</div>
-	<div class="homepage-block how shadow" data-section-name="how">
+	<div class="homepage-block pink shadow" data-section-name="how">
 		<div class="homepage-block-child">
 			<a class="link-hover" href="how.php">
 				<h2>How</h2>
@@ -32,13 +32,13 @@
 			</a>
 		</div>
 	</div>
-	<div class="homepage-block who shadow" data-section-name="who">
+	<div class="homepage-block blue shadow" data-section-name="who">
 		<div class="homepage-block-child">
 			<h2>Who</h2>
 			<p class="subheader link-hover">Who tell the stories <i class="fas fa-chevron-right link-hover-arrow"></i></p>
 		</div>
 	</div>
-	<div class="homepage-block get-in-touch shadow light" data-section-name="getintouch">
+	<div class="homepage-block get-in-touch white shadow light" data-section-name="getintouch">
 		<div class="homepage-block-child contact-block">
 			<h3 class"btn" data-popup-open="popup-1">Get In Touch</h3>
 			<p class="btn link-hover subheader" data-popup-open="popup-1">hello@tagtheagency.com <i class="fas fa-chevron-right link-hover-arrow"></i></p>

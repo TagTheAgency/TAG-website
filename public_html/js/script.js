@@ -48,6 +48,17 @@ $(function() {
 			$(".mobile-menu-wrapper").fadeOut();
 	});
 
+	// Hover effect for links/nav
+	$(".btn, li").hover(function(){
+		if( !$(this).hasClass("active-page") ){
+			$(this).find('.hover-bar').css("width","100%");
+		}
+		$(this).find("img").attr("src","img/layout/eyes-open.png");
+	}, function(){
+		$(this).find('.hover-bar').css("width","0");
+		$(this).find("img").attr("src","img/layout/eyes-closed.png");
+	});
+
 	// Content Page popups
 
 	$('[data-popup-open]').click(function(){
