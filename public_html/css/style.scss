@@ -487,9 +487,6 @@ span.link {
 // ==========================================
 
 @media only screen and (min-width: 500px){
-    .hero-img-wrapper{
-        width: 350px;
-    }
 
     .page-block-content h3{
         font-size: 1.7em;
@@ -512,10 +509,6 @@ span.link {
 
     h2{
         font-size: 6.2em;
-    }
-
-    .page-block-content h3{
-        font-size: 2em;
     }
 
     .subheader{
@@ -612,9 +605,6 @@ span.link {
         margin-top: 15px;
     }
 
-    .hero-img-wrapper{
-        width: 400px;
-    }
 
     .submit{
         letter-spacing: 4px;
@@ -644,73 +634,21 @@ span.link {
         font-size: 1em;
     }
 
-    .page-block-content{
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
 
     .mobile-menu-wrapper .mobile-menu{
         font-size: 20px;
     }
 
-    .hero-img-wrapper{
-        width: 190px !important;
-    }
-
-    .page-block-content h3{
-        font-size: 1em;
-        padding: 10px 30px;
-    }
 }
 
 @media only screen and (min-width: 700px) {
-
-    .page-block-info{
-        text-align: left;
-    }
-
-    .page-block-content{
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
 
     .mobile-menu-wrapper .mobile-menu{
         font-size: 30px;
     }
 
-    .hero-img-wrapper{
-        width: 270px;
-    }
-
-    .page-block-content h3{
-        font-size: 1.4em;
-        padding: 10px 30px;
-    }
 }
 
-@media only screen and (min-width: 900px) {
-
-    .hero-img-wrapper{
-        width: 400px;
-    }
-
-    .page-block-content{
-
-        h2{
-            font-size: 4em;
-        }
-
-        h3{
-            font-size: 1.7em;
-        }
-
-        h4{
-            font-size: 1.5em;
-        }
-    }
-}
 
 @media only screen and (min-width: 1024px){
 
@@ -878,76 +816,14 @@ span.link {
         }
     }
 
-    .page-block-content{
-
-        h2{
-            font-size: 6em;
-        }
-
-        h3{
-            font-size: 2em;
-        }
-
-        h4{
-            font-size: 2em;
-        }
-    }
-
-    .hero-img-wrapper{
-        width: 450px;
-        margin-right: 40px;
-    }
-
     .social-icons{
         font-size: 1.7em;
     }
-
-    // YT Video styles
-    // .video-wrapper{
-    //
-    //     position: relative;
-    // 	padding-bottom: 56.25%; /* 16:9 */
-    // 	padding-top: 25px;
-    // 	height: 0;
-    //     width: 100%;
-    //
-    //     iframe{
-    //         position: absolute;
-    //     	top: 0;
-    //     	left: 0;
-    //     	width: 100%;
-    //     	height: 100%;
-    //     }
-    // }
 
 }
 
 
 @media only screen and (min-width: 1700px){
-
-    .page-block-content{
-        h2{
-            font-size: 9em;
-        }
-
-        h3{
-            font-size: 3em;
-        }
-
-        h4{
-            font-size: 2.4em;
-        }
-    }
-
-    .hero-img-wrapper{
-        width: 690px;
-    }
-
-    #how-development, #how-copywriting{
-        h2{
-            font-size: 8em;
-        }
-    }
 
     .homepage-block div h3{
         font-size: 6em;
@@ -955,31 +831,6 @@ span.link {
 }
 
 @media only screen and (min-width: 1800px){
-
-    .page-block-content {
-        h2{
-            font-size: 10em;
-        }
-
-        h3{
-            font-size: 3.3em;
-        }
-
-        h4{
-            font-size: 2.8em;
-        }
-
-    }
-
-    .hero-img-wrapper{
-        width: 700px;
-    }
-
-    #how-development, #how-copywriting{
-        h2{
-            font-size: 8.3em;
-        }
-    }
 
     .popup-close{
         margin: 80px 80px 0 0;
@@ -999,19 +850,5 @@ span.link {
     .subheader{
         font-size: 2.7em;
         letter-spacing: 7px;
-    }
-
-    .page-block-content h2{
-        font-size: 10em;
-    }
-
-    .hero-img-wrapper{
-        width: 780px;
-    }
-
-    #how-development, #how-copywriting{
-        h2{
-            font-size: 9.7em;
-        }
     }
 }
