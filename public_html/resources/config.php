@@ -1,12 +1,9 @@
 <?php
 
+
 $config = array(
     "paths" => array(
         "resources" => "/../resources",
-        "images" => array(
-            "content" => $_SERVER["DOCUMENT_ROOT"] . "/images/content",
-            "layout" => $_SERVER["DOCUMENT_ROOT"] . "/images/layout"
-        )
     )
 );
 

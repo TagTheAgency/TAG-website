@@ -59,21 +59,27 @@ $(function() {
 		$(this).find("img").attr("src","img/layout/eyes-closed.png");
 	});
 
-	// Content Page popups
-
+	// Popup Overlay
 	$('[data-popup-open]').click(function(){
 		$.scrollify.disable()
 		var targeted_popup_class = $(this).attr('data-popup-open');
 		$('[data-popup="' + targeted_popup_class + '"]').fadeIn(350).css('display','flex');
-		preventDefault();
+		$("body").css('overflow','hidden');
 	});
 	$('[data-popup-close]').click(function(){
 		var targeted_popup_class = $(this).attr('data-popup-close');
 		$('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
+		$("body").css('overflow','auto');
+
+		// Stop Youtube videos
+		var video = $(this).find('iframe').attr("src");
+		$(this).find('iframe').attr("src","");
+		$(this).find('iframe').attr("src",video);
+
 		$.scrollify.enable()
-		preventDefault();
 	});
 
+	// Homepage section link hover
 	$(".link-hover").hover(function(){
 		$(this).find('.fa-chevron-right').removeClass('link-hover-arrow');
 	},function(){
@@ -87,7 +93,51 @@ $(function() {
 		$('.submit-btn span').css('width','0%');
 	});
 
-	fixContrast();
+	// Nav effect on scroll
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 50) {
+			$('.nav-container').css('padding','1em 4em');
+			$('.nav-container .logo-wrapper').css('width','85px');
+		} else{
+			$('.nav-container').css('padding','2em 4em');
+			$('.nav-container .logo-wrapper').css('width','100px');
+		}
+	});
 
+	$("#top-btn").click(function(){
+		$("html").animate({scrollTop: 0}, 900);
+		// return false;
+	});
+
+	// Slideshow
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	// Next/previous controls
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+
+	function showSlides(n) {
+	  var i;
+	  var slides = $(".slide-image");
+	  if (n > slides.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+		  slides[i].style.display = "none";
+	  }
+	  slides[slideIndex-1].style.display = "block";
+	}
+
+	$(".next").click(function(){
+		plusSlides(1);
+
+	});
+
+	$(".prev").click(function(){
+		plusSlides(-1);
+	});
+
+	fixContrast();
 
 });
