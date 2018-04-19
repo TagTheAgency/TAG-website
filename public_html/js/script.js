@@ -104,38 +104,9 @@ $(function() {
 		}
 	});
 
+	// Scroll to top
 	$("#top-btn").click(function(){
 		$("html").animate({scrollTop: 0}, 900);
-		// return false;
-	});
-
-	// Slideshow
-	var slideIndex = 1;
-	showSlides(slideIndex);
-
-	// Next/previous controls
-	function plusSlides(n) {
-	  showSlides(slideIndex += n);
-	}
-
-	function showSlides(n) {
-	  var i;
-	  var slides = $(".slide-image");
-	  if (n > slides.length) {slideIndex = 1}
-	  if (n < 1) {slideIndex = slides.length}
-	  for (i = 0; i < slides.length; i++) {
-		  slides[i].style.display = "none";
-	  }
-	  slides[slideIndex-1].style.display = "block";
-	}
-
-	$(".next").click(function(){
-		plusSlides(1);
-
-	});
-
-	$(".prev").click(function(){
-		plusSlides(-1);
 	});
 
 	fixContrast();

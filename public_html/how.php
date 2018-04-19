@@ -70,7 +70,7 @@
 				<h2>Copywriting</h2>
 				<h3>STORIES START WITH A PLAN</h3>
 				<p>Stunning superlatives to sweet as scripts TAG The Agency can help you build your brand through the words you write, from a post on Facebook to the copy on your website, we collaborate with you to craft and create words and messaging that impact your consumers.</p>
-				<div class="btn content-btn">Take A Peek <span class="hover-bar"></span></div>
+				<div class="btn content-btn" data-popup-open="popup-copywriting">Take A Peek <span class="hover-bar"></span></div>
 			</div>
 		</div>
 	</div>
@@ -83,7 +83,8 @@
 				<h2>Design</h2>
 				<h3>STORIES START WITH A PLAN</h3>
 				<p>Everything should be created with intention, the intention to inspire an action. From web design to Smart Phone Apps, design thinking should lead putting the consumer at the front of everything, simply. We can help you to make the complex simple, collaborating to create <br>design with intention.</p>
-				<div class="btn content-btn">Take A Peek <span class="hover-bar"></span></div>
+				<div class="btn content-btn"><a href="https://www.behance.net/TAGTheAgency
+" target="_blank">Take A Peek</a> <span class="hover-bar"></span></div>
 			</div>
 		</div>
 	</div>
@@ -103,14 +104,14 @@
 	</div>
 	<div id="how-development" class="flex-row sml-row reverse blue how-section">
 		<div class="flex-col">
-			<img src="img/backgrounds/how-development-alt.png" alt="design section image">
+			<img src="img/backgrounds/how-development-alt.png" alt="development section image">
 		</div>
 		<div class="flex-col">
 			<div class="info">
 				<h2>Development</h2>
 				<h3>STORIES START WITH A PLAN</h3>
 				<p>it’s amazing what is possible on the Internet, at TAG The Agency our development team specialises in building digital brand solutions. What this means is the team can help build campaign-landing pages, Facebook apps, as well as interactive to enterprise websites.  We focus on making the development world of brand engagement simple and free of jargon.</p>
-				<div class="btn content-btn" data-popup-open="popup-advertising">Take A Peek <span class="hover-bar"></span></div>
+				<div class="btn content-btn" data-popup-open="popup-development">Take A Peek <span class="hover-bar"></span></div>
 			</div>
 		</div>
 	</div>

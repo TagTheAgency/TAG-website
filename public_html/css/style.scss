@@ -681,7 +681,6 @@ span.link {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
     margin-bottom: 0.5em;
 
     img{
@@ -698,7 +697,7 @@ span.link {
 // SLIDESHOW
 // ==========================================
 .slideshow-container{
-    max-width: 1400px;
+    // max-width: 1400px;
     max-height: 1000px;
     position: relative;
 }
@@ -707,7 +706,7 @@ span.link {
     display: none;
 }
 
-.landscape{
+.landscape, .portrait{
     width: 100%;
     height: auto;
 
@@ -716,15 +715,15 @@ span.link {
         height: auto;
     }
 }
-
-.portrait{
-    height: 600px;
-
-    img{
-        height: 100%;
-        width: auto;
-    }
-}
+//
+// .portrait{
+//     height: 600px;
+//
+//     img{
+//         height: 100%;
+//         width: auto;
+//     }
+// }
 
 .prev, .next {
   cursor: pointer;
@@ -857,12 +856,6 @@ footer{
 
 @media only screen and (min-width: 600px){
 
-    .navigation{
-        display: block;
-    }
-
-    // LARGE SCREEN STYLES START HERE
-
     h2{
         font-size: 6.2em;
     }
@@ -987,6 +980,15 @@ footer{
         width: 320px;
     }
 
+    .portrait{
+        height: 600px;
+
+        img{
+            height: 100%;
+            width: auto;
+        }
+    }
+
 }
 
 @media only screen and (max-height: 500px) and (min-width: 300px){
@@ -1035,6 +1037,17 @@ footer{
 }
 
 @media only screen and (min-width: 1000px){
+
+    .how-slideshow{
+        .popup-content-wrapper{
+            max-width: 900px;
+        }
+    }
+
+
+    .navigation{
+        display: block;
+    }
 
     .mobile-navigation{
         display: none;
@@ -1270,6 +1283,17 @@ footer{
     .who-image-wrap img{
         width: 100%;
     }
+
+    .how-slideshow{
+        .slideshow-container{
+            max-height: 700px;
+            overflow: hidden;
+        }
+
+        .popup-content-wrapper{
+            max-width: 700px;
+        }
+    }
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1190px){
@@ -1431,6 +1455,17 @@ footer{
 }
 
 @media only screen and (min-width: 1400px){
+
+    .how-slideshow{
+        .slideshow-container{
+            max-height: 1000px;
+            overflow: hidden;
+        }
+
+        .popup-content-wrapper{
+            max-width: 1000px;
+        }
+    }
 
     .logo{
         width: 220px;

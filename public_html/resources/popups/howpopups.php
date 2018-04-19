@@ -58,49 +58,49 @@
 		</div>
 	</div>
 </div>
-<div class="popup how-popup" data-popup="popup-imagery">
+<div class="popup how-popup how-slideshow" data-popup="popup-imagery">
 	<div class="popup-close" data-popup-close="popup-imagery"><i class="fas fa-times"></i></div>
 	<div class="popup-content-wrapper">
 		<div class="popup-logo">
 			<a href="./index.php"><img src="img/content/logo-white.png" alt="TAG Logo"></a>
 		</div>
-		<div class="slideshow-container">
-			<div class="slide-image slides-1 fade landscape">
+		<div class="slideshow-container slide-imagery">
+			<div class="slide-image slides1 fade landscape">
 				<img src="img/content/how/image-01.jpg">
 				<div class="slide-number">
 					<h2>Imagery</h2>
 					<span>1 / 6</span>
 				</div>
 			</div>
-			<div class="slide-image slides-1 fade landscape">
+			<div class="slide-image slides1 fade landscape">
 				<img src="img/content/how/image-02.jpg">
 				<div class="slide-number">
 					<h2>Imagery</h2>
 					<span>2 / 6</span>
 				</div>
 			</div>
-			<div class="slide-image slides-1 fade portrait">
+			<div class="slide-image slides1 fade portrait">
 				<img src="img/content/how/image-03.jpg">
 				<div class="slide-number">
 					<h2>Imagery</h2>
 					<span>3 / 6</span>
 				</div>
 			</div>
-			<div class="slide-image slides-1 fade portrait">
+			<div class="slide-image slides1 fade portrait">
 				<img src="img/content/how/image-04.png">
 				<div class="slide-number">
 					<h2>Imagery</h2>
 					<span>4 / 6</span>
 				</div>
 			</div>
-			<div class="slide-image slides-1 fade landscape">
+			<div class="slide-image slides1 fade landscape">
 				<img src="img/content/how/image-05.png">
 				<div class="slide-number">
 					<h2>Imagery</h2>
 					<span>5 / 6</span>
 				</div>
 			</div>
-			<div class="slide-image slides-1 fade landscape">
+			<div class="slide-image slides1 fade landscape">
 				<img src="img/content/how/image-06.png">
 				<div class="slide-number">
 					<h2>Imagery</h2>
@@ -110,33 +110,41 @@
 			<!-- <div class="popup-gallery-info">
 				<h2>Imagery</h2>
 			</div> -->
-			<a class="prev">&#10094;</a>
- 			<a class="next">&#10095;</a>
+			<div class="prev" onclick="plusDivs(-1, 0)">&#10094;</div>
+		    <div class="next" onclick="plusDivs(1, 0)">&#10095;</div>
 		</div>
-		<!-- <div class="slideshow-container">
-			<div class="slide-image slides-2 fade landscape">
-				<img src="img/content/how/image-01.jpg">
+	</div>
+</div>
+<div class="popup how-popup how-slideshow" data-popup="popup-copywriting">
+	<div class="popup-close" data-popup-close="popup-copywriting"><i class="fas fa-times"></i></div>
+	<div class="popup-content-wrapper">
+		<div class="popup-logo">
+			<a href="./index.php"><img src="img/content/logo-white.png" alt="TAG Logo"></a>
+		</div>
+		<div class="slideshow-container slide-copywriting">
+			<div class="slide-image slides2 fade landscape">
+				<img src="img/content/copywriting/image-01.jpg">
 				<div class="slide-number">
-					<h2>Imagery</h2>
-					<span>1 / 6</span>
+					<h2>Copywriting</h2>
+					<span>1 /3</span>
 				</div>
 			</div>
-			<div class="slide-image slides-2 fade landscape">
-				<img src="img/content/how/image-02.jpg">
+			<div class="slide-image slides2 fade landscape">
+				<img src="img/content/copywriting/image-02.jpg">
 				<div class="slide-number">
-					<h2>Imagery</h2>
-					<span>2 / 6</span>
+					<h2>Copywriting</h2>
+					<span>2 /3</span>
 				</div>
 			</div>
-			<div class="slide-image slides-2 fade portrait">
-				<img src="img/content/how/image-03.jpg">
+			<div class="slide-image slides2 fade landscape">
+				<img src="img/content/copywriting/image-03.jpg">
 				<div class="slide-number">
-					<h2>Imagery</h2>
-					<span>3 / 6</span>
+					<h2>Copywriting</h2>
+					<span>3 /3</span>
 				</div>
 			</div>
-			<a class="prev">&#10094;</a>
- 			<a class="next">&#10095;</a>
-		</div> -->
+			<div class="prev" onclick="plusDivs(-1, 1)">&#10094;</div>
+		    <div class="next" onclick="plusDivs(1, 1)">&#10095;</div>
+		</div>
 	</div>
 </div>
