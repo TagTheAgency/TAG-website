@@ -40,12 +40,14 @@ $(function() {
 	}
 
 	$("#mobile-menu-icon").click(function(){
+			$.scrollify.disable()
 			$(".mobile-menu-wrapper").fadeIn();
-			$("body").css('','')
+			$("body").css('','');
 	});
 
 	$("#close-menu").click(function(){
 			$(".mobile-menu-wrapper").fadeOut();
+			$.scrollify.enable()
 	});
 
 	// Hover effect for links/nav
@@ -53,20 +55,19 @@ $(function() {
 		if( !$(this).hasClass("active-page") ){
 			$(this).find('.hover-bar').css("width","100%");
 		}
-		$(this).find("img").attr("src","img/layout/eyes-open.png");
 	}, function(){
 		$(this).find('.hover-bar').css("width","0");
-		$(this).find("img").attr("src","img/layout/eyes-closed.png");
 	});
 
 	// Popup Overlay
 	$('[data-popup-open]').click(function(){
-		$.scrollify.disable()
+		$.scrollify.disable();
 		var targeted_popup_class = $(this).attr('data-popup-open');
 		$('[data-popup="' + targeted_popup_class + '"]').fadeIn(350).css('display','flex');
 		$("body").css('overflow','hidden');
 	});
 	$('[data-popup-close]').click(function(){
+		$(".mobile-menu-wrapper").fadeOut();
 		var targeted_popup_class = $(this).attr('data-popup-close');
 		$('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
 		$("body").css('overflow','auto');
@@ -76,7 +77,7 @@ $(function() {
 		$(this).find('iframe').attr("src","");
 		$(this).find('iframe').attr("src",video);
 
-		$.scrollify.enable()
+		$.scrollify.enable();
 	});
 
 	// Homepage section link hover
@@ -91,6 +92,10 @@ $(function() {
 		$('.submit-btn span').css('width','100%');
 	}, function(){
 		$('.submit-btn span').css('width','0%');
+	});
+
+	$(".contact-form").submit(function(){
+		alert('Your email has been sent. Thank you.');
 	});
 
 	// Nav effect on scroll

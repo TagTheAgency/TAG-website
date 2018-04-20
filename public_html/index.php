@@ -1,6 +1,7 @@
 <?php
 	// Load up the config file
 	require_once("resources/config.php");
+	$activePage = "Home";
 	require_once(TEMPLATES_PATH . "/header.php");
 	require_once(TEMPLATES_PATH . "/homepage-nav.php");
 ?>
@@ -19,7 +20,7 @@
 		</div>
 	</div>
 	<div class="homepage-block yellow shadow light" data-section-name="what">
-		<div class="homepage-block-child">
+		<div class="homepage-block-child pointer" data-popup-open="popup-portfolio">
 			<h2>What</h2>
 			<p class="subheader">What stories we tell</p>
 		</div>
@@ -34,8 +35,10 @@
 	</div>
 	<div class="homepage-block blue shadow" data-section-name="who">
 		<div class="homepage-block-child">
-			<h2>Who</h2>
-			<p class="subheader link-hover">Who tell the stories <i class="fas fa-chevron-right link-hover-arrow"></i></p>
+			<a class="link-hover" href="who.php">
+				<h2>Who</h2>
+				<p class="subheader link-hover">Who tell the stories <i class="fas fa-chevron-right link-hover-arrow"></i></p>
+			</a>
 		</div>
 	</div>
 	<div class="homepage-block get-in-touch white shadow light" data-section-name="getintouch">

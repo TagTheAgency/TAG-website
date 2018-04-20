@@ -21,10 +21,10 @@
 		<i class="fas fa-times"></i>
 	</div>
 	<ul class="mobile-menu">
-		<li><a href="./index.php">Home</a></li>
-		<li>Stategy</li>
-		<li><a href="./how.php">How</a></li>
-		<li>Who</li>
-		<li>Get In Touch</li>
+		<li <?php if ($activePage == "Home"){?> class="active-page" <?php } ?>><a href="./index.php">Home</a></li>
+		<li <?php if ($activePage == "What"){?> class="active-page" <?php } ?>><a href="./what.php">What</a></li>
+		<li <?php if ($activePage == "How"){?> class="active-page" <?php } ?>><a href="./how.php">How</a></li>
+		<li <?php if ($activePage == "Who"){?> class="active-page" <?php } ?>><a href="./who.php">Who</a></li>
+		<li class="pointer" data-popup-open="popup-1">Get In Touch</li>
 	</ul>
 </div>

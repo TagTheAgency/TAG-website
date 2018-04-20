@@ -21,6 +21,15 @@
 					</div>
 				</div>
 			</div>
+			<div class="popup portfolio" data-popup="popup-portfolio">
+				<div class="popup-close" data-popup-close="popup-portfolio"><i class="fas fa-times"></i></div>
+				<div class="popup-content-wrapper" data-popup-close="popup-portfolio">
+					<div class="popup-logo">
+						<a href="./index.php"><img src="img/content/logo-white.png" alt="TAG Logo"></a>
+					</div>
+					<iframe src="https://e.issuu.com/issuu-reader3-embed-files/1402/iframe-embed.html?identifier=xflcm7puwxkb&amp;hostUrl=http%3A%2F%2Ftomreidy.com%2F&amp;hostReferrer&amp;embedType=script&amp;u=tomreidy&amp;d=tag_portfolio_-_value_proposition_-&amp;p=1" style="border:none;width: 100%;min-height: 350px;" title="issuu.com" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" msallowfullscree=""></iframe>
+				</div>
+			</div>
 		</footer>
 		<?php require_once(TEMPLATES_PATH . "/contact-form.php") ?>
 		<!-- Gallery Script -->
