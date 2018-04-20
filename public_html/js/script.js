@@ -94,8 +94,22 @@ $(function() {
 		$('.submit-btn span').css('width','0%');
 	});
 
-	$(".contact-form").submit(function(){
-		alert('Your email has been sent. Thank you.');
+	$('.contact-region div').click(function(){
+		$('.contact-region div').removeClass('active-region');
+		$(this).addClass('active-region');
+	});
+
+	$('.contact-form').submit(function(){
+		$(this).addClass('submitted');
+		$('#submit-btn').val('FORM SUBMITTED').css({'background-color':'#f5ed2d','color':'#000000','border-color':'#f5ed2d'});
+	})
+
+	$('.nz').click(function(){
+		$('#region').val('nz');
+	});
+
+	$('.aus').click(function(){
+		$('#region').val('aus');
 	});
 
 	// Nav effect on scroll

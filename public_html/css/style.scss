@@ -362,6 +362,14 @@ span.link {
     color: #fff;
 }
 
+.hover{
+    transition-duration: 200ms;
+
+    &:hover{
+        opacity: 0.2;
+    }
+}
+
 // ==========================================
 // LAYOUT
 // ==========================================
@@ -476,6 +484,7 @@ span.link {
     width: 70%;
     margin: auto;
     text-align: center;
+    transition-duration: 400ms;
 }
 
 .form-section{
@@ -640,6 +649,25 @@ span.link {
     }
 }
 
+.contact-region{
+    div{
+        opacity: 0.3;
+
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
+
+.active-region{
+    opacity: 1 !important;
+}
+
+.submitted{
+    opacity: 0.4;
+    pointer-events: none;
+}
+
 // ==========================================
 // CONTENT PAGES
 // ==========================================
@@ -695,6 +723,31 @@ span.link {
 
 .who-info{
     text-align: left;
+}
+
+
+// ==========================================
+// CONTACT FORM
+// ==========================================
+
+.contact-region{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2em;
+
+    div{
+        margin: 0 1em;
+        cursor: pointer;
+        transition: 400ms;
+        margin: 0 20px;
+    }
+
+    img{
+        width: 100px;
+        height: auto;
+    }
 }
 
 // ==========================================
@@ -793,6 +846,14 @@ footer{
     .footer-container{
         width: 80%;
         margin: auto;
+        cursor: pointer;
+
+        li{
+            transition-duration: 200ms;
+            &:hover{
+                opacity: 0.2;
+            }
+        }
     }
 
     .flex-btm{
@@ -1266,6 +1327,31 @@ footer{
 
     .portfolio iframe{
         height: 800px;
+    }
+
+    .contact-title{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact-region{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 2em;
+
+        div{
+            margin: 0 1em;
+            cursor: pointer;
+            transition: 400ms;
+        }
+
+        img{
+            width: 100px;
+            height: auto;
+        }
     }
 }
 

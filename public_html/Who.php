@@ -84,6 +84,12 @@
 				<p>Front-end Developer</p>
 			</div>
 		</div>
+		<div class="flex-col who-block">
+			<div class="who-image-wrap">
+			</div>
+			<div class="who-info">
+			</div>
+		</div>
 	</div>
 </div>
 <?php require_once(TEMPLATES_PATH . "/footer.php"); ?>

@@ -1,6 +1,6 @@
 		<footer>
 			<div class="flex-row contact-block">
-				<div class="flex-col popup-trigger" data-popup-open="popup-1">
+				<div class="hover flex-col popup-trigger" data-popup-open="popup-1">
 					<h4>Get In Touch</h4>
 					<p>UNICORN@TAGTHEAGENCY.COM</p>
 				</div>
@@ -57,5 +57,6 @@
 		<script src="js/jquery-3.3.1.min.js"></script>
 		<script src="js/scrollify.js"></script>
 		<script src="js/script.js"></script>
+		<script src="js/app.js"></script>
 	</body>
 </html>
