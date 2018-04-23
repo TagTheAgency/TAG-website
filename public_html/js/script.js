@@ -106,10 +106,14 @@ $(function() {
 
 	$('.nz').click(function(){
 		$('#region').val('nz');
+		$("#nz-img").attr('src','img/layout/n-hover.png');
+		$("#aus-img").attr('src','img/layout/au.png');
 	});
 
 	$('.aus').click(function(){
 		$('#region').val('aus');
+		$("#nz-img").attr('src','img/layout/n.png');
+		$("#aus-img").attr('src','img/layout/au-hover.png');
 	});
 
 	// Nav effect on scroll

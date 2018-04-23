@@ -555,11 +555,11 @@ span.link {
 
 .popup-close{
     color: #000;
-    font-size: 1em;
-    margin: 35px 35px 0 0;
+    font-size: 0.8em;
+    margin: 18px 18px 0 0;
     position: absolute;
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
     background-color: $yellow;
     display: flex;
@@ -657,11 +657,25 @@ span.link {
             opacity: 1;
         }
     }
+
+    img{
+        display: none;
+    }
+
+    p{
+        background-color: $yellow;
+        color: #000000;
+        margin-top: 5px;
+        padding: 6px 15px;
+        border-radius: 4px;
+    }
 }
 
 .active-region{
     opacity: 1 !important;
 }
+
+
 
 .submitted{
     opacity: 0.4;
@@ -735,7 +749,7 @@ span.link {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 2em;
+    margin-top: 0.2em;
 
     div{
         margin: 0 1em;
@@ -747,6 +761,10 @@ span.link {
     img{
         width: 100px;
         height: auto;
+    }
+
+    p{
+        font-size: 0.7em;
     }
 }
 
@@ -773,15 +791,6 @@ span.link {
         height: auto;
     }
 }
-//
-// .portrait{
-//     height: 600px;
-//
-//     img{
-//         height: 100%;
-//         width: auto;
-//     }
-// }
 
 .prev, .next {
   cursor: pointer;
@@ -1064,6 +1073,21 @@ footer{
         font-size: 16px;
     }
 
+    .popup-close{
+        font-size: 1em;
+        margin: 35px 35px 0 0;
+        height: 30px;
+        width: 30px;
+    }
+
+    .contact-region{
+        margin-top: 1.5em;
+
+        p{
+            font-size: 1em;
+        }
+    }
+
 }
 
 @media only screen and (max-height: 500px) and (min-width: 300px){
@@ -1107,6 +1131,17 @@ footer{
     .who-block, .who-image-wrap{
         width: 170px;
         height: 170px
+    }
+
+    .contact-region{
+        p{
+            background-color: transparent;
+            color: #fff;
+        }
+
+        img{
+            display: flex;
+        }
     }
 
 }

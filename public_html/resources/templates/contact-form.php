@@ -5,13 +5,16 @@
 			<h3>Get In Touch</h3>
 			<div class="contact-region">
 				<div class="nz active-region">
-					<img src="img/layout/nz.png" alt="nz icon">
+					<img id="nz-img" src="img/layout/n-hover.png" alt="nz icon">
+					<p>New Zealand</p>
 				</div>
 				<div class="aus">
-					<img src="img/layout/aus.png" alt="aus icon">
+					<img id="aus-img" src="img/layout/au.png" alt="aus icon">
+					<p>Australia</p>
 				</div>
 			</div>
 		</div>
+
 		<form method="POST" id="contactform" class="contact-form" name="contactform" action="mailer.php">
 			<input id="region" type="hidden" name="region" value="nz">
 			<div class="form-section">
