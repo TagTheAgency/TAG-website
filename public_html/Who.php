@@ -57,7 +57,7 @@
 		</div>
 		<div class="flex-col who-block">
 			<div class="who-image-wrap">
-				<img src="img/content/team/image.jpg" alt="who image">
+				<img src="img/content/team/team-rosa.jpg" alt="who image">
 			</div>
 			<div class="who-info">
 				<h3>Rosa Santana Alonso</h3>
@@ -68,7 +68,7 @@
 	<div class="flex-row">
 		<div class="flex-col who-block">
 			<div class="who-image-wrap">
-				<img src="img/content/team/image.jpg" alt="who image">
+				<img src="img/content/team/team-earl.jpg" alt="who image">
 			</div>
 			<div class="who-info">
 				<h3>Earl Patterson</h3>

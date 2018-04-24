@@ -3,19 +3,20 @@
 		<div class="popup-close" data-popup-close="popup-1"><i class="fas fa-times"></i></div>
 		<div class="contact-title">
 			<h3>Get In Touch</h3>
+			<p class="region-help">Please select a region</p>
 			<div class="contact-region">
-				<div class="nz active-region">
-					<img id="nz-img" src="img/layout/n-hover.png" alt="nz icon">
-					<p>New Zealand</p>
+				<div class="nz region-select">
+					<img id="nz-img" src="img/layout/n.png" alt="nz icon">
+					<p>New Zealand <span class="hover-bar"></span></p>
 				</div>
-				<div class="aus">
+				<div class="aus region-select">
 					<img id="aus-img" src="img/layout/au.png" alt="aus icon">
-					<p>Australia</p>
+					<p>Australia <span class="hover-bar"></span></p>
 				</div>
 			</div>
 		</div>
 
-		<form method="POST" id="contactform" class="contact-form" name="contactform" action="mailer.php">
+		<form method="POST" id="contactform" class="contact-form submitted" name="contactform" action="mailer.php">
 			<input id="region" type="hidden" name="region" value="nz">
 			<div class="form-section">
 				<input id="form-name" type="text" name="name" placeholder="NAME *" required>

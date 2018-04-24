@@ -51,7 +51,7 @@ $(function() {
 	});
 
 	// Hover effect for links/nav
-	$(".btn, li").hover(function(){
+	$(".btn, li, p, .contact-region div").hover(function(){
 		if( !$(this).hasClass("active-page") ){
 			$(this).find('.hover-bar').css("width","100%");
 		}
@@ -101,6 +101,7 @@ $(function() {
 
 	$('.contact-form').submit(function(){
 		$(this).addClass('submitted');
+		$('.contact-region').addClass('submitted');
 		$('#submit-btn').val('FORM SUBMITTED').css({'background-color':'#f5ed2d','color':'#000000','border-color':'#f5ed2d'});
 	})
 
@@ -108,12 +109,39 @@ $(function() {
 		$('#region').val('nz');
 		$("#nz-img").attr('src','img/layout/n-hover.png');
 		$("#aus-img").attr('src','img/layout/au.png');
+		$(this).addClass('active-region').removeClass('inactive');
+		$('.aus').removeClass('active-region').addClass('inactive');
 	});
 
 	$('.aus').click(function(){
 		$('#region').val('aus');
 		$("#nz-img").attr('src','img/layout/n.png');
 		$("#aus-img").attr('src','img/layout/au-hover.png');
+		$(this).addClass('active-region').removeClass('inactive');;
+		$('.nz').removeClass('active-region').addClass('inactive');
+	});
+
+	$('.nz, .aus').click(function(){
+		$('.nz, .aus').removeClass('region-select');
+		$('.contact-form').removeClass('submitted');
+		$("#form-name").focus();
+	})
+
+	$('.nz, .aus').hover(function(){
+		if(!$(this).hasClass('active-region')){
+			$(this).removeClass('inactive');
+		}
+	}, function(){
+		if(!$(this).hasClass('active-region')){
+			$(this).addClass('inactive');
+		}
+	})
+
+	$('.product').hover(function(){
+		$('.product').css('opacity','0.2');
+		$(this).css('opacity','1');
+	}, function(){
+		$('.product').css('opacity','1');
 	});
 
 	// Nav effect on scroll

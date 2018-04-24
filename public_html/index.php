@@ -41,6 +41,77 @@
 			</a>
 		</div>
 	</div>
+	<div class="homepage-block tag-products landing dark" data-section-name="products">
+		<div class="homepage-block-child product-block">
+			<div class="product-block-info">
+				<h3>Tag Products</h3>
+				<p>We have built a number of solutions, some for fun and some that serve a specific purpose in the world of digital and social media communication, the following gives you an idea, click on the icons to visit each of the product sites</p>
+			</div>
+			<div class="products-container">
+				<div class="product-group">
+					<a href="http://facebookapps.tagtheagency.com/" target="_blank">
+						<div class="product">
+							<img src="img/content/products/catch.png" alt="Catch icon">
+							<div class="product-info">
+								<h4>CATCH</h4>
+								<p>Facebook campaigns to catch data and win customers.</p>
+							</div>
+						</div>
+					</a>
+					<a href="http://facebookapps.tagtheagency.com/" target="_blank">
+					<div class="product">
+						<img src="img/content/products/dash.png" alt="Dash Icon">
+						<div class="product-info">
+							<h4>DASH</h4>
+							<p>A quick dash of inspiration to get you in the game</p>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="product-group">
+					<a href="http://facebookapps.tagtheagency.com/" target="_blank">
+						<div class="product">
+							<img src="img/content/products/gaze.png" alt="Gaze icon">
+							<div class="product-info">
+								<h4>GAZE</h4>
+								<p>Immerse your spectators in the world of your brand.</p>
+							</div>
+						</div>
+					</a>
+					<a href="http://facebookapps.tagtheagency.com/" target="_blank">
+						<div class="product">
+							<img src="img/content/products/relay.png" alt="Relay icon">
+							<div class="product-info">
+								<h4>RELAY</h4>
+								<p>Seamless customer service through Facebook Messenger, AI and Email.</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="product-group">
+					<a href="http://facebookapps.tagtheagency.com/" target="_blank">
+						<div class="product">
+							<img src="img/content/products/hype.png" alt="Hype icon">
+							<div class="product-info">
+								<h4>HYPE</h4>
+								<p>Assisted support for digital and social media advertising.</p>
+							</div>
+						</div>
+					</a>
+					<a href="http://facebookapps.tagtheagency.com/" target="_blank">
+						<div class="product">
+							<img src="img/content/products/snap.png" alt="Snap icon">
+							<div class="product-info">
+								<h4>SNAP</h4>
+								<p>Batch watermarking made easy, leave you mark on what you create, simply.</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
 	<div class="homepage-block get-in-touch white shadow light" data-section-name="getintouch">
 		<div class="homepage-block-child contact-block">
 			<h3 class"btn" data-popup-open="popup-1">Get In Touch</h3>
@@ -54,6 +125,7 @@
 		<li><a href="#what"><span class="hover-text">What</span></a></li>
 		<li><a href="#how"><span class="hover-text">How</span></a></li>
 		<li><a href="#who"><span class="hover-text">Who</span></a></li>
+		<li><a href="#products"><span class="hover-text">Tag Products</span></a></li>
 		<li><a href="#getintouch"><span class="hover-text">Get in touch</span></a></li>
 		<li><img class="mouse-icon" src="img/layout/mouse-icon.png" alt="mouse scroll icon"></li>
 	</ul>
