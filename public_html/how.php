@@ -23,7 +23,7 @@
 	</div>
 	<div id="how-creative" class="flex-row sml-row light-section reverse how-section blue">
 		<div class="flex-col">
-			<img src="img/backgrounds/how-advertising.png" alt="strat image">
+			<img src="img/backgrounds/how-creative.png" alt="strat image">
 		</div>
 		<div class="flex-col">
 			<div class="info">

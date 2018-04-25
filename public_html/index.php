@@ -21,8 +21,10 @@
 	</div>
 	<div class="homepage-block yellow shadow light" data-section-name="what">
 		<div class="homepage-block-child pointer" data-popup-open="popup-portfolio">
-			<h2>What</h2>
-			<p class="subheader">What stories we tell</p>
+			<div class="link-hover">
+				<h2>What</h2>
+				<p class="subheader">What stories we tell <i class="fas fa-chevron-right link-hover-arrow"></i></p>
+			</div>
 		</div>
 	</div>
 	<div class="homepage-block pink shadow" data-section-name="how">
@@ -109,13 +111,12 @@
 					</a>
 				</div>
 			</div>
-
 		</div>
 	</div>
 	<div class="homepage-block get-in-touch white shadow light" data-section-name="getintouch">
-		<div class="homepage-block-child contact-block">
+		<div class="pointer homepage-block-child contact-block link-hover">
 			<h3 class"btn" data-popup-open="popup-1">Get In Touch</h3>
-			<p class="btn link-hover subheader" data-popup-open="popup-1">hello@tagtheagency.com <i class="fas fa-chevron-right link-hover-arrow"></i></p>
+			<p class="btn subheader" data-popup-open="popup-1">hello@tagtheagency.com <i class="fas fa-chevron-right link-hover-arrow"></i></p>
 		</div>
 	</div>
 	<!-- CONTACT FORM -->

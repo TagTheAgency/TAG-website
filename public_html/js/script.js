@@ -160,6 +160,11 @@ $(function() {
 		$("html").animate({scrollTop: 0}, 900);
 	});
 
+	// Go Back Button
+	$(".go-back").click(function(){
+		history.back()
+	});
+
 	fixContrast();
 
 });
