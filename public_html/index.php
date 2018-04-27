@@ -80,7 +80,7 @@
 							</div>
 						</div>
 					</a>
-					<a href="http://facebookapps.tagtheagency.com/" target="_blank">
+					<a href="http://localhost/dash/public_html/relay.htmlhttp://facebookapps.tagtheagency.com/" target="_blank">
 						<div class="product">
 							<img src="img/content/products/relay.png" alt="Relay icon">
 							<div class="product-info">
