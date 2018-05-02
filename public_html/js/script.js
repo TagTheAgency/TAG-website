@@ -158,12 +158,6 @@ $(function() {
 	$("#top-btn").click(function(){
 		$("html").animate({scrollTop: 0}, 900);
 	});
-	//
-	// $(".scroll-icon").click(function(){
-	// 	$("html, body").animate({
-	// 		scrollTop: $("#what").offset().top
-	// 	}, 500);
-	// });
 
 	// Go Back Button
 	$(".go-back").click(function(){
@@ -186,7 +180,7 @@ $(function() {
 	    while (divs.length) {
 	        parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
 	    }
-	});fffffddd
+	});
 
 	fixContrast();
 
