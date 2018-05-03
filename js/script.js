@@ -107,7 +107,7 @@
 			$('.contact-title').css('width','100%');
 			$('.form-container').fadeIn(200);
 		}, 400);
-	})
+	});
 
 	$('.nz').click(function(){
 		$('#region').val('nz');
@@ -192,7 +192,5 @@
 	        parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
 	    }
 	});
-
-	fixContrast();
 
 });

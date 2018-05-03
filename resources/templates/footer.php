@@ -53,8 +53,9 @@
 			}
 			if(!x[slideIndex[no]-1]){
 				return;
+			} else{
+				x[slideIndex[no]-1].style.display = "block";
 			}
-			x[slideIndex[no]-1].style.display = "block";
 		}
 		</script>
 		<script src="js/jquery-3.3.1.min.js"></script>
