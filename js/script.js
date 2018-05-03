@@ -175,7 +175,7 @@
 		history.back()
 	});
 
-	for (var i = 1; i < 48; i++) {
+	for (var i = 1; i < 50; i++) {
 		$('.mosaic-wrapper').append("<div class='mosaic-image'><img src='img/content/who/who-"+i+".jpg' alt='mosaic image "+i+"'></div>");
 	}
 

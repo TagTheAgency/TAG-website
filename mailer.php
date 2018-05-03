@@ -20,9 +20,9 @@
         }
 
 		if($region == "aus" ){
-			$recipient = "charlie@tagtheagency.com";
+			$recipient = "straya@tagtheagency.com";
 		} else if($region == "nz"){
-			$recipient = "charlie@tagtheagency.com";
+			$recipient = "nuzeelend@tagtheagency.com";
 		}
 
         // Set the email subject.
