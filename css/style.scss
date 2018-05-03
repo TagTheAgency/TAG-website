@@ -702,7 +702,7 @@ span.link {
 
 
 .submitted{
-    opacity: 0.3;
+    opacity: 0.1;
     pointer-events: none;
 }
 
@@ -1789,6 +1789,10 @@ footer{
             max-width: 700px;
         }
     }
+
+    .mosaic-image{
+        width: 20%;
+    }
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1190px){
@@ -1957,8 +1961,12 @@ footer{
         }
 
         .popup-content-wrapper{
-            max-width: 1000px;
+            max-width: 900px;
         }
+    }
+
+    .landscape{
+        max-width: 1300px;
     }
 
     .logo{
@@ -1997,6 +2005,10 @@ footer{
         height: 700px;
     }
 
+    .mosaic-image{
+        width: 14.2%;
+    }
+
 }
 
 @media only screen and (min-width: 1600px){
@@ -2030,6 +2042,16 @@ footer{
 
     .popup-content-wrapper, .popup-info{
         max-width: 1500px;
+    }
+
+    .how-slideshow{
+        .slideshow-container{
+            max-height: 1000px;
+        }
+
+        .popup-content-wrapper{
+            max-width: 1300px;
+        }
     }
 }
 
@@ -2092,6 +2114,10 @@ footer{
         }
 
         width: 1000px;
+    }
+
+    .mosaic-image{
+        width: 10%;
     }
 }
 

@@ -15,9 +15,11 @@
 			</div>
 			<p class="subheader">Digital storytellers for brands</p>
 		</div>
-		<div class="scroll-icon">
-			<img src="img/layout/arrow-down-white-01.png" alt="scroll icon">
-		</div>
+		<a href="#what">
+			<div class="scroll-icon">
+				<img src="img/layout/arrow-down-white-01.png" alt="scroll icon">
+			</div>
+		</a>
 	</div>
 	<div class="homepage-block yellow shadow light" data-section-name="what">
 		<div class="homepage-block-child pointer" data-popup-open="popup-portfolio">
@@ -60,7 +62,7 @@
 							</div>
 						</div>
 					</a>
-					<a href="http://facebookapps.tagtheagency.com/" target="_blank">
+					<a href="http://dash.tagtheagency.com/" target="_blank">
 					<div class="product">
 						<img src="img/content/products/dash.png" alt="Dash Icon">
 						<div class="product-info">
@@ -71,7 +73,7 @@
 					</a>
 				</div>
 				<div class="product-group">
-					<a href="http://facebookapps.tagtheagency.com/" target="_blank">
+					<a href="http://gaze.tagtheagency.com/" target="_blank">
 						<div class="product">
 							<img src="img/content/products/gaze.png" alt="Gaze icon">
 							<div class="product-info">
@@ -80,7 +82,7 @@
 							</div>
 						</div>
 					</a>
-					<a href="http://localhost/dash/public_html/relay.htmlhttp://facebookapps.tagtheagency.com/" target="_blank">
+					<a href="http://relay.tagtheagency.com/" target="_blank">
 						<div class="product">
 							<img src="img/content/products/relay.png" alt="Relay icon">
 							<div class="product-info">
@@ -91,7 +93,7 @@
 					</a>
 				</div>
 				<div class="product-group">
-					<a href="http://facebookapps.tagtheagency.com/" target="_blank">
+					<a href="http://hype.tagtheagency.com/" target="_blank">
 						<div class="product">
 							<img src="img/content/products/hype.png" alt="Hype icon">
 							<div class="product-info">
@@ -100,7 +102,7 @@
 							</div>
 						</div>
 					</a>
-					<a href="http://facebookapps.tagtheagency.com/" target="_blank">
+					<a href="http://snap.tagtheagency.com/" target="_blank">
 						<div class="product">
 							<img src="img/content/products/snap.png" alt="Snap icon">
 							<div class="product-info">

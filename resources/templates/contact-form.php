@@ -15,7 +15,6 @@
 				</div>
 			</div>
 		</div>
-
 		<form method="POST" id="contactform" class="contact-form submitted" name="contactform" action="mailer.php">
 			<input id="region" type="hidden" name="region" value="nz">
 			<div class="form-section">

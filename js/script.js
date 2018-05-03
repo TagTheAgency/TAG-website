@@ -1,4 +1,4 @@
-$(function() {
+ $(document).ready(function() {
 
 	// Global Variables
 	var popupContent;
@@ -98,10 +98,15 @@ $(function() {
 		$(this).addClass('active-region');
 	});
 
-	$('.contact-form').submit(function(){
-		$(this).addClass('submitted');
-		$('.contact-region').addClass('submitted');
-		$('#submit-btn').val('FORM SUBMITTED').css({'background-color':'#f5ed2d','color':'#000000','border-color':'#f5ed2d'});
+	$('.form-container').submit(function(){
+		$(this).fadeOut(200);
+		setTimeout(function(){
+			$('.contact-region, #contactform').hide();
+			$('.contact-title h3').html('Message Sent <i class="fas fa-check"></i>');
+			$('.region-help').text("We'll be in touch!");
+			$('.contact-title').css('width','100%');
+			$('.form-container').fadeIn(200);
+		}, 400);
 	})
 
 	$('.nz').click(function(){
@@ -159,11 +164,11 @@ $(function() {
 		$("html").animate({scrollTop: 0}, 900);
 	});
 	//
-	// $(".scroll-icon").click(function(){
-	// 	$("html, body").animate({
-	// 		scrollTop: $("#what").offset().top
-	// 	}, 500);
-	// });
+	$(".scroll-icon").click(function(){
+		$("html, body").animate({
+			scrollTop: $("#what").offset().top
+		}, 500);
+	});
 
 	// Go Back Button
 	$(".go-back").click(function(){
@@ -186,7 +191,7 @@ $(function() {
 	    while (divs.length) {
 	        parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
 	    }
-	});fffffddd
+	});
 
 	fixContrast();
 

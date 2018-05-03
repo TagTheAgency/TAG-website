@@ -8,6 +8,7 @@
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["message"]);
         $region = trim($_POST["region"]);
+        $phone = trim($_POST["phone"]);
 		$recipient;
 
         // Check that data was sent to the mailer.
@@ -19,9 +20,9 @@
         }
 
 		if($region == "aus" ){
-			$recipient = "australia@tagtheagency.com";
+			$recipient = "charlie@tagtheagency.com";
 		} else if($region == "nz"){
-			$recipient = "wellington@tagtheagency.com";
+			$recipient = "charlie@tagtheagency.com";
 		}
 
         // Set the email subject.
@@ -29,7 +30,9 @@
 
         // Build the email content.
         $email_content = "Name: $name\n";
-        $email_content .= "Email: $email\n\n";
+        $email_content .= "Email: $email\n";
+        $email_content .= "Phone Number: $phone\n\n";
+        $email_content .= "Country: $region\n\n";
         $email_content .= "Message:\n$message\n";
 
         // Build the email headers.
