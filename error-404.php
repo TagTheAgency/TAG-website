@@ -10,7 +10,7 @@
 			<h3>Error 404</h3>
 			<h4>Sorry, it looks like there's nothing here.</h4>
 			<ul>
-				<li class="btn hover"><a href="index.php">HOMEPAGE</a></li>
+				<li class="btn hover"><a href="/">HOMEPAGE</a></li>
 				<li class="btn hover go-back">GO BACK</li>
 			</ul>
 		</div>

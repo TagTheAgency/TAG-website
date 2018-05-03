@@ -31,7 +31,7 @@
 	</div>
 	<div class="homepage-block pink shadow" data-section-name="how">
 		<div class="homepage-block-child">
-			<a class="link-hover" href="how.php">
+			<a class="link-hover" href="/how/">
 				<h2>How</h2>
 				<p class="subheader">How the story is told <i class="fas fa-chevron-right link-hover-arrow"></i></p>
 			</a>
@@ -39,7 +39,7 @@
 	</div>
 	<div class="homepage-block blue shadow" data-section-name="who">
 		<div class="homepage-block-child">
-			<a class="link-hover" href="who.php">
+			<a class="link-hover" href="/who/">
 				<h2>Who</h2>
 				<p class="subheader link-hover">Who tell the stories <i class="fas fa-chevron-right link-hover-arrow"></i></p>
 			</a>
