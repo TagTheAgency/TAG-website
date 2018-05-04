@@ -1,6 +1,6 @@
 <?php
 	// Load up the config file
-	require_once("resources/config.php");
+	require_once("../resources/config.php");
 	require_once(TEMPLATES_PATH . "/header.php");
 	$activePage = "Who";
 	// require_once(TEMPLATES_PATH . "/homepage-nav.php");
@@ -44,7 +44,7 @@
 				<div class="who-col">
 					<span><i class="fas fa-user-circle"></i></span>
 					<h3>Rosa Santana Alonso</h3>
-					<p>SeniorDesigner</p>
+					<p>Senior Designer</p>
 				</div>
 				<div class="who-col">
 					<span><i class="fas fa-user-circle"></i></span>

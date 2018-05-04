@@ -6,11 +6,11 @@
 			<p class="region-help">Please select a region</p>
 			<div class="contact-region">
 				<div class="nz region-select">
-					<img id="nz-img" src="img/layout/n.png" alt="nz icon">
+					<img id="nz-img" src="/img/layout/n.png" alt="nz icon">
 					<p>New Zealand <span class="hover-bar"></span></p>
 				</div>
 				<div class="aus region-select">
-					<img id="aus-img" src="img/layout/au.png" alt="aus icon">
+					<img id="aus-img" src="/img/layout/au.png" alt="aus icon">
 					<p>Australia <span class="hover-bar"></span></p>
 				</div>
 			</div>
