@@ -175,22 +175,5 @@
 		history.back()
 	});
 
-	for (var i = 1; i < 50; i++) {
-		$('.mosaic-wrapper').append("<div class='mosaic-image'><img src='img/content/who/who-"+i+".jpg' alt='mosaic image "+i+"'></div>");
-	}
-
-	// Resize who page mosaic images
-	setInterval(function () {
-		mosaicWidth = $('.mosaic-image').width();
-		$('.mosaic-image').css('height',mosaicWidth);
-	}, 0);
-
-	$(function () {
-	    var parent = $(".mosaic-wrapper");
-	    var divs = parent.children();
-	    while (divs.length) {
-	        parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
-	    }
-	});
 
 });

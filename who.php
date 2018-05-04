@@ -59,6 +59,14 @@
 			</div>
 		</div>
 		<div class="mosaic-wrapper">
+			<?php
+			$numbers = range(1, 72);
+	    shuffle($numbers);
+			$numbers = array_slice($numbers, 0, 50);
+			foreach ($numbers as $number) {
+				echo "<div class='mosaic-image'><img src='/img/content/who/who-$number.jpg' alt='mosaic image $number'></div>";
+			}
+			 ?>
 		</div>
 	</div>
 </div>
