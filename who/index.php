@@ -1,6 +1,6 @@
 <?php
 	// Load up the config file
-	require_once("resources/config.php");
+	require_once("../resources/config.php");
 	require_once(TEMPLATES_PATH . "/header.php");
 	$activePage = "Who";
 	// require_once(TEMPLATES_PATH . "/homepage-nav.php");
