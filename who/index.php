@@ -1,6 +1,13 @@
 <?php
 	// Load up the config file
 	require_once("../resources/config.php");
+
+	$path = "../";
+	$requested_path = $_SERVER['REQUEST_URI'];
+	if (endsWith($requested_path, 'who')) {
+		$path = "./";
+	}
+
 	require_once(TEMPLATES_PATH . "/header.php");
 	$activePage = "Who";
 	// require_once(TEMPLATES_PATH . "/homepage-nav.php");
@@ -64,7 +71,7 @@
 	    shuffle($numbers);
 			$numbers = array_slice($numbers, 0, 50);
 			foreach ($numbers as $number) {
-				echo "<div class='mosaic-image'><img src='/img/content/who/who-$number.jpg' alt='mosaic image $number'></div>";
+				echo "<div class='mosaic-image'><img src='${path}img/content/who/who-$number.jpg' alt='mosaic image $number'></div>";
 			}
 			 ?>
 		</div>
