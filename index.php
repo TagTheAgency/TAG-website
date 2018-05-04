@@ -1,6 +1,13 @@
 <?php
 	// Load up the config file
 	require_once("resources/config.php");
+
+	$u_agent = $_SERVER['HTTP_USER_AGENT'];
+	if(preg_match('/MSIE/i',$u_agent)) {
+		require_once(TEMPLATES_PATH . "/ie.php");
+		return;
+	}
+	
 	$activePage = "Home";
 	$path="";
 	require_once(TEMPLATES_PATH . "/header.php");
