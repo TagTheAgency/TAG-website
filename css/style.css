@@ -510,7 +510,7 @@ span.link {
   border-color: #f5ed2d; }
 
 .submitted {
-  opacity: 0.3;
+  opacity: 0.1;
   pointer-events: none; }
 
 .product-block {
@@ -551,7 +551,9 @@ span.link {
   width: 100%;
   height: auto;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 1;
+  margin-top: 30px; }
 
 .mosaic-wrapper {
   display: flex;
@@ -567,27 +569,35 @@ span.link {
   background-color: #000000;
   justify-content: center;
   color: #fff;
-  z-index: 20; }
+  z-index: 2;
+  padding: 20px; }
 
 .mosaic-image {
   width: 33%;
   display: flex;
-  opacity: 0.2;
+  opacity: 0.35;
   align-items: center;
-  pointer-events: none; }
+  pointer-events: none;
+  overflow: hidden; }
   .mosaic-image img {
-    height: 100%;
+    min-height: 100%;
     width: 100%; }
 
 .who-container {
   margin: auto;
   padding-top: 7em; }
   .who-container .flex-row {
+    width: 70%;
+    margin: auto;
+    text-align: center;
     padding: 0;
     justify-content: center; }
     .who-container .flex-row h3 {
       display: block;
-      margin-bottom: 2px; }
+      font-size: 2em;
+      margin-bottom: 10px; }
+    .who-container .flex-row p {
+      font-size: 1.3em; }
 
 .team-info-container {
   max-width: 900px;
@@ -597,7 +607,7 @@ span.link {
 
 .who-flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
   width: 100%; }
 
@@ -752,7 +762,9 @@ footer {
     footer .contact-block p {
       font-size: 0.7em;
       letter-spacing: 0.2em;
-      font-weight: 600; }
+      font-weight: 600;
+      padding-left: 10px;
+      padding-right: 10px; }
   footer ul {
     max-width: 300px;
     margin: 0 auto;
@@ -952,11 +964,14 @@ footer {
     .who-col span {
       font-size: 6.3em; }
     .who-col h3 {
-      font-size: 2em; }
+      font-size: 1.7em; }
     .who-col p {
       font-size: 1.1em; }
 
   .hide-me-600 {
+    display: none; }
+
+  .scroll-icon {
     display: none; } }
 @media only screen and (max-height: 500px) and (min-width: 300px) {
   .navigation, .pagination {
@@ -1207,7 +1222,7 @@ footer {
     .who-col span {
       font-size: 6.7em; }
     .who-col h3 {
-      font-size: 2.3em; }
+      font-size: 1.3em; }
     .who-col p {
       font-size: 1.3em; } }
 @media only screen and (min-width: 800px) and (max-width: 999px) {
@@ -1230,7 +1245,10 @@ footer {
   .how-slideshow .slideshow-container {
     max-height: 700px; }
   .how-slideshow .popup-content-wrapper {
-    max-width: 700px; } }
+    max-width: 700px; }
+
+  .mosaic-image {
+    width: 20%; } }
 @media only screen and (min-width: 1000px) and (max-width: 1190px) {
   .sml-row .info {
     width: 500px;
@@ -1349,7 +1367,10 @@ footer {
   .how-slideshow .slideshow-container {
     max-height: 1000px; }
   .how-slideshow .popup-content-wrapper {
-    max-width: 1000px; }
+    max-width: 900px; }
+
+  .landscape {
+    max-width: 1300px; }
 
   .logo {
     width: 220px;
@@ -1374,7 +1395,10 @@ footer {
     max-width: 1000px; }
 
   .portrait {
-    height: 700px; } }
+    height: 700px; }
+
+  .mosaic-image {
+    width: 14.2%; } }
 @media only screen and (min-width: 1600px) {
   .how-section .info {
     width: 550px; }
@@ -1383,15 +1407,20 @@ footer {
     .how-section .info h3 {
       font-size: 1.3em; }
   .how-section img {
-    width: 550px; }
+    width: 500px; }
   .how-section h2 {
     font-size: 7.2em; }
 
   .lrg-row img {
-    width: 750px; }
+    width: 600px; }
 
   .popup-content-wrapper, .popup-info {
-    max-width: 1500px; } }
+    max-width: 1500px; }
+
+  .how-slideshow .slideshow-container {
+    max-height: 1000px; }
+  .how-slideshow .popup-content-wrapper {
+    max-width: 1300px; } }
 @media only screen and (min-width: 1700px) {
   .homepage-block div h3 {
     font-size: 6em; }
@@ -1428,7 +1457,10 @@ footer {
     .product-block-info h3 {
       font-size: 3em; }
     .product-block-info p {
-      font-size: 1.7em; } }
+      font-size: 1.7em; }
+
+  .mosaic-image {
+    width: 10%; } }
 @media only screen and (min-width: 1800px) {
   .popup-close {
     margin: 80px 80px 0 0; }
@@ -1438,7 +1470,7 @@ footer {
     width: 120px; }
 
   .portrait {
-    height: 1000px; } }
+    height: 800px; } }
 @media only screen and (min-width: 2000px) {
   .logo {
     width: 210px; }
