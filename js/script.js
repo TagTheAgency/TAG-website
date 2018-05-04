@@ -102,7 +102,7 @@
 		$(this).fadeOut(200);
 		setTimeout(function(){
 			$('.contact-region, #contactform').hide();
-			$('.contact-title h3').html('Message Sent <i class="fas fa-check"></i>');
+			$('.contact-title h3').html('Message Sent');
 			$('.region-help').text("We'll be in touch!");
 			$('.contact-title').css('width','100%');
 			$('.form-container').fadeIn(200);

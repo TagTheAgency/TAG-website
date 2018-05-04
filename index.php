@@ -7,22 +7,13 @@
 		require_once(TEMPLATES_PATH . "/ie.php");
 		return;
 	}
-	
+
 	$activePage = "Home";
 	$path="";
 	require_once(TEMPLATES_PATH . "/header.php");
 	require_once(TEMPLATES_PATH . "/homepage-nav.php");
 ?>
 <div class="master-container">
-	<!--[if IE]>
-	<![endif IE]-->
-	<div class="homepage-block landing dark">
-		<div class="">
-			<img style="width: 70%;" src="img/facepalm.jpg" alt="face palm">
-			<h4 style="font-size: 2.2em; margin: 20px 0;">Please get in touch with us</h4>
-			<a class="hover" href="mailto:hello@tagtheagency.com" target="_blank"><p style="font-size: 1.3em; display: inline-block; border-bottom: 3px solid #f5ed2d; padding-bottom: 10px; ">hello@tagtheagency.com</p></a>
-		</div>
-	</div>
 	<div class="homepage-block landing dark" data-section-name="home">
 		<div class="homepage-block-child">
 			<div class="icons">
