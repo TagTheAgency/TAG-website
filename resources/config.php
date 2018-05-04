@@ -19,4 +19,11 @@ defined("TEMPLATES_PATH")
 ini_set("error_reporting", "true");
 error_reporting(E_ALL|E_STRCT);
 
+function endsWith($haystack, $needle) {
+    $length = strlen($needle);
+
+    return $length === 0 ||
+    (substr($haystack, -$length) === $needle);
+}
+
 ?>

@@ -7,7 +7,8 @@
 		<title>TAG The Agency</title>
 		<link rel="stylesheet" href="https://use.typekit.net/heh7zye.css">
 		<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-		<link rel="stylesheet" href="/css/normalize.css">
-		<link rel="stylesheet" href="/css/style.min.css">
+		<link rel="stylesheet" href="<?php echo $path ?>css/normalize.css">
+		<link rel="stylesheet" href="<?php echo $path ?>css/style.min.css">
+		<script>var path="<?php echo $path?>";</script>
 	</head>
 	<body>
