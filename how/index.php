@@ -16,7 +16,7 @@
 <div class="master-container">
 	<div id="how-strategy" class="flex-row lrg-row how-section">
 		<div class="flex-col">
-			<img src="<? echo $path?>img/backgrounds/optimised/how-strategy.png" alt="strat image">
+			<img src="<?php echo $path?>img/backgrounds/optimised/how-strategy.png" alt="strat image">
 		</div>
 		<div class="flex-col left-align">
 			<div class="info">
@@ -30,7 +30,7 @@
 	</div>
 	<div id="how-creative" class="flex-row sml-row light-section reverse how-section blue">
 		<div class="flex-col">
-			<img src="<? echo $path?>img/backgrounds/optimised/how-creative.png" alt="strat image">
+			<img src="<?php echo $path?>img/backgrounds/optimised/how-creative.png" alt="strat image">
 		</div>
 		<div class="flex-col">
 			<div class="info">
@@ -44,7 +44,7 @@
 	</div>
 	<div id="how-video" class="flex-row lrg-row how-section">
 		<div class="flex-col">
-			<img src="<? echo $path?>img/backgrounds/optimised/how-video.png" alt="imagery section image">
+			<img src="<?php echo $path?>img/backgrounds/optimised/how-video.png" alt="imagery section image">
 		</div>
 		<div class="flex-col">
 			<div class="info left-align">
@@ -57,7 +57,7 @@
 	</div>
 	<div id="how-imagery" class="flex-row sml-row reverse pink how-section">
 		<div class="flex-col">
-			<img src="<? echo $path?>img/backgrounds/optimised/how-imagery.png" alt="imagery section image">
+			<img src="<?php echo $path?>img/backgrounds/optimised/how-imagery.png" alt="imagery section image">
 		</div>
 		<div class="flex-col">
 			<div class="info">
@@ -70,7 +70,7 @@
 	</div>
 	<div id="how-copywriting" class="flex-row lrg-row how-section">
 		<div class="flex-col">
-			<img src="<? echo $path?>img/backgrounds/optimised/how-copywriting.png" alt="copywriting section image">
+			<img src="<?php echo $path?>img/backgrounds/optimised/how-copywriting.png" alt="copywriting section image">
 		</div>
 		<div class="flex-col">
 			<div class="info  left-align">
@@ -83,7 +83,7 @@
 	</div>
 	<div id="how-design" class="flex-row sml-row reverse yellow how-section">
 		<div class="flex-col">
-			<img src="<? echo $path?>img/backgrounds/optimised/how-design-alt.png" alt="design section image">
+			<img src="<?php echo $path?>img/backgrounds/optimised/how-design-alt.png" alt="design section image">
 		</div>
 		<div class="flex-col">
 			<div class="info">
@@ -97,7 +97,7 @@
 	</div>
 	<div id="how-advertising" class="flex-row lrg-row how-section">
 		<div class="flex-col">
-			<img src="<? echo $path?>img/backgrounds/optimised/how-advertising.png" alt="copywriting section image">
+			<img src="<?php echo $path?>img/backgrounds/optimised/how-advertising.png" alt="copywriting section image">
 		</div>
 		<div class="flex-col">
 			<div class="info  left-align">
@@ -111,7 +111,7 @@
 	</div>
 	<div id="how-development" class="flex-row sml-row reverse blue how-section">
 		<div class="flex-col">
-			<img src="<? echo $path?>img/backgrounds/optimised/how-development-alt.png" alt="development section image">
+			<img src="<?php echo $path?>img/backgrounds/optimised/how-development-alt.png" alt="development section image">
 		</div>
 		<div class="flex-col">
 			<div class="info">

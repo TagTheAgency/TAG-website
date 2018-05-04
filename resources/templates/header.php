@@ -10,5 +10,15 @@
 		<link rel="stylesheet" href="<?php echo $path ?>css/normalize.css">
 		<link rel="stylesheet" href="<?php echo $path ?>css/style.min.css">
 		<script>var path="<?php echo $path?>";</script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-68230113-2"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-68230113-2');
+		</script>
+
 	</head>
 	<body>
