@@ -107,9 +107,6 @@
 					<span>6 / 6</span>
 				</div>
 			</div>
-			<!-- <div class="popup-gallery-info">
-				<h2>Imagery</h2>
-			</div> -->
 			<div class="prev" onclick="plusDivs(-1, 0)">&#10094;</div>
 		    <div class="next" onclick="plusDivs(1, 0)">&#10095;</div>
 		</div>

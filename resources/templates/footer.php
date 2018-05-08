@@ -30,6 +30,24 @@
 					<iframe src="https://e.issuu.com/issuu-reader3-embed-files/1402/iframe-embed.html?identifier=xflcm7puwxkb&amp;hostUrl=http%3A%2F%2Ftomreidy.com%2F&amp;hostReferrer&amp;embedType=script&amp;u=tomreidy&amp;d=tag_portfolio_-_value_proposition_-&amp;p=1" style="border:none;width: 100%;min-height: 350px;" title="issuu.com" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" msallowfullscree=""></iframe>
 				</div>
 			</div>
+			<div class="popup why-popup" data-popup="why-popup">
+				<div class="popup-close" data-popup-close="why-popup"><i class="fas fa-times"></i></div>
+				<div class="popup-content-wrapper">
+					<div class="popup-logo">
+						<a href="<?php echo $path?>"><img src="<?php echo $path?>img/content/logo-white.png" alt="TAG Logo"></a>
+					</div>
+					<div class="popup-info why-info">
+						<div class="why-header">
+							<h2>Let us tell your story</h2>
+						</div>
+						<p>TAG the agency is a unique combination of experience, from decades in the industry of Digital Advertising and innovation… But then there are plenty of Agencies out there that can and do an amazing job at digital advertising.</p>
+						<br>
+						<p>We believe, yes we are exceptional at digital, social media and telling stories; but what makes us worth working with is the passion we have for our people, our team and their families. TAG The Agency is one big family, we lead by first being compassionate passionate for our team, and yours.  We work with clients not for the ‘now’ but as a long term partner in telling their story.</p>
+						<br>
+						<p>Why let us tell your story… because we care and we will tell an authentic story.</p>
+					</div>
+				</div>
+			</div>
 		</footer>
 		<?php require_once(TEMPLATES_PATH . "/contact-form.php") ?>
 		<!-- Gallery Script -->

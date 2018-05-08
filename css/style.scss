@@ -751,10 +751,6 @@ span.link {
     }
 }
 
-// ==========================================
-// WHO PAGE
-// ==========================================
-
 /// =========================================
 // TEAM PAGE
 // ==========================================
@@ -878,6 +874,44 @@ span.link {
 
 .who-info{
     text-align: left;
+}
+
+// ==========================================
+// WHY
+// ==========================================
+
+.why-popup{
+    .popup-content-wrapper{
+        padding: 2em;
+        width: 100%;
+    }
+
+    .why-info{
+        display: block !important;
+        color: #fff;
+        text-align: center;
+
+        .why-header{
+            margin-bottom: 14px;
+        }
+
+        h2{
+            font-size: 1.6em;
+            border-bottom: 2px solid $yellow;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+
+        h3{
+            font-size: 1.8em;
+            letter-spacing: normal;
+        }
+
+        p{
+            font-size: 0.9em;
+            font-weight: 400;
+        }
+    }
 }
 
 
@@ -1360,6 +1394,33 @@ footer{
         display: none;
     }
 
+
+    .why-popup{
+        .popup-content-wrapper{
+            padding: 2em;
+            width: 90%;
+            max-width: 900px;
+        }
+
+        .why-info{
+
+            .why-header{
+                margin-bottom: 14px;
+            }
+
+            h2{
+                font-size: 2.3em;
+                border-bottom: 2px solid $yellow;
+                padding-bottom: 5px;
+                display: inline-block;
+            }
+
+            p{
+                font-size: 1em;
+            }
+        }
+    }
+
 }
 
 @media only screen and (max-height: 500px) and (min-width: 300px){
@@ -1751,6 +1812,25 @@ footer{
             font-size: 1.3em;
         }
     }
+
+    .why-popup{
+        .popup-content-wrapper{
+            padding: 2em;
+            width: 90%;
+            max-width: 900px;
+        }
+
+        .why-info{
+
+            h2{
+                font-size: 2.8em;
+            }
+
+            p{
+                font-size: 1.2em;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 800px) and (max-width: 999px){
@@ -2009,6 +2089,24 @@ footer{
         width: 14.2%;
     }
 
+    .why-popup{
+        .popup-content-wrapper{
+            max-width: 1000px;
+        }
+
+        .why-info{
+
+            h2{
+                font-size: 3.5em;
+                margin-bottom: 20px;
+            }
+
+            p{
+                font-size: 1.6em;
+            }
+        }
+    }
+
 }
 
 @media only screen and (min-width: 1600px){
@@ -2119,6 +2217,24 @@ footer{
     .mosaic-image{
         width: 10%;
     }
+
+    .why-popup{
+        .popup-content-wrapper{
+            max-width: 1300px;
+        }
+
+        .why-info{
+
+            h2{
+                font-size: 3.9em;
+                margin-bottom: 20px;
+            }
+
+            p{
+                font-size: 1.9em;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 1800px){
@@ -2167,5 +2283,24 @@ footer{
     .who-block, .who-image-wrap{
         width: 370px;
         height: 370px;
+    }
+
+    .why-popup{
+
+        .popup-content-wrapper{
+            max-width: 1600px;
+        }
+
+        .why-info{
+
+            h2{
+                font-size: 5.7em;
+                margin-bottom: 20px;
+            }
+
+            p{
+                font-size: 2.2em;
+            }
+        }
     }
 }

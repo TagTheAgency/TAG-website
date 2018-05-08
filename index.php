@@ -53,6 +53,14 @@
 			</a>
 		</div>
 	</div>
+	<div class="homepage-block yellow light" data-section-name="why">
+		<div class="homepage-block-child pointer" data-popup-open="why-popup">
+			<a class="link-hover">
+				<h2>Why</h2>
+				<p class="subheader link-hover">Let us tell your story <i class="fas fa-chevron-right link-hover-arrow"></i></p>
+			</a>
+		</div>
+	</div>
 	<div class="homepage-block tag-products landing dark" data-section-name="products">
 		<div class="homepage-block-child product-block">
 			<div class="product-block-info">
@@ -136,6 +144,7 @@
 		<li><a href="#what"><span class="hover-text">What</span></a></li>
 		<li><a href="#how"><span class="hover-text">How</span></a></li>
 		<li><a href="#who"><span class="hover-text">Who</span></a></li>
+		<li><a href="#why"><span class="hover-text">Why</span></a></li>
 		<li><a href="#products"><span class="hover-text">Tag Products</span></a></li>
 		<li><a href="#getintouch"><span class="hover-text">Get in touch</span></a></li>
 		<li><img class="mouse-icon" src="img/layout/mouse-icon.png" alt="mouse scroll icon"></li>

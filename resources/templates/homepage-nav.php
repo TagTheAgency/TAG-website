@@ -24,6 +24,7 @@
 		<li <?php if ($activePage == "Home"){?> class="active-page" <?php } ?>><a href="./">Home</a></li>
 		<li <?php if ($activePage == "How"){?> class="active-page" <?php } ?>><a href="how/">How</a></li>
 		<li <?php if ($activePage == "Who"){?> class="active-page" <?php } ?>><a href="who/">Who</a></li>
+		<li class="pointer" data-popup-open="why-popup">Why</li>
 		<li class="pointer" data-popup-open="popup-1">Get In Touch</li>
 	</ul>
 </div>

@@ -14,6 +14,7 @@
 			<li class="pointer" data-popup-open="popup-portfolio">What</li>
 			<li <?php if ($activePage == "How"){?> class="active-page" <?php } ?>><a href="<?php echo $path?>how/">How</a></li>
 			<li <?php if ($activePage == "Who"){?> class="active-page" <?php } ?>><a href="<?php echo $path?>who/">Who</a></li>
+			<li class="pointer" data-popup-open="why-popup">Why</li>
 			<li class="pointer" data-popup-open="popup-1">Get In Touch</li>
 		</ul>
 	</div>
@@ -28,6 +29,7 @@
 				<li class="pointer" data-popup-open="popup-portfolio">What <span class="hover-bar"></span></li>
 				<a href="<?php echo $path?>how"><li <?php if ($activePage == "How"){?> class="active-page" <?php } ?>>How <span class="hover-bar"></span></li></a>
 				<a href="<?php echo $path?>who"><li <?php if ($activePage == "Who"){?> class="active-page" <?php } ?>>Who <span class="hover-bar"></span></li></a>
+				<li class="pointer" data-popup-open="why-popup">Why <span class="hover-bar"></span></li>
 				<li class="btn" data-popup-open="popup-1">Contact <span class="hover-bar"></span></li>
 			</ul>
 		</div>
