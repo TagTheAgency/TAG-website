@@ -40,11 +40,13 @@
 						<div class="why-header">
 							<h2>Let us tell your story</h2>
 						</div>
-						<p>TAG the agency is a unique combination of experience, from decades in the industry of Digital Advertising and innovation… But then there are plenty of Agencies out there that can and do an amazing job at digital advertising.</p>
+						<p>TAG the agency is a unique combination of experience and skills, a result of decades in the industry of Digital Advertising and innovation…</p>
 						<br>
-						<p>We believe, yes we are exceptional at digital, social media and telling stories; but what makes us worth working with is the passion we have for our people, our team and their families. TAG The Agency is one big family, we lead by first being compassionate passionate for our team, and yours.  We work with clients not for the ‘now’ but as a long term partner in telling their story.</p>
+						<p>We know that there are plenty of agencies out there that can do an amazing job at digital advertising, but what makes us worth working with is the passion we have for our people, our team, their families and our clients.</p>
 						<br>
-						<p>Why let us tell your story… because we care and we will tell an authentic story.</p>
+						<p>TAG The Agency is one big family who are exceptional at digital, social media and telling stories. We lead by first being compassionate for our team. We work with clients not for the ‘now’ but as a long term partner in telling their story.</p>
+						<br>
+						<p>Why work with us? Because we care and we will tell an authentic story.</p>
 					</div>
 				</div>
 			</div>
