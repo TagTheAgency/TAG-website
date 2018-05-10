@@ -69,7 +69,7 @@
 			</div>
 			<div class="products-container">
 				<div class="product-group">
-					<a href="http://facebookapps.tagtheagency.com/" target="_blank">
+					<a href="http://catch.tagtheagency.com/" target="_blank">
 						<div class="product">
 							<img src="img/content/products/catch.png" alt="Catch icon">
 							<div class="product-info">
