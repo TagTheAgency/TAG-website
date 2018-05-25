@@ -41,12 +41,26 @@
 			</div>
 		</div>
 	</div>
-	<div id="how-video" class="flex-row lrg-row how-section">
+	<div id="how-social" class="flex-row lrg-row how-section">
+		<div class="flex-col">
+			<img src="<?php echo $path?>img/backgrounds/optimised/how-social.png" alt="imagery section image">
+		</div>
+		<div class="flex-col">
+			<div class="info left-align">
+				<h2>Social Media</h2>
+				<h3>STORIES START WITH A PLAN</h3>
+				<p>Facebook, Twitter, YouTube, Instagram, Snapchat… the list goes on and changes everyday. Staying current is a challenge. TAG The Agency specialises in telling brand stories through social media channels, from running brand pages to developing strategies and campaigns that inspire people to connect.</p>
+				<br>
+				<p>Our approach is simple, the old school style of brands having a persona is long gone. A brand isn’t a person, but the story behind the people of the brand. Products and services have stories and they have a purpose, we can help you uncover and tell these stories through social media.</p>
+			</div>
+		</div>
+	</div>
+	<div id="how-video" class="flex-row sml-row reverse pink how-section">
 		<div class="flex-col">
 			<img src="<?php echo $path?>img/backgrounds/optimised/how-video.png" alt="imagery section image">
 		</div>
 		<div class="flex-col">
-			<div class="info left-align">
+			<div class="info">
 				<h2>Video</h2>
 				<h3>STORIES START WITH A PLAN</h3>
 				<p>From stunning motion graphics to virtual reality and all video production in between, the team at TAG have the skills and talent to bring your story to life through the powerful medium that is video.</p>
@@ -54,12 +68,12 @@
 			</div>
 		</div>
 	</div>
-	<div id="how-imagery" class="flex-row sml-row reverse pink how-section">
+	<div id="how-imagery" class="flex-row lrg-row how-section">
 		<div class="flex-col">
 			<img src="<?php echo $path?>img/backgrounds/optimised/how-imagery.png" alt="imagery section image">
 		</div>
 		<div class="flex-col">
-			<div class="info">
+			<div class="info left-align">
 				<h2>Imagery</h2>
 				<h3>STORIES START WITH A PLAN</h3>
 				<p>Insert the cliché “a picture says a 1000 words”, if so then think how much a crafted image can tell. Imagery that tells the story of your brand, from illustrations through to photography, we will work with you to extract and ensure your brand message shines in every image you share.</p>
@@ -67,12 +81,12 @@
 			</div>
 		</div>
 	</div>
-	<div id="how-copywriting" class="flex-row lrg-row how-section">
+	<div id="how-copywriting" class="flex-row reverse sml-row blue how-section">
 		<div class="flex-col">
 			<img src="<?php echo $path?>img/backgrounds/optimised/how-copywriting.png" alt="copywriting section image">
 		</div>
 		<div class="flex-col">
-			<div class="info  left-align">
+			<div class="info">
 				<h2>Copywriting</h2>
 				<h3>STORIES START WITH A PLAN</h3>
 				<p>Stunning superlatives, to sweet as scripts, TAG The Agency can help you build your brand through the words you write. From a post on Facebook to the copy on your website, we collaborate with you to craft and create words and messaging that impacts your audiences.</p>
@@ -80,12 +94,12 @@
 			</div>
 		</div>
 	</div>
-	<div id="how-design" class="flex-row sml-row reverse yellow how-section">
+	<div id="how-design" class="flex-row lrg-row how-section">
 		<div class="flex-col">
-			<img src="<?php echo $path?>img/backgrounds/optimised/how-design-alt.png" alt="design section image">
+			<img src="<?php echo $path?>img/backgrounds/optimised/how-design.png" alt="design section image">
 		</div>
 		<div class="flex-col">
-			<div class="info">
+			<div class="info left-align">
 				<h2>Design</h2>
 				<h3>STORIES START WITH A PLAN</h3>
 				<p>Everything should be created with intention, the intention to inspire an action. From web design to smart phone apps, design thinking should lead putting the consumer at the front of everything. We can help you to make the complex simple, collaborating to create design with intention.</p>
@@ -94,12 +108,12 @@
 			</div>
 		</div>
 	</div>
-	<div id="how-advertising" class="flex-row lrg-row how-section">
+	<div id="how-advertising" class="flex-row sml-row reverse blue how-section">
 		<div class="flex-col">
 			<img src="<?php echo $path?>img/backgrounds/optimised/how-advertising.png" alt="copywriting section image">
 		</div>
 		<div class="flex-col">
-			<div class="info  left-align">
+			<div class="info">
 				<h2>Advertising</h2>
 				<h3>STORIES START WITH A PLAN</h3>
 				<p>Making everything look and be amazing is just the beginning, we need to tell the world about your amazing service. This can be done through search, to help people find when they are looking, or through social media, to help people discover and engage with the story of a brand. At TAG we can help train you on using digital advertising to get the best from your online stories or provide full service ad management for you.</p><br>
@@ -108,12 +122,12 @@
 			</div>
 		</div>
 	</div>
-	<div id="how-development" class="flex-row sml-row reverse blue how-section">
+	<div id="how-development" class="flex-row lrg-row how-section">
 		<div class="flex-col">
-			<img src="<?php echo $path?>img/backgrounds/optimised/how-development-alt.png" alt="development section image">
+			<img src="<?php echo $path?>img/backgrounds/optimised/how-development.png" alt="development section image">
 		</div>
 		<div class="flex-col">
-			<div class="info">
+			<div class="info left-align">
 				<h2>Development</h2>
 				<h3>STORIES START WITH A PLAN</h3>
 				<p>It’s amazing what is possible on the Internet, at TAG The Agency our development team specialises in building digital brand solutions. What this means is the team can help build campaign-landing pages, Facebook apps, as well as interactive to enterprise websites. We focus on making the development world of brand engagement simple and free of jargon.</p>
