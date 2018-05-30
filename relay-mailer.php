@@ -1,5 +1,15 @@
 <?php
-header("Access-Control-Allow-Origin: https://relay.tagtheagency.com");
+$http_origin = $_SERVER['HTTP_ORIGIN'];
+
+$allowed_domains = array(
+  'http://relay.tagtheagency.com',
+  'https://relay.tagtheagency.com',
+);
+
+if (in_array($http_origin, $allowed_domains))
+{
+    header("Access-Control-Allow-Origin: $http_origin");
+}
 
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
