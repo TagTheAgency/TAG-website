@@ -123,7 +123,7 @@
 							<img src="img/content/products/snap.png" alt="Snap icon">
 							<div class="product-info">
 								<h4>SNAP</h4>
-								<p>Batch watermarking made easy, leave you mark on what you create, simply.</p>
+								<p>Batch watermarking made easy, leave your mark on what you create, simply.</p>
 							</div>
 						</div>
 					</a>
