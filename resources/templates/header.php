@@ -4,6 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Digital story tellers for brands">
+		<meta property="og:title" content="TAG The Agency" />
+<meta property="og:description" content="Digital story tellers for brands" />
+<meta property="og:image" content="https://www.tagtheagency.com/img/unicorn.png" />
+<meta property="og:url" content="https://www.tagtheagency.com/" />
+
 		<title>TAG The Agency</title>
 		<link rel="stylesheet" href="https://use.typekit.net/heh7zye.css">
 		<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
