@@ -27,5 +27,5 @@
 		</div>
 	</div>
 </div>
-<?php require("../resources/popups/howpopups.php"); ?>
+<?php require("../resources/popups/whatpopups.php"); ?>
 <?php require_once(TEMPLATES_PATH . "/footer.php"); ?>

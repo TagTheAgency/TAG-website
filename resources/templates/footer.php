@@ -81,9 +81,9 @@
 		<script src="<?php echo $path ?>js/jquery-3.3.1.min.js"></script>
 		<script src="<?php echo $path ?>js/scrollify.js"></script>
 		<script src="<?php echo $path ?>js/script.min.js"></script>
+		<script src="<?php echo $path ?>js/app.js"></script>
 		<?php if($activePage == 'what'): ?>
 			<script src="<?php echo $path ?>js/behance-api.min.js"></script>
 		<?php endif; ?>
-		<script src="<?php echo $path ?>js/app.js"></script>
 	</body>
 </html>

@@ -58,26 +58,30 @@
 		$(this).find('.hover-bar').css("width","0");
 	});
 
-	// Popup Overlay
-	$('[data-popup-open]').click(function(){
-		$.scrollify.disable();
-		var targeted_popup_class = $(this).attr('data-popup-open');
-		$('[data-popup="' + targeted_popup_class + '"]').fadeIn(350).css('display','flex');
-		$("body").css('overflow','hidden');
-	});
-	$('[data-popup-close]').click(function(){
-		$(".mobile-menu-wrapper").fadeOut();
-		var targeted_popup_class = $(this).attr('data-popup-close');
-		$('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
-		$("body").css('overflow','auto');
+    function enablePopups(){
+        // Popup Overlay
+    	$('[data-popup-open]').click(function(){
+    		$.scrollify.disable();
+    		var targeted_popup_class = $(this).attr('data-popup-open');
+    		$('[data-popup="' + targeted_popup_class + '"]').fadeIn(350).css('display','flex');
+    		$("body").css('overflow','hidden');
+    	});
+    	$('[data-popup-close]').click(function(){
+    		$(".mobile-menu-wrapper").fadeOut();
+    		var targeted_popup_class = $(this).attr('data-popup-close');
+    		$('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
+    		$("body").css('overflow','auto');
 
-		// Stop Youtube videos
-		var video = $(this).find('iframe').attr("src");
-		$(this).find('iframe').attr("src","");
-		$(this).find('iframe').attr("src",video);
+    		// Stop Youtube videos
+    		var video = $(this).find('iframe').attr("src");
+    		$(this).find('iframe').attr("src","");
+    		$(this).find('iframe').attr("src",video);
 
-		$.scrollify.enable();
-	});
+    		$.scrollify.enable();
+    	});
+    };
+
+    enablePopups();
 
 	// Homepage section link hover
 	$(".link-hover").hover(function(){

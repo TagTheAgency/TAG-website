@@ -15,10 +15,6 @@ $pink: #EB008B;
 $futura: "futura-pt", "Trebuchet MS", Arial, sans-serif;
 $harriet: 'Harriet Display', Times;
 
-.primary{
-    background-color: #c8c8c8;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -131,6 +127,10 @@ h3 {
 	font-size: 1.2em;
 	margin-bottom: 8px;
 	font-weight: 400;
+}
+
+.uppercase{
+    text-transform: uppercase;
 }
 
 .text-center{
@@ -407,6 +407,15 @@ span.link {
 
     img{
         width: 100%;
+    }
+}
+
+.img-container{
+    width: 100%;
+
+    img{
+        width: 100%;
+        height: auto;
     }
 }
 // ==========================================
@@ -962,6 +971,27 @@ span.link {
 
 .project-title, .project-overlay{
     display: none;
+}
+
+.project-container{
+    padding-top: 150px;
+    height: 100vh;
+    overflow: auto !important;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.project-popup{
+    align-items: baseline !important;
+    font-family: $futura;
+    background-color: rgba(#000000, 0.97) !important;
+    color: #fff !important;
+}
+
+.behance-project-popup{
+    padding-bottom: 200px;
 }
 
 // ==========================================
