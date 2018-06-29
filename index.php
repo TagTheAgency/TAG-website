@@ -31,10 +31,10 @@
 	</div>
 	<div class="homepage-block yellow shadow light" data-section-name="what">
 		<div class="homepage-block-child pointer" data-popup-open="popup-portfolio">
-			<div class="link-hover">
+			<a class="link-hover" href="what/">
 				<h2>What</h2>
 				<p class="subheader">What stories we tell <i class="fas fa-chevron-right link-hover-arrow"></i></p>
-			</div>
+			</a>
 		</div>
 	</div>
 	<div class="homepage-block pink shadow" data-section-name="how">
