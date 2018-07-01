@@ -1,5 +1,5 @@
  $(document).ready(function() {
-	 var apiKey = 'sBUztz0plJJ8ZQirBWrRdX9OadJrajeY';
+	 var apiKey = '0xNRhEHWlYEbG1JnHvhuMAlMw4PbRCUQ';
 	 var userID = 'TAGTheAgency'
 	 var projectID;
 	 var allProjects = 'http://www.behance.net/v2/users/'+ userID +'/projects?client_id='+ apiKey;
@@ -16,12 +16,12 @@
 				 var coverImage = behanceProjects[i].covers[404];
 				 $('#behance-gallery').append(
 
-					 "<div class='col-10 col-sm-6 col-lg-4 what-project behance-project px-4 py-2' data-id='"+behanceProjects[i].id+"' data-popup-open='project-popup'>"+
-							 "<div class='primary what-project-wrapper row align-items-center justify-content-center text-center p-2 px-4' style='background-image: url("+coverImage+");'>"+
-								 "<div class='project-overlay'></div>"+
-								 "<h3 class='mb-0 font-1 project-title'>"+behanceProjects[i].name+"</h3>"+
-							 "</div>"+
-					 "</div>"
+					"<div class='col-10 col-sm-6 col-lg-4 what-project behance-project px-4 py-2' data-id='"+behanceProjects[i].id+"' data-popup-open='project-popup'>"+
+							"<div class='primary what-project-wrapper row align-items-center justify-content-center text-center p-2 px-4' style='background-image: url("+coverImage+");'>"+
+								"<div class='project-overlay'></div>"+
+								"<h3 class='mb-0 font-1 project-title'>"+behanceProjects[i].name+"</h3>"+
+							"</div>"+
+					"</div>"
 				 );
 			 }
 
@@ -52,12 +52,12 @@
 				$('#behance-project-popup').empty();
 
 				$.ajax({
-					 dataType: "json",
-					 url: singleProjects,
-					 contentType: "application/json",
-					 dataType: "jsonp",
-					 async:false,
-					 success: function(data){
+					dataType: "json",
+					url: singleProjects,
+					contentType: "application/json",
+					dataType: "jsonp",
+					async:false,
+					success: function(data){
 
 						var galleryImage = data.project.modules;
 						var projectLink = data.project.url;
@@ -100,9 +100,9 @@
 								else if(modulePath.type == 'embed'){
 									$('#behance-project-popup').append(
 									   "<div class='col-10 text-center'>"+
-										  "<div class='img-container d-block videoWrapper'>"+
+											"<div class='img-container d-block video-wrapper'>"+
 												modulePath.embed+
-										  "</div'>"+
+											"</div'>"+
 									   "</div>"
 								  );
 								}
@@ -113,7 +113,7 @@
 						$('#behance-project-popup').append("<div class='spacer-100'></div>");
 					 },
 					 error: function(){
-						 alert('NOPE');
+						alert('Could not connect');
 					 }
 				 });
 			});
@@ -127,7 +127,10 @@
 
 		 },
 		 error: function(){
-			 alert('NOPE');
+			 $('#what-page-info').empty().append(
+				"<h1 class='font-5 mb-4 pt-5'>Ooops!</h1>"+
+				"<h3 class='mb-3 black'>Looks like something went wrong. Please contact us below so we can fix it.</h3>"
+			 );
 		 }
 	 });
 });
