@@ -47,9 +47,9 @@
 			});
 
 			$('.behance-project').click(function(){
-				$('#behance-project-popup').empty();
 				var projectID = $(this).attr('data-id');
 				var singleProjects = 'http://www.behance.net/v2/projects/'+projectID+'?api_key='+apiKey;
+				$('#behance-project-popup').empty();
 
 				$.ajax({
 					 dataType: "json",
@@ -59,9 +59,10 @@
 					 async:false,
 					 success: function(data){
 
-
 						var galleryImage = data.project.modules;
 						var projectLink = data.project.url;
+
+						console.log(data);
 
 						$('#behance-project-popup').append(
 							"<div class='col-9 text-center'>"+
@@ -72,33 +73,44 @@
 
 						 for(var i = 0; i < galleryImage.length; i++){
 
-							var componentPath = data.project.modules[i];
+							var modulePath = data.project.modules[i];
 
-							if( componentPath.components ){
+							if( modulePath.components ){
 
 								$('#behance-project-popup').append(
 									"<div class='col-10 text-center'>"+
 									   "<div class='img-container d-block'>"+
-										   "<img src='"+componentPath.components[0].sizes.disp+"'>"+
+										   "<img src='"+modulePath.components[0].sizes.disp+"'>"+
 									   "</div'>"+
 									"</div>"
 								);
 
 							}
 							else{
-								for (var b = 0; b < galleryImage.length; b++) {
-		   						     $('#behance-project-popup').append(
-		   						         "<div class='col-10 text-center'>"+
-		   						            "<div class='img-container d-block'>"+
-		   						                "<img src='"+galleryImage[b].sizes.original+"'>"+
-		   						            "</div'>"+
-		   						         "</div>"
-		   						     );
-	   						 	}
-							}
-						 }
 
-						 $('#behance-project-popup').append("<div class='spacer-100'></div>");
+								if(modulePath.type == 'image'){
+									$('#behance-project-popup').append(
+									   "<div class='col-10 text-center'>"+
+										  "<div class='img-container d-block'>"+
+											  "<img src='"+galleryImage[i].sizes.original+"'>"+
+										  "</div'>"+
+									   "</div>"
+								  );
+								}
+								else if(modulePath.type == 'embed'){
+									$('#behance-project-popup').append(
+									   "<div class='col-10 text-center'>"+
+										  "<div class='img-container d-block videoWrapper'>"+
+												modulePath.embed+
+										  "</div'>"+
+									   "</div>"
+								  );
+								}
+
+							}
+						}
+
+						$('#behance-project-popup').append("<div class='spacer-100'></div>");
 					 },
 					 error: function(){
 						 alert('NOPE');

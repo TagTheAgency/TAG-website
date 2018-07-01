@@ -11,7 +11,7 @@
 		</div>
 		<ul class="mobile-menu">
 			<li <?php if ($activePage == "Home"){?> class="active-page" <?php } ?>><a href="<?php echo $path?>">Home</a></li>
-			<li class="pointer" data-popup-open="popup-portfolio">What</li>
+			<li <?php if ($activePage == "what"){?> class="active-page" <?php } ?>><a href="<?php echo $path?>what/">What</a></li>
 			<li <?php if ($activePage == "How"){?> class="active-page" <?php } ?>><a href="<?php echo $path?>how/">How</a></li>
 			<li <?php if ($activePage == "Who"){?> class="active-page" <?php } ?>><a href="<?php echo $path?>who/">Who</a></li>
 			<li class="pointer" data-popup-open="why-popup">Why</li>
@@ -26,7 +26,7 @@
 		</div>
 		<div>
 			<ul>
-				<li class="pointer" data-popup-open="popup-portfolio">What <span class="hover-bar"></span></li>
+				<a href="<?php echo $path?>what"><li <?php if ($activePage == "what"){?> class="active-page" <?php } ?>>What <span class="hover-bar"></span></li></a>
 				<a href="<?php echo $path?>how"><li <?php if ($activePage == "How"){?> class="active-page" <?php } ?>>How <span class="hover-bar"></span></li></a>
 				<a href="<?php echo $path?>who"><li <?php if ($activePage == "Who"){?> class="active-page" <?php } ?>>Who <span class="hover-bar"></span></li></a>
 				<li class="pointer" data-popup-open="why-popup">Why <span class="hover-bar"></span></li>
