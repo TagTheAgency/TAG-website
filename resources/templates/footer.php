@@ -83,6 +83,7 @@
 		<script src="<?php echo $path ?>js/scrollify.js"></script>
 		<script src="<?php echo $path ?>js/script.min.js"></script>
 		<script src="<?php echo $path ?>js/app.js"></script>
+		<?php if($activePage == 'privacy'): ?><script src="https://trusteddata.co.nz/media/dataFutures.js"></script><?php endif; ?>
 		<?php if($activePage == 'what'): ?>
 			<script src="<?php echo $path ?>js/behance-api.min.js"></script>
 		<?php endif; ?>

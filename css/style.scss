@@ -953,6 +953,10 @@ span.link {
         list-style-type: disc;
     }
 
+    footer ul{
+        list-style-type: none !important;
+    }
+
 
     ol{
         font-family: $futura !important;
@@ -964,6 +968,42 @@ span.link {
         height: 1px;
         background-color: rgba(#000000, 0.10);
     }
+}
+
+#dataFutures{
+    font-family: $futura !important;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: none !important;
+    width: 100%;
+
+    h1{
+        font-weight: 700;
+    }
+
+}
+
+#dataFuturesGuidelinesAnswers{
+    width: 100% !important;
+    padding: 10px !important;
+}
+
+@media (min-width: 1024px) {
+    #dataFuturesGuidelinesAnswers{
+        width: 50% !important;
+        padding: 20px 0 0 20px !important;
+    }
+
+    #dataFuturesWheelCanvas{
+        width: 50% !important;
+    }
+}
+
+.dataFuturesDisclaimer{
+    padding-top: 20px;
 }
 
 
