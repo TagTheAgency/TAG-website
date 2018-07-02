@@ -18,12 +18,13 @@
 			<div class="row px-md-5 col-12 mb-4">
 				<div class="col-12 px-md-5 text-left">
 					<h1 class="font-3 mb-5 black">Privacy Policy</h1>
-					<div class="mb-2">
+					<div>
 						<h3 class="black mb-2">Purpose</h3>
-						<p class="mb-5">The purpose of this privacy policy is to let users of TAG The Agency (the “Site”) know when we collect personal information and what we do with it.  We do not use, share or transfer personal information except as set out in this policy.</p>
+						<p>The purpose of this privacy policy is to let users of TAG The Agency (the “Site”) know when we collect personal information and what we do with it.  We do not use, share or transfer personal information except as set out in this policy.</p>
 					</div>
-					<div class="mb-5">
-						<h3 class="black mb-2">Collection, Storage and Use</h3>
+					<hr class="my-5">
+					<div>
+						<h3 class="black mb-3">Collection, Storage and Use</h3>
 						<ol class="pl-3">
 							<li class="mb-4"><p>No need to disclose personal information - The Site can be viewed and its web feeds can be subscribed to without the need to disclose any personal information to us.</p></li>
 							<li class="mb-4"><p>Your disclosure of personal information - You may decide to disclose personal information to us by providing identifying information when:</p>
@@ -48,9 +49,10 @@
 							</li>
 						</ol>
 					</div>
-					<div class="mb-5">
-						<h3 class="black mb-2">Statistical Information and Cookies</h3>
-						<ol class="pl-3">
+					<hr class="my-5">
+					<div>
+						<h3 class="black mb-3">Statistical Information and Cookies</h3>
+						<ol class="pl-3" start="5">
 							<li class="mb-4"><p>Statistical information
 We may collect statistical information about your visit to help us analyse usage of, and improve, the Site. This information includes:</p>
 								<ul class="pl-5 pl-md-4 mt-2">
@@ -82,6 +84,7 @@ We may collect statistical information about your visit to help us analyse usage
 								</p>
 							</li>
 						</ol>
+						<hr class="my-5">
 					</div>
 				</div>
 			</div>

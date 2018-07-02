@@ -958,6 +958,12 @@ span.link {
         font-family: $futura !important;
         font-weight: 400;
     }
+
+    hr{
+        border: none;
+        height: 1px;
+        background-color: rgba(#000000, 0.10);
+    }
 }
 
 
@@ -2697,7 +2703,7 @@ footer{
 
 .mt-5,
 .my-5 {
-  margin-top: 6rem !important;
+  margin-top: 3rem !important;
 }
 
 .mr-5,
