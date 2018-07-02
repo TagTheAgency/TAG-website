@@ -10,6 +10,7 @@
 					<ul>
 						<li><a href="<?php echo $path?>">Homepage</a></li>
 						<li data-popup-open="popup-1" >Contact</li>
+						<li><a href="<?php echo $path?>privacy">Privacy</a></li>
 						<li id="top-btn">Top</li>
 					</ul>
 				</div>

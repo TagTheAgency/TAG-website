@@ -940,6 +940,28 @@ span.link {
 }
 
 // ==========================================
+// PRIVACY POLICY
+// ==========================================
+
+#privacy-policy{
+    h3{
+        font-family: $futura !important;
+        font-weight: 700;
+    }
+
+    ul{
+        list-style-type: disc;
+    }
+
+
+    ol{
+        font-family: $futura !important;
+        font-weight: 400;
+    }
+}
+
+
+// ==========================================
 // CONTACT FORM
 // ==========================================
 
@@ -5475,11 +5497,6 @@ html {
     display: -ms-inline-flexbox !important;
     display: inline-flex !important;
   }
-}
-
-.flex-row {
-  -ms-flex-direction: row !important;
-  flex-direction: row !important;
 }
 
 .flex-column {
