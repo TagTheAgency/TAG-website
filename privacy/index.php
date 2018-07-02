@@ -29,11 +29,11 @@
 							<li class="mb-4"><p>No need to disclose personal information - The Site can be viewed and its web feeds can be subscribed to without the need to disclose any personal information to us.</p></li>
 							<li class="mb-4"><p>Your disclosure of personal information - You may decide to disclose personal information to us by providing identifying information when:</p>
 								<ul class="pl-5 pl-md-4 mt-2">
-									<li class="mb-3">Obtaining a logon to the Site</li>
-									<li class="mb-3">Subscribing to Site updates by email</li>
-									<li class="mb-3">Adding comments, posts or other material to the Site</li>
-									<li class="mb-3">Ordering products from the Site</li>
-									<li class="mb-3">Providing feedback on the Site or our organisation</li>
+									<li class="mb-3">Obtaining a logon to the Site.</li>
+									<li class="mb-3">Subscribing to Site updates by email.</li>
+									<li class="mb-3">Adding comments, posts or other material to the Site.</li>
+									<li class="mb-3">Ordering products from the Site.</li>
+									<li class="mb-3">Providing feedback on the Site or our organisation.</li>
 									<li class="mb-3">Requesting contact and communication from the Site or TAG The Agency staff members. This information will be viewable by certain members of our staff. To the extent that it forms part of material that you have submitted to be published, it may also be viewable by members of the public.</li>
 								</ul>
 							</li>
@@ -41,10 +41,10 @@
 							<li class="mb-4">
 								<p>Use of personal information - We will only use personal information provided to us for the following purposes: </p>
 								<ul class="pl-5 pl-md-4 mt-2">
-									<li class="mb-3">To provide services offered by this Site</li>
-									<li class="mb-3">To enable users to collaborate and share information</li>
-									<li class="mb-3">To administer and evaluate this Site</li>
-									<li class="mb-3">To communicate with users of the Site</li>
+									<li class="mb-3">To provide services offered by this Site.</li>
+									<li class="mb-3">To enable users to collaborate and share information.</li>
+									<li class="mb-3">To administer and evaluate this Site.</li>
+									<li class="mb-3">To communicate with users of the Site.</li>
 								</ul>
 							</li>
 						</ol>
@@ -56,16 +56,16 @@
 							<li class="mb-4"><p>Statistical information
 We may collect statistical information about your visit to help us analyse usage of, and improve, the Site. This information includes:</p>
 								<ul class="pl-5 pl-md-4 mt-2">
-									<li class="mb-3">Users’ IP addresses</li>
-									<li class="mb-3">Users’ search terms</li>
-									<li class="mb-3">Pages accessed on the Site</li>
-									<li class="mb-3">Links that are clicked on</li>
-									<li class="mb-3">Date and time of Site visits</li>
-									<li class="mb-3">Users’ operating systems</li>
-									<li class="mb-3">Browsers used when accessing the Site</li>
+									<li class="mb-3">Users’ IP addresses.</li>
+									<li class="mb-3">Users’ search terms.</li>
+									<li class="mb-3">Pages accessed on the Site.</li>
+									<li class="mb-3">Links that are clicked on.</li>
+									<li class="mb-3">Date and time of Site visits.</li>
+									<li class="mb-3">Users’ operating systems.</li>
+									<li class="mb-3">Browsers used when accessing the Site.</li>
 								</ul>
 							</li>
-							<li class="mb-4"><p>This Site generates cookies and pixels for logged in users. The cookies, which can be found on your computer, are named Facebook Pixel</p></li>
+							<li class="mb-4"><p>This Site generates cookies and pixels for logged in users. The cookies, which can be found on your computer, are named Facebook Pixel.</p></li>
 							<li class="mb-4">
 								<p>Your rights - You have the right to access and to request correction of any of your personal information provided to us in connection with your use of this Site. If you would like to see the personal information relating to you that we have stored, or to request correction of such personal information, or if you have any concerns regarding your privacy, please contact us by any of the means set out below. We may require proof of your identity before being able to provide you with any personal information.</p>
 								<br>
