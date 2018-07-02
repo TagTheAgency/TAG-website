@@ -1,20 +1,20 @@
  $(document).ready(function() {
-	 var apiKey = '0xNRhEHWlYEbG1JnHvhuMAlMw4PbRCUQ';
-	 var userID = 'TAGTheAgency'
-	 var projectID;
-	 var allProjects = 'http://www.behance.net/v2/users/'+ userID +'/projects?client_id='+ apiKey;
+	var apiKey = '0xNRhEHWlYEbG1JnHvhuMAlMw4PbRCUQ';
+	var userID = 'TAGTheAgency'
+	var projectID;
+	var allProjects = 'http://www.behance.net/v2/users/'+ userID +'/projects?client_id='+ apiKey;
 
-	 $.ajax({
-		 dataType: "json",
-		 url: allProjects,
-		 contentType: "application/json",
-		 dataType: "jsonp",
-		 async:false,
-		 success: function(data){
-			 var behanceProjects = data.projects;
-			 for(var i = 0; i < behanceProjects.length; i++){
+	$.ajax({
+		dataType: "json",
+		url: allProjects,
+		contentType: "application/json",
+		dataType: "jsonp",
+		async:false,
+		success: function(data){
+			var behanceProjects = data.projects;
+			for(var i = 0; i < behanceProjects.length; i++){
 				 var coverImage = behanceProjects[i].covers[404];
-				 $('#behance-gallery').append(
+				$('#behance-gallery').append(
 
 					"<div class='col-10 col-sm-6 col-lg-4 what-project behance-project px-4 py-2' data-id='"+behanceProjects[i].id+"' data-popup-open='project-popup'>"+
 							"<div class='primary what-project-wrapper row align-items-center justify-content-center text-center p-2 px-4' style='background-image: url("+coverImage+");'>"+
@@ -22,11 +22,11 @@
 								"<h3 class='mb-0 font-1 project-title'>"+behanceProjects[i].name+"</h3>"+
 							"</div>"+
 					"</div>"
-				 );
-			 }
+				);
+			}
 
 			 // Popup function.
-			 $('[data-popup-open]').click(function(){
+			$('[data-popup-open]').click(function(){
 				$.scrollify.disable();
 				var targeted_popup_class = $(this).attr('data-popup-open');
 				$('[data-popup="' + targeted_popup_class + '"]').fadeIn(350).css('display','flex');
@@ -95,7 +95,7 @@
 											  "<img src='"+galleryImage[i].sizes.original+"'>"+
 										  "</div'>"+
 									   "</div>"
-								  );
+								  	);
 								}
 								else if(modulePath.type == 'embed'){
 									$('#behance-project-popup').append(
@@ -104,33 +104,32 @@
 												modulePath.embed+
 											"</div'>"+
 									   "</div>"
-								  );
+								  	);
 								}
-
 							}
 						}
 
 						$('#behance-project-popup').append("<div class='spacer-100'></div>");
-					 },
-					 error: function(){
+					},
+					error: function(){
 						alert('Could not connect');
-					 }
-				 });
+					}
+				});
 			});
 
-			 $('.behance-project').hover(function(){
-				 $(this).find('.project-overlay, .project-title').fadeIn();
-			 }, function(){
-				 $(this).find('.project-overlay, .project-title').fadeOut();
-			 });
+			$('.behance-project').hover(function(){
+				$(this).find('.project-overlay, .project-title').fadeIn();
+			}, function(){
+				$(this).find('.project-overlay, .project-title').fadeOut();
+			});
 
 
-		 },
+		},
 		 error: function(){
-			 $('#what-page-info').empty().append(
+			$('#what-page-info').empty().append(
 				"<h1 class='font-5 mb-4 pt-5'>Ooops!</h1>"+
 				"<h3 class='mb-3 black'>Looks like something went wrong. Please contact us below so we can fix it.</h3>"
-			 );
-		 }
-	 });
+			);
+		}
+	});
 });
