@@ -125,10 +125,10 @@
 			});
 		},
 		 error: function(){
-			// $('#what-page-info').empty().append(
-			// 	"<h1 class='font-5 mb-4 pt-5'>Ooops!</h1>"+
-			// 	"<h3 class='mb-3 black'>Looks like something went wrong. Please contact us below so we can fix it.</h3>"
-			// );
+			$('#what-page-info').empty().append(
+				"<h1 class='font-5 mb-4 pt-5'>Ooops!</h1>"+
+				"<h3 class='mb-3 black'>Looks like something went wrong. Please contact us below so we can fix it.</h3>"
+			);
 		}
 	});
 });
