@@ -2,7 +2,7 @@
 	var apiKey = 'rszb5jwBFaZg2cLtVh99voxEquHYIoAv';
 	var userID = 'TAGTheAgency'
 	var projectID;
-	var allProjects = 'http://www.behance.net/v2/users/'+ userID +'/projects?client_id='+ apiKey;
+	var allProjects = 'https://www.behance.net/v2/users/'+ userID +'/projects?client_id='+ apiKey;
 
 	$.ajax({
 		dataType: "json",
@@ -48,7 +48,7 @@
 
 			$('.behance-project').click(function(){
 				var projectID = $(this).attr('data-id');
-				var singleProjects = 'http://www.behance.net/v2/projects/'+projectID+'?api_key='+apiKey;
+				var singleProjects = 'https://www.behance.net/v2/projects/'+projectID+'?api_key='+apiKey;
 				$('#behance-project-popup').empty();
 
 				$.ajax({
