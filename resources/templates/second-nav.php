@@ -15,6 +15,7 @@
 			<li <?php if ($activePage == "How"){?> class="active-page" <?php } ?>><a href="<?php echo $path?>how/">How</a></li>
 			<li <?php if ($activePage == "Who"){?> class="active-page" <?php } ?>><a href="<?php echo $path?>who/">Who</a></li>
 			<li class="pointer" data-popup-open="why-popup">Why</li>
+			<li><a href="<?php echo $path?>privacy">Privacy</a></li>
 			<li class="pointer" data-popup-open="popup-1">Get In Touch</li>
 		</ul>
 	</div>
