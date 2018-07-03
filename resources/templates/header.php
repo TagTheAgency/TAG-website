@@ -14,7 +14,7 @@
 		<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 		<link rel="stylesheet" href="<?php echo $path ?>css/normalize.css">
 		<link rel="stylesheet" href="<?php echo $path ?>css/style.min.css">
-		<link rel="icon" type="image/png" href="<?php echo $path ?>favicon.png" sizes="16x16">  
+		<link rel="icon" type="image/png" href="<?php echo $path ?>favicon.png" sizes="16x16">
 		<script>var path="<?php echo $path?>";</script>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-68230113-2"></script>
