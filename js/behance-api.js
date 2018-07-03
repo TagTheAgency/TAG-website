@@ -11,6 +11,7 @@
 		dataType: "jsonp",
 		async:false,
 		success: function(data){
+            console.log(data)
 			var behanceProjects = data.projects;
 			for(var i = 0; i < behanceProjects.length; i++){
 				 var coverImage = behanceProjects[i].covers[404];
@@ -122,8 +123,6 @@
 			}, function(){
 				$(this).find('.project-overlay, .project-title').fadeOut();
 			});
-
-
 		},
 		 error: function(){
 			// $('#what-page-info').empty().append(
