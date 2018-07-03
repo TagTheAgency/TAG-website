@@ -1288,6 +1288,37 @@ footer{
     }
 }
 
+.homepage-footer-links{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0 50px 50px 0;
+    font-family: $futura;
+    color: #fff;
+
+    ul{
+        display: flex;
+
+        li{
+            margin-right: 30px;
+            pointer-events: all;
+            cursor: pointer;
+        }
+
+        li:last-child{
+            margin-right: 0;
+        }
+    }
+}
+
+#privacy-link{
+    margin-right: 0;
+}
+
+#homepage-top{
+    display: none;
+}
+
 .portfolio iframe{
     background-color: #e9e9e9;
 }

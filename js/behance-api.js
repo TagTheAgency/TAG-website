@@ -1,5 +1,5 @@
  $(document).ready(function() {
-	var apiKey = '0xNRhEHWlYEbG1JnHvhuMAlMw4PbRCUQ';
+	var apiKey = 'rszb5jwBFaZg2cLtVh99voxEquHYIoAv';
 	var userID = 'TAGTheAgency'
 	var projectID;
 	var allProjects = 'http://www.behance.net/v2/users/'+ userID +'/projects?client_id='+ apiKey;
@@ -92,7 +92,7 @@
 									$('#behance-project-popup').append(
 									   "<div class='col-10 text-center'>"+
 										  "<div class='img-container d-block'>"+
-											  "<img src='"+galleryImage[i].sizes.original+"'>"+
+											  "<img src='"+galleryImage[i].sizes.disp+"'>"+
 										  "</div'>"+
 									   "</div>"
 								  	);

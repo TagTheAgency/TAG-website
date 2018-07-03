@@ -131,7 +131,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="homepage-block get-in-touch white shadow light" data-section-name="getintouch">
+	<div class="homepage-block get-in-touch shadow light" data-section-name="getintouch">
 		<div class="pointer homepage-block-child contact-block link-hover">
 			<h3 class"btn" data-popup-open="popup-1">Get In Touch</h3>
 			<p class="btn subheader" data-popup-open="popup-1">hello@tagtheagency.com <i class="fas fa-chevron-right link-hover-arrow"></i></p>
