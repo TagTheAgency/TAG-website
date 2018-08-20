@@ -65,39 +65,32 @@
 		<div class="homepage-block-child product-block">
 			<div class="product-block-info">
 				<h3>Tag Products</h3>
-				<p>We have built a number of solutions, some for fun and some that serve a specific purpose in the world of digital and social media communication, the following gives you an idea, click on the icons to visit each of the product sites</p>
+				<p>software to enhance your social media</p>
 			</div>
 			<div class="products-container">
+				<div class="product-group">
+					<a href="http://goal.tagtheagency.com/" target="_blank">
+						<div class="product">
+							<img src="img/content/products/goal.png" alt="Goal icon">
+							<div class="product-info">
+								<h4>GOAL</h4>
+								<p>Working with you to perfect your social media advertising.</p>
+							</div>
+						</div>
+					</a>
+				</div>
 				<div class="product-group">
 					<a href="http://catch.tagtheagency.com/" target="_blank">
 						<div class="product">
 							<img src="img/content/products/catch.png" alt="Catch icon">
 							<div class="product-info">
 								<h4>CATCH</h4>
-								<p>Facebook campaigns to catch data and win customers.</p>
+								<p>Helping you to get the best from your social campaigns.</p>
 							</div>
 						</div>
-					</a>
-					<a href="http://dash.tagtheagency.com/" target="_blank">
-					<div class="product">
-						<img src="img/content/products/dash.png" alt="Dash Icon">
-						<div class="product-info">
-							<h4>DASH</h4>
-							<p>A quick dash of inspiration to get you in the game</p>
-						</div>
-					</div>
 					</a>
 				</div>
 				<div class="product-group">
-					<a href="http://gaze.tagtheagency.com/" target="_blank">
-						<div class="product">
-							<img src="img/content/products/gaze.png" alt="Gaze icon">
-							<div class="product-info">
-								<h4>GAZE</h4>
-								<p>Immerse your spectators in the world of your brand.</p>
-							</div>
-						</div>
-					</a>
 					<a href="http://relay.tagtheagency.com/" target="_blank">
 						<div class="product">
 							<img src="img/content/products/relay.png" alt="Relay icon">
@@ -108,26 +101,50 @@
 						</div>
 					</a>
 				</div>
-				<div class="product-group">
-					<a href="http://hype.tagtheagency.com/" target="_blank">
-						<div class="product">
-							<img src="img/content/products/hype.png" alt="Hype icon">
-							<div class="product-info">
-								<h4>HYPE</h4>
-								<p>Assisted support for digital and social media advertising.</p>
-							</div>
+			</div>
+		</div>
+	</div>
+	<div class="homepage-block tag-products landing dark" data-section-name="packages">
+		<div class="homepage-block-child product-block">
+			<div class="product-block-info">
+				<h3>Tag Packages</h3>
+				<p>To elevate your social media knowledge and ROI</p>
+			</div>
+			<div class="products-container">
+			<div class="product-group">
+				<a href="http://hype.tagtheagency.com/" target="_blank">
+					<div class="product">
+						<img src="img/content/products/hype.png" alt="Hype icon">
+						<div class="product-info">
+							<h4>HYPE</h4>
+							<p>Increasing knowledge in social and digital advertising.</p>
 						</div>
-					</a>
-					<a href="http://snap.tagtheagency.com/" target="_blank">
+					</div>
+				</a>
+				</div>
+				<div class="product-group">
+					<a href="http://play.tagtheagency.com/" target="_blank">
 						<div class="product">
-							<img src="img/content/products/snap.png" alt="Snap icon">
+							<img src="img/content/products/play.png" alt="Play icon">
 							<div class="product-info">
-								<h4>SNAP</h4>
-								<p>Batch watermarking made easy, leave your mark on what you create, simply.</p>
+								<h4>PLAY</h4>
+								<p>Solving the challenge of telling your story through video.</p>
 							</div>
 						</div>
 					</a>
 				</div>
+				<div class="product-group">
+					<a href="http://go.tagtheagency.com/" target="_blank">
+						<div class="product">
+							<img src="img/content/products/go.png" alt="Go icon">
+							<div class="product-info">
+								<h4>GO</h4>
+								<p>Catching your stories in the best way possible.</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
 			</div>
 		</div>
 	</div>
@@ -146,6 +163,7 @@
 		<li><a href="#who"><span class="hover-text">Who</span></a></li>
 		<li><a href="#why"><span class="hover-text">Why</span></a></li>
 		<li><a href="#products"><span class="hover-text">Tag Products</span></a></li>
+		<li><a href="#packages"><span class="hover-text">Tag Packages</span></a></li>
 		<li><a href="#getintouch"><span class="hover-text">Get in touch</span></a></li>
 		<li><img class="mouse-icon" src="img/layout/mouse-icon.png" alt="mouse scroll icon"></li>
 	</ul>
