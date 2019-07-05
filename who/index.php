@@ -42,7 +42,7 @@
 		</div>
 		<div class="mosaic-wrapper">
 			<?php
-			$numbers = range(1, 91);
+			$numbers = range(1, 55);
 	    shuffle($numbers);
 			$numbers = array_slice($numbers, 0, 30);
 			foreach ($numbers as $number) {
