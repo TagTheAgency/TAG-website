@@ -30,38 +30,13 @@
 				</div>
 				<div class="who-col">
 					<span><i class="fas fa-user-circle"></i></span>
-					<h3>Janeen Mckenzie</h3>
-					<p>Finance Manager</p>
-				</div>
-				<div class="who-col">
-					<span><i class="fas fa-user-circle"></i></span>
 					<h3>Colin Matcham</h3>
 					<p>Lead Developer</p>
 				</div>
 				<div class="who-col">
 					<span><i class="fas fa-user-circle"></i></span>
-					<h3>Emma-Jane Mckay</h3>
-					<p>Account Manager</p>
-				</div>
-				<div class="who-col">
-					<span><i class="fas fa-user-circle"></i></span>
-					<h3>Hayden White</h3>
-					<p>Motion Designer</p>
-				</div>
-				<div class="who-col">
-					<span><i class="fas fa-user-circle"></i></span>
 					<h3>Rosa Santana Alonso</h3>
 					<p>Senior Designer</p>
-				</div>
-				<div class="who-col">
-					<span><i class="fas fa-user-circle"></i></span>
-					<h3>Earl Patterson</h3>
-					<p>Managing Partner</p>
-				</div>
-				<div class="who-col">
-					<span><i class="fas fa-user-circle"></i></span>
-					<h3>Charlie Matina</h3>
-					<p>Front-end Developer</p>
 				</div>
 			</div>
 		</div>
@@ -69,7 +44,7 @@
 			<?php
 			$numbers = range(1, 91);
 	    shuffle($numbers);
-			$numbers = array_slice($numbers, 0, 50);
+			$numbers = array_slice($numbers, 0, 30);
 			foreach ($numbers as $number) {
 				echo "<div class='mosaic-image'><img src='${path}img/content/who/who-$number.jpg' alt='mosaic image $number'></div>";
 			}
